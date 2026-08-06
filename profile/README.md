@@ -4,8 +4,6 @@ Offline voice dictation across the machines you actually use.
 
 **VocaHQ** is the shared GitHub home for the Voca family: Linux, macOS, Windows, and phone. Same privacy-first idea on every platform. Free, open source, and built to stay that way.
 
-Website (in progress): [vocahq.com](https://vocahq.com) · Announcement: [Discussion #647](https://github.com/VocaHQ/vocalinux/discussions/647)
-
 ## Why this org exists
 
 Voca isn't one repo anymore. A few active contributors maintain pieces of it with me, and a shared org is simply easier for access and ownership than keeping everything under a personal account.
