@@ -33,9 +33,10 @@ I also picked up [vocahq.com](https://vocahq.com) and will consolidate the proje
 
 - Issues and PRs are welcome on each project
 - Start with the platform you use day to day
-= Contact: hello@vocahq.com
+- Contact: hello@vocahq.com
 
 Thanks for starring, filing issues, contributing, and using these tools. Building this for the last 15 months has been an absolute joy.
 
-Best,
-@jatinkrmalik
+
+To infinity and beyond!<br> 
+-- @jatinrkmalik
