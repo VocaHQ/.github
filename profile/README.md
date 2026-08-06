@@ -38,5 +38,4 @@ I also picked up [vocahq.com](https://vocahq.com) and will consolidate the proje
 Thanks for starring, filing issues, contributing, and using these tools. Building this for the last 15 months has been an absolute joy.
 
 
-To infinity and beyond!<br> 
--- @jatinrkmalik
+To infinity and beyond!
