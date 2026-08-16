@@ -43,6 +43,34 @@ product truth in the brand book.
 Prefer section numbers: “per brand book §4.2”, “per brand book §7.3”. A later
 PR should be able to resolve that reference without guessing.
 
+### 1.4 How other repos consume this book
+
+Product agents own their product repos. They do not fork identity into a local
+copy of this book.
+
+**Rules for product repos:**
+
+1. Cite `brand/README.md §N` in visual and copy PRs (example: “per brand book
+   §5.3 — gateway is never on-device”).
+2. Shared assets live in **this** org repo under `brand/<product>/` (and
+   `brand/vocahq/` for family marks). Do not invent accents or redraw marks in
+   a product CSS file.
+3. **Do not copy** this brand book into product repos. Link to it.
+4. Prefer stable raw links for the book and for SVG/PNG assets, for example:
+
+   - Book:
+     `https://raw.githubusercontent.com/VocaHQ/.github/main/brand/README.md`
+   - Family logo:
+     `https://raw.githubusercontent.com/VocaHQ/.github/main/brand/vocahq/voca-logo.svg`
+   - VocaPhone mark:
+     `https://raw.githubusercontent.com/VocaHQ/.github/main/brand/vocaphone/vocaphone-mark.svg`
+
+   Until this PR merges, substitute the working branch name for `main` when you
+   need the proposed text. After merge, use `main`.
+
+5. Implementation detail (layout, components, platform chrome) stays in the
+   web/app standards or the product repo. Brand identity stays here.
+
 ---
 
 ## 2. Who Voca is
@@ -119,17 +147,35 @@ Claim pattern: **benefit → mechanism → boundary**.
 | free and open source | “free forever” |
 | on-device (for the path where audio and the model stay on the device) | calling gateway mode “on-device” |
 | self-hosted / optional VocaGateway | collapsing gateway into “local” or “private” without naming the boundary |
-| stays on your device *(on-device mode only)* | “stays on your device” when audio leaves for a gateway |
+| stays on your device *(on-device transcription after the model is present)* | “100% offline,” “never touches the network,” or “stays on your device” during download / update check / gateway mode |
 | insert / land text where you are typing | vague “AI magic” outcomes |
+| AGPL-3.0 *(or the actual license named in that project)* | a generic “open source” line that erases license differences |
 | exact status labels from `PRODUCT.md` | inventing “stable”, “GA”, or shipping claims |
 
-### 4.3 Banned patterns
+### 4.3 Copy non-negotiables
 
-- “AI-powered” as decoration or positioning.
+These are hard stops for visitor-facing copy:
+
+1. **No “AI-powered” fluff** — do not use “AI-powered” as decoration or
+   positioning.
+2. **No 100% offline overclaim** — model download and update check are real
+   network actions. “Stays on your device” applies only to **on-device
+   transcription after the model is present**, not to setup, download, or
+   update flows.
+3. **Gateway is optional self-hosted compute** — never call VocaGateway
+   on-device.
+4. **No Voca account** — do not imply sign-in is required.
+5. **Name the actual license per project** — typically AGPL-3.0 (or
+   AGPL-3.0-or-later where that is what the repo states). Do not invent a
+   single family license that erases differences.
+
+### 4.4 Also banned
+
 - “Military-grade privacy,” “works everywhere,” or other absolutisms the
   platforms cannot support.
 - “No gateway” when the gateway is optional.
 - “Local” or “private” as a soft synonym that hides network travel.
+- “Free forever.”
 - Fabricated screenshots, release assets, customer proof, benchmarks, usage
   numbers, feature parity, or hard-coded star counts.
 
@@ -144,20 +190,21 @@ owns public status, version numbers, and shipping calls. This book may **quote**
 status language. It must never invent or update it. If a product site and
 `PRODUCT.md` disagree, cite `PRODUCT.md`.
 
-Verified matrix (labels copied exactly; do not paraphrase status):
+Verified public matrix (labels copied for current copy; do not paraphrase
+status; do not invent shipping). Always defer to `PRODUCT.md` if it moves:
 
-| Product | Status | Notes |
+| Product | Status (public copy today) | Notes |
 | --- | --- | --- |
-| VocaLinux | Available now | Linux X11/Wayland; current release v0.15.0; AGPL-3.0 |
-| VocaMac | Beta | macOS 14+ Apple Silicon; WhisperKit/Core ML; AGPL-3.0 |
+| VocaLinux | Available now | Current release **v0.15.0**; Linux X11/Wayland; AGPL-3.0 |
+| VocaMac | Beta | **macOS 14+** Apple Silicon; WhisperKit/Core ML; AGPL-3.0. Planned: remain Beta until **0.8.0**, then Stable / Available now — **only after `PRODUCT.md` changes**. Until then, public copy stays **Beta**. |
 | VocaWin | Coming soon | No public installer or release; AGPL-3.0-or-later in repo |
-| VocaPhone | Android beta / iOS source build | Android 13+ public beta; iOS 17+ build from source; gateway optional; AGPL-3.0 |
-| VocaGateway | Early | Optional self-hosted compute; never on-device; AGPL-3.0 |
+| VocaPhone | Android beta / iOS source build | **Android 13+** public beta; **iOS 17+** build from source; gateway optional; AGPL-3.0 |
+| VocaGateway | Early | Optional self-hosted compute; **never on-device**; AGPL-3.0 |
 
-> **Footnote — VocaMac status tension:** some public surfaces (for example
-> vocamac.com copy) may read like a “stable” release. Per `PRODUCT.md`
-> (verified 2026-08-14), public status remains **Beta**. Defer to `PRODUCT.md`
-> until that file changes.
+> **Footnote — VocaMac:** some public surfaces (for example vocamac.com) may
+> read like a “stable” release. Per `PRODUCT.md` (verified 2026-08-14) and this
+> book, public copy remains **Beta / macOS 14+** until `PRODUCT.md` records the
+> 0.8.0 Stable / Available now cutover. Do not jump ahead of `PRODUCT.md`.
 
 ### 5.2 Non-negotiable product principles
 
@@ -172,21 +219,24 @@ From `PRODUCT.md`:
 
 ### 5.3 Two processing paths — never collapse these
 
-**On-device.** After a model is downloaded, the speech-to-text model and audio
-stay on the phone or computer. A gateway is not required.
+**On-device.** After a model is downloaded, on-device transcription keeps the
+speech-to-text model and audio on the phone or computer. A gateway is not
+required for this path. Model download and update check still use the network —
+do not call the product “100% offline.”
 
 **Optional VocaGateway.** When someone deliberately configures it, audio leaves
 the client and travels to the self-hosted machine they selected. The gateway
 runs a local speech engine and returns the transcript. Recommend a trusted LAN,
 Tailscale / encrypted private network, or HTTPS. **Do not describe this path as
-on-device.** VocaGateway is never on-device.
+on-device.** VocaGateway is optional self-hosted compute and is never on-device.
 
 ### 5.4 Shipping honesty
 
-- Never imply VocaWin ships.
+- Never imply VocaWin ships (coming soon; no installer).
 - Do not fabricate screenshots or release assets for unshipped surfaces.
-- Name licenses per project; do not invent a single family license line that
-  erases differences.
+- Name licenses per project (AGPL-3.0 or the repo’s actual license); do not
+  invent a single family license line that erases differences.
+- No required Voca account in any product story.
 
 ---
 
@@ -414,9 +464,11 @@ Checklist when a product gets its own identity:
 | Do | Don’t |
 | --- | --- |
 | Cite `PRODUCT.md` for status | Invent shipping or paraphrase status labels |
+| Link this book / assets via raw.githubusercontent.com (§1.4) | Copy the brand book into product repos |
 | Use exact public casing | Write “Voca Phone”, “Vocalinux”, “the Voca app” |
 | Say “speech-to-text model” | Lead with unexplained engine names |
-| Say “free and open source” | Say “free forever” |
+| Say “free and open source”; name AGPL-3.0 (or the real license) | Say “free forever” or “AI-powered” |
+| Scope “stays on your device” to on-device transcription after the model is present | Claim “100% offline” (download / update check use the network) |
 | Keep on-device and gateway paths distinct | Call gateway traffic “on-device” |
 | Use paper / ink / one accent | Introduce gradients, glass chrome, glow orbs |
 | Use approved mic mark files | Redraw, recolor, or bulletize the teal circle |
@@ -431,13 +483,14 @@ Checklist when a product gets its own identity:
 
 Use this on design and copy PRs (in addition to the web/app validation lists):
 
-- [ ] Cites this brand book section when changing identity, voice, color, or mark.
+- [ ] Cites this brand book section when changing identity, voice, color, or mark (§1.3 / §1.4).
+- [ ] Does not copy the brand book into the product repo; links instead (§1.4).
 - [ ] Product names use exact public casing (§3).
-- [ ] Status labels match `PRODUCT.md` exactly (§5.1); no invented shipping.
+- [ ] Status labels match `PRODUCT.md` / §5.1; no invented shipping; VocaMac stays Beta until PRODUCT.md says otherwise.
 - [ ] On-device vs VocaGateway language is not collapsed (§5.3).
-- [ ] “Stays on your device” is scoped to on-device mode only.
-- [ ] Says “speech-to-text model” and “free and open source” where relevant.
-- [ ] No “AI-powered”, “free forever”, fabricated proof, or hard-coded stars.
+- [ ] “Stays on your device” is scoped to on-device transcription after the model is present; no “100% offline” overclaim (§4.3).
+- [ ] Says “speech-to-text model” and “free and open source”; names the actual license (§4.3).
+- [ ] No “AI-powered”, “free forever”, required Voca account, fabricated proof, or hard-coded stars (§4.3 / §4.4).
 - [ ] Colors use family tokens; accent is approved or defaults to family teal (§7).
 - [ ] Recording remains red; warning/processing use semantic roles (§7.3).
 - [ ] No gradients; solid fills; restrained shadows (§6).
