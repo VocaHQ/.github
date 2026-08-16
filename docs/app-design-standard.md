@@ -1,7 +1,8 @@
 # Voca app design standard
 
 - Status: proposed companion standard
-- Parent standard: [Voca web design standard](https://github.com/VocaHQ/.github/blob/main/docs/website-design-standard.md)
+- Parent: [Voca family brand book](../brand/README.md) (`brand/README.md`)
+- Web companion: [Voca web design standard](website-design-standard.md)
 - Applies to: VocaPhone, VocaMac, VocaLinux, VocaWin, VocaGateway, and future native Voca products
 
 ## Purpose
@@ -15,7 +16,8 @@ covers visual direction, platform behavior, navigation, typography, color,
 interaction, recording and transcription states, accessibility, content, and
 review. It is a companion to the web standard, not a replacement for the
 platform design guidance or a requirement to copy the marketing site into an
-app.
+app. Identity, naming, voice, and mark rules live in the parent
+[brand book](../brand/README.md).
 
 The goal is a family of apps that feels:
 
