@@ -1,6 +1,7 @@
 # Voca web design standard
 
 - **Status:** adopted direction
+- **Parent:** [Voca family brand book](../brand/README.md) (`brand/README.md`)
 - **Reference implementation:** [VocaPhone landing page](https://vocaphone-demo.netlify.app/)
 - **Applies to:** VocaPhone, VocaMac, VocaLinux, VocaWin, VocaGateway, and
   future Voca products
@@ -24,9 +25,10 @@ The goal is a family of sites that feels:
 - privacy-first without relying on vague claims; and
 - native to each product's platform while remaining recognizably Voca.
 
-This document is the source of truth for the shared direction. The reference
-site demonstrates it; it is not a component library and should not be copied
-without adapting the product story.
+This document is the source of truth for the shared web direction. The
+[brand book](../brand/README.md) is the parent for identity, naming, voice, and
+mark rules. The reference site demonstrates this standard; it is not a component
+library and should not be copied without adapting the product story.
 
 ## Non-negotiables
 
