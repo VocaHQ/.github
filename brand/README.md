@@ -83,42 +83,61 @@ products**, not a cloud suite and not one universal app.
 
 The family home is VocaHQ ([vocahq.com](https://vocahq.com)). Individual
 products ship (or will ship) on their own platforms with honest status and
-explicit network boundaries.
+explicit network boundaries. **VocaGateway** is optional self-hosted
+infrastructure, not a client and not on-device.
 
 ---
 
 ## 3. Naming
 
-### 3.1 Public casing (exact)
+### 3.1 Canonical public names
 
-| Name | Role | Never write |
-| --- | --- | --- |
-| **Voca** | Family name | VOCA as a wordmark; “the Voca app” as if there is one app |
-| **VocaHQ** | Org + family site | Voca-HQ, Voca HQ (as the product name) |
-| **VocaLinux** | Linux product | Voca Linux; Vocalinux as a public display name |
-| **VocaMac** | macOS product | Voca Mac |
-| **VocaWin** | Windows product | Voca Win |
-| **VocaPhone** | Phone product | Voca Phone |
-| **VocaGateway** | Optional self-hosted compute | Voca Gateway as if it were on-device |
+`PRODUCT.md` wins for canonical display names:
 
-`vocalinux` / `vocamac` / lowercase repo and file slugs are fine in paths and
-package names. That is not public casing.
+| Name | Role |
+| --- | --- |
+| **Voca** | Family |
+| **VocaHQ** | Org + family site |
+| **VocaLinux** | Linux product |
+| **VocaMac** | macOS product |
+| **VocaWin** | Windows product |
+| **VocaPhone** | Phone product |
+| **VocaGateway** | Optional self-hosted compute (infrastructure, not a client) |
 
-### 3.2 Domains
+These are not interchangeable: **Voca ≠ VocaHQ ≠ VocaPhone ≠ VocaGateway**.
+
+Never in public copy: “the Voca app” as if there is one app; **VOCA** as a
+wordmark; **Voca-HQ**; **VocaServer**; **Local Flow** (except uninstall notes
+that must match existing package strings); treating **vocaphone-server** as a
+product name.
+
+### 3.2 Known conflicts and exceptions (do not “fix” in this PR)
+
+| Fact | How this book treats it |
+| --- | --- |
+| Canonical display name is **VocaLinux** | Official name for new family copy and org surfaces |
+| vocalinux.com H1, Linux README, and vocalinux `web/PRODUCT.md` use **Vocalinux** | Documented site/repo-slug exception to reconcile later. **Do not rename the Linux site in this PR.** |
+| Lowercase **vocaphone** | Established editorial / logo treatment (site H1, `aria-label`). Preserve it. Not a rename. |
+| Lowercase **vocawin** in a hero | Editorial treatment only. Not a rename of **VocaWin**. |
+| Repo / path slugs (`vocalinux`, `vocamac`, …) | Fine in paths and package names. Not public casing. |
+
+### 3.3 Domains
 
 | Domain | Use |
 | --- | --- |
 | [vocahq.com](https://vocahq.com) | Family headquarters |
-| [vocalinux.com](https://vocalinux.com) | VocaLinux |
+| [vocalinux.com](https://vocalinux.com) | VocaLinux (site may still say Vocalinux — §3.2) |
 | [vocamac.com](https://vocamac.com) | VocaMac |
 | [vocawin.com](https://vocawin.com) | VocaWin status / future product |
 | [vocaphone.vocahq.com](https://vocaphone.vocahq.com) | VocaPhone |
 
-### 3.3 Family vs product identity
+### 3.4 Family vs product identity
 
 - Family surfaces (VocaHQ, org profile, shared docs) speak for **Voca** and
   route to products.
 - Product surfaces keep their approved name, mark, and (when approved) accent.
+- **VocaGateway** is infrastructure (optional self-hosted compute), not a
+  client app and not on-device.
 - Do not invent a second family wordmark. Do not rebrand a product as “Voca”
   alone on its own store listing or installer when an approved product name
   exists.
@@ -145,11 +164,11 @@ Claim pattern: **benefit → mechanism → boundary**.
 | --- | --- |
 | speech-to-text model | unexplained engine jargon in visitor copy |
 | free and open source | “free forever” |
-| on-device (for the path where audio and the model stay on the device) | calling gateway mode “on-device” |
-| self-hosted / optional VocaGateway | collapsing gateway into “local” or “private” without naming the boundary |
+| on-device *(path where audio and the model stay on the device after download)* | collapsing **on-device / local / private / self-hosted** into one soft word |
+| self-hosted / optional VocaGateway | calling gateway mode “on-device” or “local” without naming the boundary |
 | stays on your device *(on-device transcription after the model is present)* | “100% offline,” “never touches the network,” or “stays on your device” during download / update check / gateway mode |
 | insert / land text where you are typing | vague “AI magic” outcomes |
-| AGPL-3.0 *(or the actual license named in that project)* | a generic “open source” line that erases license differences |
+| AGPL-3.0 or **AGPL-3.0-or-later** *(exact string per project)* | flattening every project to “AGPL-3.0” when a repo differs |
 | exact status labels from `PRODUCT.md` | inventing “stable”, “GA”, or shipping claims |
 
 ### 4.3 Copy non-negotiables
@@ -165,9 +184,10 @@ These are hard stops for visitor-facing copy:
 3. **Gateway is optional self-hosted compute** — never call VocaGateway
    on-device.
 4. **No Voca account** — do not imply sign-in is required.
-5. **Name the actual license per project** — typically AGPL-3.0 (or
-   AGPL-3.0-or-later where that is what the repo states). Do not invent a
-   single family license that erases differences.
+5. **Name the actual license per project** — do not invent a single family
+   license line. Today that usually means **AGPL-3.0**, except **VocaWin**,
+   which is **AGPL-3.0-or-later** in the repository. Do not flatten VocaWin to
+   AGPL-3.0.
 
 ### 4.4 Also banned
 
@@ -176,6 +196,8 @@ These are hard stops for visitor-facing copy:
 - “No gateway” when the gateway is optional.
 - “Local” or “private” as a soft synonym that hides network travel.
 - “Free forever.”
+- **VocaServer**, **Local Flow** (except uninstall notes), and
+  **vocaphone-server** as a public product name.
 - Fabricated screenshots, release assets, customer proof, benchmarks, usage
   numbers, feature parity, or hard-coded star counts.
 
@@ -190,21 +212,23 @@ owns public status, version numbers, and shipping calls. This book may **quote**
 status language. It must never invent or update it. If a product site and
 `PRODUCT.md` disagree, cite `PRODUCT.md`.
 
-Verified public matrix (labels copied for current copy; do not paraphrase
-status; do not invent shipping). Always defer to `PRODUCT.md` if it moves:
+Verified public matrix (labels for current copy; do not paraphrase status; do
+not invent shipping). Always defer to `PRODUCT.md` if it moves:
 
 | Product | Status (public copy today) | Notes |
 | --- | --- | --- |
 | VocaLinux | Available now | Current release **v0.15.0**; Linux X11/Wayland; AGPL-3.0 |
-| VocaMac | Beta | **macOS 14+** Apple Silicon; WhisperKit/Core ML; AGPL-3.0. Planned: remain Beta until **0.8.0**, then Stable / Available now — **only after `PRODUCT.md` changes**. Until then, public copy stays **Beta**. |
-| VocaWin | Coming soon | No public installer or release; AGPL-3.0-or-later in repo |
+| VocaMac | Beta | **macOS 14+** Apple Silicon; WhisperKit/Core ML; vocamac.com / `product.toml` report **v0.7.2 (Beta)**; AGPL-3.0 |
+| VocaWin | Coming soon | No public installer or release; **AGPL-3.0-or-later** in repo |
 | VocaPhone | Android beta / iOS source build | **Android 13+** public beta; **iOS 17+** build from source; gateway optional; AGPL-3.0 |
-| VocaGateway | Early | Optional self-hosted compute; **never on-device**; AGPL-3.0 |
+| VocaGateway | Early | Optional self-hosted compute; **never on-device**; infrastructure, not a client; AGPL-3.0 |
 
-> **Footnote — VocaMac:** some public surfaces (for example vocamac.com) may
-> read like a “stable” release. Per `PRODUCT.md` (verified 2026-08-14) and this
-> book, public copy remains **Beta / macOS 14+** until `PRODUCT.md` records the
-> 0.8.0 Stable / Available now cutover. Do not jump ahead of `PRODUCT.md`.
+> **Footnote — VocaMac:** Public status is only **Beta** (`PRODUCT.md`,
+> verified 2026-08-14). Some surfaces may read more “stable” than that; do not
+> follow them. An internal target around a later cutover has been discussed, but
+> **that sunset is MISSING from `PRODUCT.md`**. Do not encode version cutovers
+> (including “until 0.8.0”) as public status. `PRODUCT.md` must change before
+> public copy does.
 
 ### 5.2 Non-negotiable product principles
 
@@ -234,8 +258,8 @@ on-device.** VocaGateway is optional self-hosted compute and is never on-device.
 
 - Never imply VocaWin ships (coming soon; no installer).
 - Do not fabricate screenshots or release assets for unshipped surfaces.
-- Name licenses per project (AGPL-3.0 or the repo’s actual license); do not
-  invent a single family license line that erases differences.
+- Name licenses per project; **VocaWin is AGPL-3.0-or-later**, not flattened to
+  AGPL-3.0.
 - No required Voca account in any product story.
 
 ---
@@ -248,7 +272,8 @@ Voca turns speech into useful text on hardware the user controls.
 credible not abstract; privacy-first because the boundary is visible.
 
 **Materials:** warm paper, dark ink, one product accent, solid fills, thin
-borders, restrained shadows.
+borders, restrained shadows. (The VocaLinux *site* is a documented warm-paper
+exception — §7.5 — not a new family default.)
 
 **Principles (tight):**
 
@@ -265,49 +290,79 @@ borders, restrained shadows.
 
 ## 7. Color
 
-### 7.1 Family foundation (canonical)
+### 7.1 Family foundation (canonical page tokens)
 
-Prefer these family tokens. Encode them; do not reinvent.
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| paper / canvas | `#F4F1E8` | Main canvas |
-| paper-deep | `#EBE5D8` | Recessed / alternate surface |
-| paper-bright / surface | `#FFFDF7` | Cards, windows, raised surfaces |
-| ink | `#14231C` | Primary text and strong borders |
-| muted | `#68726C` | Supporting copy (**family token**) |
-| faint | `#7C847D` | Quieter secondary (vocahq site today) |
-| line | `#C9C8BD` | Quiet borders (**family token**) |
-| line-dark | `#9EA59F` | Stronger outlines |
-| sun / focus | `#E9B949` | Focus, annotation, small emphasis |
-| decorative window red | `#DE6A57` | Small physical web detail only |
-
-**Local variants to reconcile later (do not silently “fix” sites):**
-
-| Token | Family token | vocahq `DESIGN.md` today |
-| --- | --- | --- |
-| muted | `#68726C` | `#58625C` |
-| line | `#C9C8BD` | `#d5d0c4` |
-
-Document both. Prefer the website-design-standard values as the family tokens.
-Treat the vocahq site values as a local variant until a deliberate reconciliation
-PR lands.
-
-### 7.2 Brand accent (approved today)
+Encode the adopted website-design-standard table. Do not invent a second
+official palette.
 
 | Token | Hex | Role |
 | --- | --- | --- |
-| brand teal | `#0F6B57` | Family / VocaHQ / VocaPhone accent |
-| brand-dark | `#0B493D` | Pressed / deep accent |
-| brand-soft / mint | `#CFE9DC` | Soft accent surface |
-| mint-soft | `#E5F2EB` | Quieter mint surface |
-| dark-ink | `#0B1A15` | Dark sections; mark on paper |
-| mark-on-teal fill | `#F2F6F2` | Mic mark on teal circle / icon |
+| paper / canvas | `#F4F1E8` / `#f4f1e8` | Main canvas |
+| paper-deep | `#EBE5D8` / `#ebe5d8` | Recessed / alternate surface |
+| paper-bright / surface | `#FFFDF7` / `#fffdf7` | Cards, windows, raised surfaces |
+| ink | `#14231C` / `#14231c` | Primary text and strong borders |
+| muted | `#68726C` / `#68726c` | Supporting copy (**family token**) |
+| line | `#C9C8BD` / `#c9c8bd` | Quiet borders (**family token**) |
+| line-dark | `#9EA59F` / `#9ea59f` | Stronger outlines |
+| sun / focus | `#E9B949` / `#e9b949` | Focus, annotation, small emphasis |
+| decorative window red | `#DE6A57` / `#de6a57` | Small physical web detail only |
 
-VocaPhone dark-appearance accent reference (apps): accent `#77D0B2`, text on
-accent `#003827`. See the app design standard for semantic mapping.
+### 7.2 Live-site drift (not a second official palette)
 
-### 7.3 Semantic app colors
+Some live sites currently diverge. Document as **drift to reconcile later** —
+do not treat these as approved family tokens, and do not silently “fix” the
+sites in this PR:
+
+| Drift | Seen today | Family token |
+| --- | --- | --- |
+| muted | vocahq / vocamac `#58625C` | `#68726C` |
+| line | vocahq `#d5d0c4` | `#C9C8BD` |
+| faint | vocahq `#7c847d` | (vocahq-local only; not a family page token) |
+
+### 7.3 Logo-only fills (not CSS page tokens)
+
+| Fill | Hex | Use |
+| --- | --- | --- |
+| mark on teal | `#F2F6F2` | Mic mark on the teal circle / icon |
+| mark on paper / dark-ink | `#0B1A15` | Standalone mark on paper; dark-ink sections |
+
+Do not promote these into ordinary page CSS tokens.
+
+### 7.4 Approved product accent (only)
+
+| Role | Hex | Notes |
+| --- | --- | --- |
+| Brand teal | `#0F6B57` / `#0f6b57` | **Only** approved product accent today (VocaPhone / family) |
+| Brand-dark | `#0B493D` / `#0b493d` | Pressed / deep accent in the approved set |
+| Brand-soft / mint | `#CFE9DC` / `#cfe9dc` | Soft accent surface in the approved set |
+| Mint-soft | `#E5F2EB` / `#e5f2eb` | Quieter mint surface |
+| App dark accent (VocaPhone) | `#77D0B2` | Dark-appearance accent; text on accent `#003827` |
+
+**Current reuse (not approved unique accents):** VocaMac, VocaWin, and VocaHQ
+surfaces currently reuse family teal `#0F6B57`. Document that as current
+practice. Do not call those unique product accents.
+
+### 7.5 VocaLinux site exception (named conflict — do not resolve here)
+
+vocalinux.com is a **documented exception** to the warm paper family:
+
+- Iron-white / near-black foundation; explicit site rule: “Never warm
+  cream/beige as the default.”
+- Site accent currently around `#1a7f4e` / `#14663e`, with dark accent around
+  `#50c878`.
+
+**Do not** bless these as a new family accent. **Do not** migrate vocalinux.com
+in this PR. Name the conflict and leave reconciliation for a later, deliberate
+decision. Until a Linux accent is approved under `brand/vocalinux/` (or
+equivalent), family surfaces that speak about Linux still use family tokens;
+the Linux *site* keeps its existing exception in place.
+
+### 7.6 VocaGateway
+
+No public mark or accent. **MISSING.** Dark-first dashboard surfaces use
+**neutral charcoal**, not a branded accent invention.
+
+### 7.7 Semantic app colors
 
 From the app design standard — encode, do not invent:
 
@@ -318,16 +373,15 @@ From the app design standard — encode, do not invent:
 
 **Recording stays red.** Do not recolor live recording to brand teal.
 
-### 7.4 One-accent rule
+### 7.8 One-accent rule
 
 - Most of a surface is paper, ink, and **one** accent.
-- Until a product has an approved accent under `brand/<product>/`, use family
+- The only approved product accent in this repo today is VocaPhone / family
   teal `#0F6B57`.
-- Today the only approved accent in this repo is the VocaPhone / family teal
-  set above. Other products do **not** yet have approved distinct accents —
-  do not invent them in a one-off CSS file.
-- Per-product accents are allowed later and must be derived from approved brand
-  material checked into `brand/<product>/`.
+- Until a product has an approved accent under `brand/<product>/`, use family
+  teal (except the documented VocaLinux *site* exception in §7.5, which this
+  PR does not change).
+- Do not invent per-product palettes in a one-off CSS file.
 
 ---
 
@@ -362,7 +416,22 @@ scale inside installed apps.
 The family mark is a **stylized microphone**: capsule, stand, and side brackets.
 It is **not** a letterform V.
 
-### 9.2 Approved treatments
+### 9.2 Current shared geometry
+
+The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
+**VocaPhone**, **VocaMac**, and **VocaWin**. Labels differ
+(`aria-label="Voca"` vs `aria-label="vocaphone"`). Document that shared mark;
+**do not draw new product marks** in this PR.
+
+| Set | Status | Location / notes |
+| --- | --- | --- |
+| Family / VocaHQ | Present in this repo | [`brand/vocahq/`](vocahq/) (copied from `VocaHQ/vocahq` `web/assets/brand/`) |
+| VocaPhone | Approved in this repo | [`brand/vocaphone/`](vocaphone/) — keep as-is |
+| VocaMac / VocaWin | Same shared mic geometry in product surfaces | No distinct approved marks in this repo yet |
+| VocaLinux | **Separate** microphone assets under vocalinux `web/public/` | Not the family pack; do not replace in this PR |
+| VocaGateway | **No public logo pack** | MISSING |
+
+### 9.3 Approved treatments (shared mic)
 
 | Treatment | Spec | Use |
 | --- | --- | --- |
@@ -370,7 +439,7 @@ It is **not** a letterform V.
 | Standalone mark on paper | Mark in `#0B1A15` | Headers and ink-on-paper placements |
 | Dark / inverse variants | Approved dark SVGs/PNGs only | Dark sections; do not freestyle recolors |
 
-### 9.3 Clear space and size
+### 9.4 Clear space and size
 
 - Keep clear space around the mark at least equal to the thickness of the mic
   stand stroke in the artwork (visually: a quiet margin on all sides — do not
@@ -380,7 +449,7 @@ It is **not** a letterform V.
   the platform’s smallest recommended app-icon slot without testing legibility.
 - Do not crop the brackets or stand.
 
-### 9.4 Do not
+### 9.5 Do not
 
 - Redraw or “improve” the mic.
 - Recolor the mark outside approved fills.
@@ -390,14 +459,8 @@ It is **not** a letterform V.
   the brand mark.
 - Stretch, rotate for decoration, or place the mark on busy photography that
   destroys contrast.
-
-### 9.5 Where the files live
-
-| Set | Location | Notes |
-| --- | --- | --- |
-| Family / VocaHQ | [`brand/vocahq/`](vocahq/) in this repo (copied from `VocaHQ/vocahq` `web/assets/brand/`) | `voca-logo.svg`, `voca-mark.svg`, `voca-app-icon.svg`, PNGs, dark variants |
-| Upstream source | `VocaHQ/vocahq` → `web/assets/brand/` | Remains a shipping source for the family site; keep copies in sync when marks change |
-| VocaPhone | [`brand/vocaphone/`](vocaphone/) | Approved logo, mark, app icon, 512 PNGs; same mic-on-teal geometry; `aria-label="vocaphone"` |
+- Invent distinct Mac / Win / Gateway marks without landing approved files under
+  `brand/<product>/`.
 
 ---
 
@@ -440,13 +503,14 @@ It is **not** a letterform V.
 | Asset | Status | Location |
 | --- | --- | --- |
 | Family brand book | This document (proposed) | `brand/README.md` |
-| Family / VocaHQ marks | Present (copied) | `brand/vocahq/` · upstream `VocaHQ/vocahq/web/assets/brand/` |
-| VocaPhone marks + 512 PNGs | Approved | `brand/vocaphone/` |
-| VocaPhone / family accent | Approved | Teal set in §7.2 |
-| VocaLinux mark + accent | **MISSING / TBD** | — |
-| VocaMac mark + accent | **MISSING / TBD** | — |
-| VocaWin mark + accent | **MISSING / TBD** | — |
-| VocaGateway mark + accent | **MISSING / TBD** | — |
+| Family / VocaHQ marks | Present (copied); shared mic geometry | `brand/vocahq/` · upstream `VocaHQ/vocahq/web/assets/brand/` |
+| VocaPhone marks + 512 PNGs | Approved; shared mic geometry; `aria-label="vocaphone"` | `brand/vocaphone/` (keep as-is) |
+| VocaPhone / family accent | **Only** approved product accent | Teal `#0F6B57` (+ app dark `#77D0B2`) — §7.4 |
+| VocaMac / VocaWin marks | Same shared mic geometry in product surfaces; no distinct approved pack here | Reuse family/shared mark; unique accents **not** approved |
+| VocaMac / VocaWin / VocaHQ accent | Currently reuse family teal | Current practice, **not** approved unique accents |
+| VocaLinux marks | Separate mic assets in vocalinux `web/public/` | Not in this repo; do not migrate in this PR |
+| VocaLinux site palette | Documented exception (iron-white / `#1a7f4e` …) | §7.5 conflict; do not bless as family |
+| VocaGateway mark + accent | **MISSING** | No public logo pack; dark-first = neutral charcoal |
 | Web design standard | Adopted | `docs/website-design-standard.md` |
 | App design standard | Proposed companion | `docs/app-design-standard.md` |
 
@@ -456,6 +520,9 @@ Checklist when a product gets its own identity:
 2. Record the accent hexes in that folder and in §7 / §13 of this book.
 3. Update product sites and apps to reference the approved files — do not leave
    one-off CSS accents as the source of truth.
+4. Do not invent resolutions for Vocalinux naming, Linux palette, or Mac status
+   cutovers here — those wait on deliberate follow-up + `PRODUCT.md` where
+   status is involved.
 
 ---
 
@@ -463,16 +530,15 @@ Checklist when a product gets its own identity:
 
 | Do | Don’t |
 | --- | --- |
-| Cite `PRODUCT.md` for status | Invent shipping or paraphrase status labels |
+| Cite `PRODUCT.md` for status | Invent shipping, paraphrase status, or encode missing cutovers (e.g. Mac “until 0.8.0”) |
 | Link this book / assets via raw.githubusercontent.com (§1.4) | Copy the brand book into product repos |
-| Use exact public casing | Write “Voca Phone”, “Vocalinux”, “the Voca app” |
+| Use canonical names; preserve `vocaphone` / `vocawin` editorial where established | Write “Voca Phone”, “the Voca app”, “VocaServer”, or treat Vocalinux as newly official without reconciliation |
 | Say “speech-to-text model” | Lead with unexplained engine names |
-| Say “free and open source”; name AGPL-3.0 (or the real license) | Say “free forever” or “AI-powered” |
-| Scope “stays on your device” to on-device transcription after the model is present | Claim “100% offline” (download / update check use the network) |
-| Keep on-device and gateway paths distinct | Call gateway traffic “on-device” |
-| Use paper / ink / one accent | Introduce gradients, glass chrome, glow orbs |
-| Use approved mic mark files | Redraw, recolor, or bulletize the teal circle |
-| Use family teal until a product accent is approved | Invent per-product palettes in CSS |
+| Say “free and open source”; name the **exact** license (VocaWin = AGPL-3.0-or-later) | Say “free forever” or “AI-powered”; flatten licenses |
+| Scope “stays on your device” to on-device transcription after the model is present | Claim “100% offline”; collapse on-device / local / private / self-hosted |
+| Keep on-device and gateway paths distinct | Call gateway traffic “on-device”; treat Gateway as a client |
+| Use family paper tokens + approved teal | Bless Linux iron-white accents as family; invent Mac/Win accents |
+| Use the shared approved mic mark files | Redraw product marks; invent a Gateway logo pack |
 | Show real UI | Fake VocaWin or stock-people proof |
 | Motion that confirms | Motion that merely sparkles |
 | Point PRs at `brand/README.md §N` | Treat the design standards as the brand parent |
@@ -485,16 +551,17 @@ Use this on design and copy PRs (in addition to the web/app validation lists):
 
 - [ ] Cites this brand book section when changing identity, voice, color, or mark (§1.3 / §1.4).
 - [ ] Does not copy the brand book into the product repo; links instead (§1.4).
-- [ ] Product names use exact public casing (§3).
-- [ ] Status labels match `PRODUCT.md` / §5.1; no invented shipping; VocaMac stays Beta until PRODUCT.md says otherwise.
-- [ ] On-device vs VocaGateway language is not collapsed (§5.3).
+- [ ] Canonical names used; Vocalinux / vocaphone / vocawin exceptions handled per §3.2; no VocaServer / vocaphone-server-as-product.
+- [ ] Status labels match `PRODUCT.md` / §5.1 only; VocaMac public copy is **Beta**; no invented cutovers.
+- [ ] On-device vs VocaGateway language is not collapsed; Gateway is infrastructure, never on-device (§5.3).
 - [ ] “Stays on your device” is scoped to on-device transcription after the model is present; no “100% offline” overclaim (§4.3).
-- [ ] Says “speech-to-text model” and “free and open source”; names the actual license (§4.3).
+- [ ] Says “speech-to-text model” and “free and open source”; names the actual license (VocaWin = AGPL-3.0-or-later) (§4.3).
 - [ ] No “AI-powered”, “free forever”, required Voca account, fabricated proof, or hard-coded stars (§4.3 / §4.4).
-- [ ] Colors use family tokens; accent is approved or defaults to family teal (§7).
-- [ ] Recording remains red; warning/processing use semantic roles (§7.3).
+- [ ] Does not bless Linux site accents as family or invent Mac/Win/Gateway accents (§7).
+- [ ] Colors use family tokens; only approved accent is family/VocaPhone teal unless `brand/<product>/` exists (§7.1 / §7.4); Linux site exception left alone (§7.5).
+- [ ] Recording remains red; warning/processing use semantic roles (§7.7).
 - [ ] No gradients; solid fills; restrained shadows (§6).
-- [ ] Logo/mark from approved files; clear space and no recolor (§9).
+- [ ] Logo/mark from approved shared mic files; clear space and no recolor; no invented Gateway pack (§9).
 - [ ] App icon stays mask-safe and ungilded (§10).
 - [ ] Imagery is platform-true; no fake unshipped UI (§11).
 - [ ] Motion confirms and respects reduced motion (§12).
@@ -505,7 +572,9 @@ Use this on design and copy PRs (in addition to the web/app validation lists):
 ## Governance
 
 VocaDesign keeps this book sharp and citeable. Jatin approves material changes.
-Product agents implement; they do not silently fork identity in a CSS file.
+Product agents own their repos, cite `brand/README.md §N`, and link shared
+assets from this repo — they do not copy the book or silently fork identity in
+a CSS file.
 
 When in doubt: tell the truth about where the user’s voice goes, use the
 approved mic, and keep the desk quiet enough that the product can speak.
