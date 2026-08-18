@@ -361,8 +361,19 @@ keeps its existing exception in place until a deliberate reconciliation lands.
 
 ### 7.6 VocaGateway
 
-No public mark or accent. **MISSING.** Dark-first dashboard surfaces use
-**neutral charcoal**, not a branded accent invention.
+Approved host marks live in [`brand/vocagateway/`](vocagateway/). The
+microphone is the family geometry from `brand/vocahq/` (capsule, cradle,
+stem, base, two side brackets). The chassis is a 1U, a three-unit stack,
+a standing tower, or a two-bay box so the icon reads as a host you run
+yourself, not another client.
+
+- `vocagateway-1u.svg` is the default app / favicon mark.
+- `vocagateway-rack.svg` is the three-unit hardware lockup. Do not use it under 64px.
+- `vocagateway-tower.svg` is a standing case.
+- `vocagateway-twobay.svg` is a two-bay chassis.
+
+Plate `#0F6B57`. No unique Gateway accent. Dark-first dashboard surfaces
+still use **neutral charcoal**.
 
 ### 7.7 Semantic app colors
 
@@ -431,7 +442,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 | VocaPhone | Approved in this repo | [`brand/vocaphone/`](vocaphone/) — keep as-is |
 | VocaMac / VocaWin | Same shared mic geometry in product surfaces | No distinct approved marks in this repo yet |
 | VocaLinux | **Separate** microphone assets in vocalinux `web/public/`; **MISSING** from `brand/` here | Documented exception; do not replace in this PR |
-| VocaGateway | **No public logo pack** | MISSING |
+| VocaGateway | Approved host marks (family mic on 1U, stack, tower, or two-bay) | [`brand/vocagateway/`](vocagateway/) |
 
 ### 9.3 Approved treatments (shared mic)
 
@@ -461,8 +472,8 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
   the brand mark.
 - Stretch, rotate for decoration, or place the mark on busy photography that
   destroys contrast.
-- Invent distinct Mac / Win / Gateway marks without landing approved files under
-  `brand/<product>/`.
+- Invent distinct Mac / Win marks without landing approved files under
+  `brand/<product>/`. Gateway already has an approved pack in `brand/vocagateway/`.
 
 ---
 
@@ -470,6 +481,9 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 
 - Default construction: mic mark on teal (`#0F6B57`) square or circle as already
   established in the approved SVGs.
+- VocaGateway is the one exception: same family mic, punched through a host
+  chassis in `brand/vocagateway/` (1U, three-unit stack, tower, or two-bay).
+  Use the 1U at small sizes.
 - No gradients, fake gloss, or skeuomorphic shine.
 - Keep platform mask-safe: important geometry stays inside the safe area; do not
   rely on squircle corners that iOS/Android will clip away.
@@ -512,7 +526,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 | VocaMac / VocaWin / VocaHQ accent | Currently reuse family teal | Current practice, **not** approved unique accents |
 | VocaLinux marks | **MISSING** from this repo’s `brand/` folder; live in vocalinux `web/public/` | Documented exception — do not migrate here |
 | VocaLinux site palette | Visual **site exception**: iron-white / `#1a7f4e` …; never warm cream/beige default | §7.5; not a family accent |
-| VocaGateway mark + accent | **MISSING** | No public logo pack; dark-first = neutral charcoal |
+| VocaGateway host marks | Approved; family mic on 1U, stack, tower, or two-bay; family teal plate | `brand/vocagateway/` · no unique accent; dark-first = charcoal |
 | Web design standard | Adopted | `docs/website-design-standard.md` |
 | App design standard | Proposed companion | `docs/app-design-standard.md` |
 
@@ -539,7 +553,7 @@ Checklist when a product gets its own identity:
 | Scope “stays on your device” to on-device transcription after the model is present | Claim “100% offline”; collapse on-device / local / private / self-hosted |
 | Keep on-device and gateway paths distinct | Call gateway traffic “on-device”; treat Gateway as a client |
 | Use family paper tokens + approved teal | Bless Linux iron-white accents as family; invent Mac/Win accents |
-| Use the shared approved mic mark files | Redraw product marks; invent a Gateway logo pack |
+| Use the shared approved mic mark files; Gateway uses `brand/vocagateway/` | Redraw the mic; invent a second Gateway chassis |
 | Show real UI | Fake VocaWin or stock-people proof |
 | Motion that confirms | Motion that merely sparkles |
 | Point PRs at `brand/README.md §N` | Treat the design standards as the brand parent |
@@ -562,7 +576,7 @@ Use this on design and copy PRs (in addition to the web/app validation lists):
 - [ ] Colors use family tokens; only approved accent is family/VocaPhone teal unless `brand/<product>/` exists (§7.1 / §7.4); Linux visual site exception left alone (§7.5).
 - [ ] Recording remains red; warning/processing use semantic roles (§7.7).
 - [ ] No gradients; solid fills; restrained shadows (§6).
-- [ ] Logo/mark from approved shared mic files; clear space and no recolor; no invented Gateway pack (§9).
+- [ ] Logo/mark from approved shared mic files; Gateway uses `brand/vocagateway/`; clear space and no recolor (§9).
 - [ ] App icon stays mask-safe and ungilded (§10).
 - [ ] Imagery is platform-true; no fake unshipped UI (§11).
 - [ ] Motion confirms and respects reduced motion (§12).
