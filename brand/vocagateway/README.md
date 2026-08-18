@@ -14,3 +14,5 @@ VocaGateway is optional self-hosted compute. It is never on-device. These marks 
 Plate `#0F6B57`. Chassis and mark punch-through `#F2F6F2` / `#0F6B57`. No unique Gateway accent. Dark-first dashboard surfaces stay neutral charcoal.
 
 Cite `brand/README.md` §7.6, §9, and §10.
+
+Numbered review studies stay in `studies/`. Picks keep those files and also live under the use-names above.
