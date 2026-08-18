@@ -361,13 +361,16 @@ keeps its existing exception in place until a deliberate reconciliation lands.
 
 ### 7.6 VocaGateway
 
-Approved rack marks live in [`brand/vocagateway/`](vocagateway/). The
+Approved host marks live in [`brand/vocagateway/`](vocagateway/). The
 microphone is the family geometry from `brand/vocahq/` (capsule, cradle,
-stem, base, two side brackets). The chassis is a 1U or a three-unit stack
-so the icon reads as a host you run yourself, not another client.
+stem, base, two side brackets). The chassis is a 1U, a three-unit stack,
+a standing tower, or a two-bay box so the icon reads as a host you run
+yourself, not another client.
 
 - `vocagateway-1u.svg` is the default app / favicon mark.
-- `vocagateway-rack.svg` is the hardware lockup. Do not use it under 64px.
+- `vocagateway-rack.svg` is the three-unit hardware lockup. Do not use it under 64px.
+- `vocagateway-tower.svg` is a standing case.
+- `vocagateway-twobay.svg` is a two-bay chassis.
 
 Plate `#0F6B57`. No unique Gateway accent. Dark-first dashboard surfaces
 still use **neutral charcoal**.
@@ -439,7 +442,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 | VocaPhone | Approved in this repo | [`brand/vocaphone/`](vocaphone/) — keep as-is |
 | VocaMac / VocaWin | Same shared mic geometry in product surfaces | No distinct approved marks in this repo yet |
 | VocaLinux | **Separate** microphone assets in vocalinux `web/public/`; **MISSING** from `brand/` here | Documented exception; do not replace in this PR |
-| VocaGateway | Approved rack marks (family mic on a 1U or three-unit stack) | [`brand/vocagateway/`](vocagateway/) |
+| VocaGateway | Approved host marks (family mic on 1U, stack, tower, or two-bay) | [`brand/vocagateway/`](vocagateway/) |
 
 ### 9.3 Approved treatments (shared mic)
 
@@ -478,9 +481,9 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 
 - Default construction: mic mark on teal (`#0F6B57`) square or circle as already
   established in the approved SVGs.
-- VocaGateway is the one exception: same family mic, punched through a 1U
-  chassis (`vocagateway-1u.svg`) or a three-unit stack (`vocagateway-rack.svg`).
-  Files live in `brand/vocagateway/`. Use the 1U at small sizes.
+- VocaGateway is the one exception: same family mic, punched through a host
+  chassis in `brand/vocagateway/` (1U, three-unit stack, tower, or two-bay).
+  Use the 1U at small sizes.
 - No gradients, fake gloss, or skeuomorphic shine.
 - Keep platform mask-safe: important geometry stays inside the safe area; do not
   rely on squircle corners that iOS/Android will clip away.
@@ -523,7 +526,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 | VocaMac / VocaWin / VocaHQ accent | Currently reuse family teal | Current practice, **not** approved unique accents |
 | VocaLinux marks | **MISSING** from this repo’s `brand/` folder; live in vocalinux `web/public/` | Documented exception — do not migrate here |
 | VocaLinux site palette | Visual **site exception**: iron-white / `#1a7f4e` …; never warm cream/beige default | §7.5; not a family accent |
-| VocaGateway rack marks | Approved; family mic on 1U or three-unit stack; family teal plate | `brand/vocagateway/` · no unique accent; dark-first = charcoal |
+| VocaGateway host marks | Approved; family mic on 1U, stack, tower, or two-bay; family teal plate | `brand/vocagateway/` · no unique accent; dark-first = charcoal |
 | Web design standard | Adopted | `docs/website-design-standard.md` |
 | App design standard | Proposed companion | `docs/app-design-standard.md` |
 
