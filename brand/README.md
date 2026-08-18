@@ -440,7 +440,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 | --- | --- | --- |
 | Family / VocaHQ | Present in this repo | [`brand/vocahq/`](vocahq/) (copied from `VocaHQ/vocahq` `web/assets/brand/`) |
 | VocaPhone | Approved in this repo | [`brand/vocaphone/`](vocaphone/) — keep as-is |
-| VocaMac / VocaWin | Same shared mic geometry in product surfaces | No distinct approved marks in this repo yet |
+| VocaMac / VocaWin | Same shared mic geometry; Win installer bitmaps in this repo | [`brand/vocawin/installer/`](vocawin/installer/). No unique Win accent. |
 | VocaLinux | **Separate** microphone assets in vocalinux `web/public/`; **MISSING** from `brand/` here | Documented exception; do not replace in this PR |
 | VocaGateway | Approved host marks (family mic on 1U, stack, tower, or two-bay) | [`brand/vocagateway/`](vocagateway/) |
 
@@ -522,7 +522,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 | Family / VocaHQ marks | Present (copied); shared mic geometry | `brand/vocahq/` · upstream `VocaHQ/vocahq/web/assets/brand/` |
 | VocaPhone marks + 512 PNGs | Approved; shared mic geometry; `aria-label="vocaphone"` | `brand/vocaphone/` (keep as-is) |
 | VocaPhone / family accent | **Only** approved product accent | Teal `#0F6B57` (+ app dark `#77D0B2`) — §7.4 |
-| VocaMac / VocaWin marks | Same shared mic geometry in product surfaces; no distinct approved pack here | Reuse family/shared mark; unique accents **not** approved |
+| VocaMac / VocaWin marks | Same shared mic geometry in product surfaces; Win installer bitmaps approved | Reuse family mark; unique accents **not** approved. Win installer: [`brand/vocawin/installer/`](vocawin/installer/) |
 | VocaMac / VocaWin / VocaHQ accent | Currently reuse family teal | Current practice, **not** approved unique accents |
 | VocaLinux marks | **MISSING** from this repo’s `brand/` folder; live in vocalinux `web/public/` | Documented exception — do not migrate here |
 | VocaLinux site palette | Visual **site exception**: iron-white / `#1a7f4e` …; never warm cream/beige default | §7.5; not a family accent |
