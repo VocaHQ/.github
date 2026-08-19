@@ -32,7 +32,7 @@ Title: Voca: speech-to-text with no Voca account and no hosted speech API
 Body: Family of apps (Linux available now, Mac beta, Win unsigned alpha, Android beta). Default path: model on the device, audio stays there after the download. Optional self-hosted gateway if you want a box on your network.
 
 https://vocahq.com
-jatin@vocahq.com
+https://github.com/VocaHQ
 
 ## r/opensource
 

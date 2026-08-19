@@ -1,6 +1,6 @@
 # Promo shipping truth
 
-Canonical source: VocaHQ/vocahq PRODUCT.md (verified 2026-08-18). Contact: jatin@vocahq.com
+Canonical source: VocaHQ/vocahq PRODUCT.md (verified 2026-08-18).
 
 | Product | Public status | Site | Must not claim |
 | --- | --- | --- | --- |

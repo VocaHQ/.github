@@ -1,0 +1,205 @@
+@page { size: letter portrait; margin: 0; }
+html, body { width: 8.5in; }
+.page { width: 8.5in; height: 11in; }
+
+/* ---------- COVER ---------- */
+#p1 { padding: 0.55in 0.55in 0.5in; display: flex; flex-direction: column; }
+#p1 .top {
+  display: flex; justify-content: space-between; align-items: flex-start;
+}
+#p1 .brand { display: flex; align-items: center; gap: 10px; }
+#p1 .brand span {
+  font-weight: 700; font-size: 13pt; letter-spacing: -0.03em;
+}
+#p1 .hero {
+  display: grid;
+  grid-template-columns: 1.28fr 0.86fr;
+  gap: 0.28in;
+  align-items: start;
+  margin-top: 0.28in;
+  flex: 1;
+}
+#p1 h1 { font-size: 72pt; white-space: nowrap; }
+#p1 .sub {
+  margin-top: 18px;
+  font-size: 13.5pt;
+  line-height: 1.35;
+  max-width: 3.5in;
+}
+#p1 .pills { margin-top: 18px; display: flex; gap: 8px; flex-wrap: wrap; }
+#p1 .eco {
+  background: var(--paper-deep);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px 14px 16px;
+  box-shadow: var(--shadow-sm);
+}
+#p1 .eco-h {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 10px;
+}
+#p1 .eco-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+#p1 .eco-grid .wide { grid-column: 1 / -1; }
+#p1 .mini-win { padding: 0; border-radius: 10px; }
+#p1 .mini-win .win-bar { padding: 5px 8px; }
+#p1 .mini-win .win-body { padding: 8px 10px 10px; font-size: 8.5pt; }
+#p1 .mini-win .term { padding: 10px; font-size: 8pt; }
+#p1 .mini-phone {
+  width: 52px; height: 88px; border-radius: 10px; padding: 5px 4px;
+  margin: 0 auto;
+}
+#p1 .mini-phone .phone-screen { border-radius: 7px; }
+#p1 .mini-phone .dictate { width: 28px; height: 28px; font-size: 5.5pt; }
+#p1 .foot {
+  display: flex; justify-content: space-between; align-items: flex-end;
+  margin-top: 0.28in;
+}
+#p1 .foot-meta { font-family: var(--mono); font-size: 8pt; color: var(--muted); }
+
+/* ---------- MANIFESTO ---------- */
+#p2 { padding: 0.58in 0.58in 0.55in; }
+#p2 h1 { font-size: 58pt; margin: 0 0 16px; }
+#p2 .intro { max-width: 6.4in; margin: 0 0 0.32in; font-size: 13pt; }
+#p2 .prins {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 18px;
+}
+#p2 .prin {
+  background: var(--paper-bright);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 16px 16px;
+  min-height: 1.55in;
+}
+#p2 .prin p { margin: 0; font-size: 10.5pt; color: var(--muted); line-height: 1.4; }
+
+/* ---------- TWO PATHS ---------- */
+#p3 { display: grid; grid-template-columns: 1fr 1fr; padding: 0; }
+#p3 .col { padding: 0.55in 0.48in 0.7in; display: flex; flex-direction: column; }
+#p3 h1 { font-size: 40pt; margin: 8px 0 18px; }
+#p3 .col p { font-size: 12pt; line-height: 1.45; margin: 0 0 12px; }
+#p3 .bound {
+  margin-top: auto;
+  font-family: var(--mono);
+  font-size: 8pt;
+  letter-spacing: 0.04em;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+#p3 .teal .bound { border-top-color: rgba(244,241,232,0.25); color: var(--brand-soft); }
+#p3 .path-tag {
+  font-family: var(--mono);
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* ---------- PRODUCT PAGES ---------- */
+.prod { padding: 0.52in 0.55in 0.48in; display: flex; flex-direction: column; }
+.prod .head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+}
+.prod .official {
+  font-weight: 700; font-size: 12pt; letter-spacing: -0.02em; margin: 2px 0 0;
+}
+.prod h1 { font-size: 64pt; margin: 18px 0 10px; }
+.prod .line { font-size: 15pt; letter-spacing: -0.02em; line-height: 1.25; margin: 0 0 14px; max-width: 6.3in; }
+.prod .facts { margin-bottom: 18px; }
+.prod .stage {
+  display: grid;
+  grid-template-columns: 1fr 1.6in;
+  gap: 0.28in;
+  align-items: start;
+  flex: 1;
+}
+.prod .window-col { min-width: 0; }
+.prod .qr-col { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.prod .note { font-size: 10.5pt; color: var(--muted); margin: 12px 0 0; max-width: 5.4in; }
+
+#p4 .term-wrap { max-width: 5.1in; }
+#p5 .mac-win { max-width: 5.1in; }
+#p5 .mac-body h3 { margin: 0 0 8px; font-size: 16pt; letter-spacing: -0.03em; }
+#p6 .phone-row { display: flex; gap: 22px; align-items: center; }
+#p6 .phone-copy { max-width: 3.6in; }
+#p7 .honest {
+  background: var(--paper-bright);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 16px 18px;
+  max-width: 5.2in;
+}
+#p7 .honest h3 {
+  margin: 0 0 8px;
+  font-family: var(--mono);
+  font-size: 8.5pt;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  color: var(--muted);
+}
+#p7 .honest p { margin: 0 0 8px; }
+#p7 .honest p:last-child { margin: 0; }
+#p8 .gw-row { display: flex; gap: 22px; align-items: flex-start; }
+#p8 .gw-mark {
+  width: 1.55in; height: 1.55in;
+  background: var(--paper-bright);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: var(--shadow-sm);
+}
+#p8 .never {
+  font-family: var(--mono);
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+/* ---------- DIRECTORY ---------- */
+#p9 { padding: 0.52in 0.52in 0.5in; }
+#p9 h1 { font-size: 42pt; margin: 6px 0 18px; }
+#p9 .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#p9 .dcard {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+}
+#p9 .dname { font-weight: 700; font-size: 16pt; letter-spacing: -0.03em; line-height: 1; }
+#p9 .dline { margin: 4px 0 6px; font-size: 10.5pt; color: var(--muted); }
+#p9 .dmeta { display: flex; gap: 6px; flex-wrap: wrap; }
+
+/* ---------- QR WALL ---------- */
+#p10 { padding: 0.5in 0.5in 0.48in; color: var(--paper); }
+#p10 h1 { font-size: 48pt; color: var(--paper); margin: 8px 0 8px; }
+#p10 .wall-line { color: var(--brand-soft); margin: 0 0 22px; font-size: 13pt; }
+#p10 .wall {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px 12px;
+}
+#p10 .qcell {
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 14px;
+  padding: 12px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#p10 .qcell .lab {
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+#p10 .qcell .qr { width: 24mm; }
+#p10 .qcell .qr-cap { color: var(--muted); }
+#p10 .span2 { grid-column: span 1; }

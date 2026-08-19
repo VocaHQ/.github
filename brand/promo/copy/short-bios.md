@@ -4,4 +4,4 @@
 
 80: Speech-to-text on your machines. No Voca account. vocahq.com
 
-PH maker: Jatin Malik. I build the Voca family. jatin@vocahq.com
+PH maker: Jatin Malik. I build the Voca family. vocahq.com · github.com/VocaHQ

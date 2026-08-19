@@ -4,8 +4,14 @@ Social cards, post drafts, and a shareable family catalog. Status follows PRODUC
 
 ## Catalog
 
-- [voca-family-catalog.pdf](catalog/voca-family-catalog.pdf): one HQ page, then Linux, Mac, Win, Phone, Gateway.
+Two print-ready books. No email on the paper. Contact is vocahq.com and github.com/VocaHQ.
+
+- [voca-family-catalog-portrait.pdf](catalog/voca-family-catalog-portrait.pdf): US Letter portrait, 10 pages (handout / binder)
+- [voca-family-catalog-landscape.pdf](catalog/voca-family-catalog-landscape.pdf): US Letter landscape, 6 pages (desk / wall)
 - Page previews: [catalog/pages/](catalog/pages/)
+- QR codes: [catalog/qr/](catalog/qr/)
+- Notes: [catalog/README.md](catalog/README.md)
+- Retired v1 spec-sheet: [catalog/studies/2026-08-18-v1/](catalog/studies/2026-08-18-v1/)
 
 ## Signature
 

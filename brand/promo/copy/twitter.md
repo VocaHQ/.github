@@ -16,7 +16,7 @@
 
 7. We do not claim 100% offline. The first model download uses the network. After that, dictation stays on that machine unless you aim it at a gateway.
 
-8. Family home is vocahq.com. If you want to try one, email jatin@vocahq.com
+8. Family home is vocahq.com. Source and releases: github.com/VocaHQ
 
 ## Single tweets
 

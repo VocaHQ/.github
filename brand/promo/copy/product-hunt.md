@@ -12,7 +12,7 @@ We do not have a Voca cloud or a Voca account. A first model download uses the n
 
 Links: vocahq.com, vocalinux.com, vocamac.com, vocawin.com, vocaphone.vocahq.com, github.com/VocaHQ/vocagateway
 
-Questions: jatin@vocahq.com
+Questions: vocahq.com · github.com/VocaHQ
 
 Gallery: card-family-ph.png, then the per-product ph cards. No fake Win screenshots.
 
