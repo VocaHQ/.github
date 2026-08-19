@@ -17,6 +17,7 @@ VocaDesign saves every generated UI/UX file here. Product agents take approved f
 ## Current shelves
 
 - Family / VocaHQ: `brand/vocahq/`
+- Jatin official account avatar: `brand/vocahq/jatin-official/`
 - VocaPhone: `brand/vocaphone/`
 - VocaGateway approved: `brand/vocagateway/`
 - VocaGateway studies 25 to 48: `brand/vocagateway/studies/`
