@@ -520,6 +520,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 | --- | --- | --- |
 | Family brand book | This document (proposed) | `brand/README.md` |
 | Asset library | How studies and approved files are filed | [`brand/LIBRARY.md`](LIBRARY.md) |
+| Promo shelf | Social cards, post drafts, family catalog PDF | [`brand/promo/`](promo/) |
 | Family / VocaHQ marks | Present (copied); shared mic geometry | `brand/vocahq/` · upstream `VocaHQ/vocahq/web/assets/brand/` |
 | VocaPhone marks + 512 PNGs | Approved; shared mic geometry; `aria-label="vocaphone"` | `brand/vocaphone/` (keep as-is) |
 | VocaPhone / family accent | **Only** approved product accent | Teal `#0F6B57` (+ app dark `#77D0B2`) — §7.4 |

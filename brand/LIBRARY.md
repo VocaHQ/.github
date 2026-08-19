@@ -21,3 +21,4 @@ VocaDesign saves every generated UI/UX file here. Product agents take approved f
 - VocaGateway approved: `brand/vocagateway/`
 - VocaGateway studies 25 to 48: `brand/vocagateway/studies/`
 - VocaWin installer: `brand/vocawin/installer/`
+- Promo shelf (cards, copy, catalog): `brand/promo/`

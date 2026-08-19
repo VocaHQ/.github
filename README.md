@@ -12,3 +12,6 @@ This repository contains shared organization material:
   page.
 - [`brand/vocahq/`](brand/vocahq/) holds family / VocaHQ marks.
 - [`brand/vocaphone/`](brand/vocaphone/) holds approved VocaPhone marks.
+
+- [`brand/promo/`](brand/promo/) is the promo shelf: social cards, post drafts, and the family catalog PDF.
+- [`brand/LIBRARY.md`](brand/LIBRARY.md) is how approved files and studies are filed.
