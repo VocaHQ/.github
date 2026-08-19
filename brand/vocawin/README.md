@@ -1,7 +1,14 @@
 # VocaWin marks
 
-VocaWin reuses the family microphone from `brand/vocahq/`. There is no unique Win accent. Plate `#0F6B57`, paper `#F4F1E8`, mark `#F2F6F2`.
+VocaWin reuses the family microphone from `brand/vocahq/`. There is no unique Win accent. Plate `#0F6B57`, mark on teal `#F2F6F2`.
 
-Installer bitmaps live in `installer/`. Use those files. Do not redraw the mic or invent a maroon WiX theme.
+## Live files
 
-Cite `brand/README.md` §7, §9, and §10. vocawin.com stays Coming soon. Unsigned alpha copy only.
+- `installer/` — MSI/NSIS bitmaps. Do not redraw the mic or invent a maroon WiX theme.
+- `vocawin-sidebar.svg` — 31×31 tile for the app sidebar. Official paths, tighter crop so the glyph reads at sidebar size. Drop this in at 31×31. Do not scale the 1024 family icon down.
+- `vocawin-dictate-idle.svg` — 78×78 circle, cream mic on teal. Ready / idle.
+- `vocawin-dictate-listening.svg` — 78×78 circle, teal mic on cream. Listening. Recording stays red in the app; these files do not cover that state.
+
+Previews at true size: `previews/`.
+
+Cite `brand/README.md` §7, §9, and §10. Public status is Developer alpha per PRODUCT.md.
