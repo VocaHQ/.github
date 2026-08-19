@@ -4,8 +4,12 @@ Social cards, post drafts, and a shareable family catalog. Status follows PRODUC
 
 ## Catalog
 
-- [voca-family-catalog.pdf](catalog/voca-family-catalog.pdf): one HQ page, then Linux, Mac, Win, Phone, Gateway. Footer is jatin@vocahq.com
+- [voca-family-catalog.pdf](catalog/voca-family-catalog.pdf): one HQ page, then Linux, Mac, Win, Phone, Gateway.
 - Page previews: [catalog/pages/](catalog/pages/)
+
+## Signature
+
+Gmail block for tester mail. [signature/README.md](signature/README.md). Paste [vocahq-signature.html](signature/vocahq-signature.html). Mark is [vocahq-mark-48.png](signature/vocahq-mark-48.png).
 
 ## Cards
 
