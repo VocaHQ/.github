@@ -1,0 +1,1 @@
+Official platform SVGs used on card-family-wide.png (cream on teal). Gateway and HQ still use the family marks. Trademarks stay with Apple, Microsoft, Linux, and Google. We use them to name the platforms.
