@@ -15,3 +15,6 @@ This repository contains shared organization material:
 
 - [`brand/promo/`](brand/promo/) is the promo shelf: social cards, post drafts, and the family catalog PDF.
 - [`brand/LIBRARY.md`](brand/LIBRARY.md) is how approved files and studies are filed.
+- [`.github/workflows/issue-welcome.yml`](.github/workflows/issue-welcome.yml)
+  is the reusable comment posted on new product-repo issues and pull requests.
+  Callers live in each product repo as `.github/workflows/issue-welcome.yml`.

@@ -1,0 +1,78 @@
+# Called from product repos on issues: opened and pull_request_target: opened.
+# pull_request_target is required so fork PRs get the comment; this workflow
+# does not check out PR code.
+# Edit the comment here; every caller picks it up from main.
+name: Welcome
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  comment:
+    if: >
+      (
+        github.event_name == 'issues' &&
+        github.event.issue.state == 'open' &&
+        github.event.issue.pull_request == null &&
+        github.event.issue.user.type != 'Bot' &&
+        !contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+      ) || (
+        contains(fromJSON('["pull_request","pull_request_target"]'), github.event_name) &&
+        github.event.pull_request.state == 'open' &&
+        github.event.pull_request.user.type != 'Bot' &&
+        !contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.pull_request.author_association)
+      )
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    concurrency:
+      group: welcome-${{ github.repository }}-${{ github.event.issue.number || github.event.pull_request.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- vocahq-welcome -->';
+            const item = context.payload.issue || context.payload.pull_request;
+            const isPr =
+              context.eventName === 'pull_request' ||
+              context.eventName === 'pull_request_target';
+            const login = item.user.login;
+            const number = item.number;
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: number,
+              per_page: 100,
+            });
+            if (
+              comments.some(
+                (c) =>
+                  c.body &&
+                  (c.body.includes(marker) ||
+                    c.body.includes('<!-- vocahq-issue-welcome -->')),
+              )
+            ) {
+              return;
+            }
+            const thanks = isPr
+              ? `Thanks for the pull request, @${login}. A maintainer will review it.`
+              : `Thanks for opening this, @${login}. A maintainer will look into it.`;
+            const body = [
+              marker,
+              thanks,
+              '',
+              'If you want to talk it through, [Discord](https://discord.gg/t6muquAJbm) is the community.',
+              'Follow us on [X](https://x.com/vocahq) for what we ship.',
+              'Products and status live on [vocahq.com](https://vocahq.com).',
+            ].join('\n');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: number,
+              body,
+            });
