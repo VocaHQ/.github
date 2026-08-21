@@ -33,6 +33,8 @@ Longer term, the goal is straightforward: set Voca up once and use it across wha
 
 ## Get involved
 
+- [Discord](https://discord.gg/t6muquAJbm) is the fastest way to talk with us and other people who want to build this
+- Follow [@vocahq](https://x.com/vocahq) on X
 - Issues and PRs are welcome on each project
 - Start with the platform you use day to day
 - Contact: hello@vocahq.com
