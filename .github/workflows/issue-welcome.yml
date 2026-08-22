@@ -60,15 +60,17 @@ jobs:
               return;
             }
             const thanks = isPr
-              ? `Thanks for the pull request, @${login}. A maintainer will review it.`
-              : `Thanks for opening this, @${login}. A maintainer will look into it.`;
+              ? `Thanks @${login}. A maintainer will review it.`
+              : `Thanks @${login}. A maintainer will look into it.`;
             const body = [
               marker,
               thanks,
               '',
-              'If you want to talk it through, [Discord](https://discord.gg/t6muquAJbm) is the community.',
-              'Follow us on [X](https://x.com/vocahq) for what we ship.',
-              'Products and status live on [vocahq.com](https://vocahq.com).',
+              '---',
+              '',
+              '<img src="https://raw.githubusercontent.com/VocaHQ/.github/main/brand/vocahq/voca-logo-512.png" width="22" height="22" align="absmiddle"> **Meanwhile, connect with us:**',
+              '',
+              '[![Discord](https://img.shields.io/badge/discord-talk-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/t6muquAJbm) [![X](https://img.shields.io/badge/x-@vocahq-111111?style=flat-square&logo=x&logoColor=white)](https://x.com/vocahq)',
             ].join('\n');
             await github.rest.issues.createComment({
               owner: context.repo.owner,
