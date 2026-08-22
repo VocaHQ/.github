@@ -1,45 +1,43 @@
 # VocaHQ
 
-Offline voice dictation across the machines you actually use.
+Welcome. This is the GitHub home for Voca: free, open-source speech-to-text across the machines you already own.
 
-**VocaHQ** is the shared GitHub home for the Voca family: Linux, macOS, Windows, phone, and gateway. Same privacy-first idea on every platform. Free, open source, and built to stay that way.
+Speak, and the words land in the field you were already using. After a speech-to-text model is downloaded, on-device mode keeps audio and processing on that machine. If you want shared or larger compute, you can point a client at a VocaGateway you run yourself. There is no Voca account.
 
-## Why this org exists
+Using the tools? Pick your platform below. Want to help build them? You are already in the right place.
 
-Voca isn't one repo anymore. A few active contributors maintain pieces of it with me, and a shared org is simply easier for access and ownership than keeping everything under a personal account.
-
-Longer term, the goal is straightforward: set Voca up once and use it across whatever machines you own. Desktop plus phone, headless or interactive, mixed platforms. This also helps us push feature parity and a more consistent experience across platforms.
-
-[vocahq.com](https://vocahq.com) is the family home; I'll keep consolidating the project sites there over time.
+[Discord](https://discord.gg/t6muquAJbm) is the fastest way to talk with us. Follow [@vocahq](https://x.com/vocahq) on X. Email [hello@vocahq.com](mailto:hello@vocahq.com).
 
 ## Projects
 
 | Platform | Project | Repo | Site | Status |
 |----------|---------|------|------|--------|
-| Family | **VocaHQ** | [VocaHQ](https://github.com/VocaHQ) | [vocahq.com](https://vocahq.com) | — |
 | Linux | **VocaLinux** | [VocaHQ/vocalinux](https://github.com/VocaHQ/vocalinux) | [vocalinux.com](https://vocalinux.com) | Available now |
 | macOS | **VocaMac** | [VocaHQ/vocamac](https://github.com/VocaHQ/vocamac) | [vocamac.com](https://vocamac.com) | Beta |
-| Windows | **VocaWin** | [VocaHQ/vocawin](https://github.com/VocaHQ/vocawin) | [vocawin.com](https://vocawin.com) | Coming soon |
-| iOS / Android | **VocaPhone** | [VocaHQ/vocaphone](https://github.com/VocaHQ/vocaphone) | [vocaphone.vocahq.com](https://vocaphone.vocahq.com) | Android beta / iOS source build |
-| Gateway | **VocaGateway** | [VocaHQ/vocagateway](https://github.com/VocaHQ/vocagateway) | [VocaHQ/vocagateway](https://github.com/VocaHQ/vocagateway) | Early |
+| Windows | **VocaWin** | [VocaHQ/vocawin](https://github.com/VocaHQ/vocawin) | [vocawin.com](https://vocawin.com) | Developer alpha |
+| iOS / Android | **VocaPhone** | [VocaHQ/vocaphone](https://github.com/VocaHQ/vocaphone) | [vocaphone.vocahq.com](https://vocaphone.vocahq.com) | Android beta / iOS TestFlight |
+| Gateway | **VocaGateway** | [VocaHQ/vocagateway](https://github.com/VocaHQ/vocagateway) | [vocagateway.vocahq.com](https://vocagateway.vocahq.com) | Early |
 
-## What stays the same
-
-- Free, forever, same licenses
-- Same privacy / offline focus
-- Same maintainer (@jatinkrmalik)
-- Stars, issues, PRs, and releases moved with the repos
-- Old `jatinkrmalik/...` GitHub links redirect here
+Family site: [vocahq.com](https://vocahq.com)
 
 ## Get involved
 
-- [Discord](https://discord.gg/t6muquAJbm) is the fastest way to talk with us and other people who want to build this
-- Follow [@vocahq](https://x.com/vocahq) on X
-- Issues and PRs are welcome on each project
-- Start with the platform you use day to day
-- Contact: hello@vocahq.com
+You do not need to know the whole family. Start with the platform you actually use.
 
-Thanks for starring, filing issues, contributing, and using these tools. Building this for the last 15 months has been an absolute joy.
+- Join [Discord](https://discord.gg/t6muquAJbm) and say hello
+- File an issue when something breaks, or when a README skips a step you needed
+- Open a PR. Code, tests, packaging, and clearer docs all count
+- Try a beta, or the unsigned VocaWin alpha, and tell us what failed
 
+Issues and PRs are welcome on every project. Maintained by [@jatinkrmalik](https://github.com/jatinkrmalik) and [@Mr-Sunglasses](https://github.com/Mr-Sunglasses).
+
+Thanks for starring, filing issues, contributing, and using these tools.
 
 To infinity and beyond!
+
+<details>
+<summary>Came here from an old personal-account link?</summary>
+
+If you followed an old `jatinkrmalik/...` GitHub link, you are in the right place. Those URLs redirect here.
+
+</details>
