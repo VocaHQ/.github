@@ -1,6 +1,6 @@
 # Linux tip drafts (Vocalinux v0.16.0)
 
-VocaPress owns these. Draft only. Do not send unless Jatin says send. From vocahq@gmail.com as Jatin.
+VocaPress owns these. Draft only. Do not send unless Jatin says send. From vocahq@gmail.com as Jatin. Introduce as Jatin, creator and maintainer. Do not add a name or email closer; the VocaHQ Gmail signature already has the mark and hello@vocahq.com.
 
 Facts used (release notes, 23 Aug 2026): Vocalinux v0.16.0 is a stable minor on the 0.15 line. AGPL-3.0. On-device speech-to-text for Linux (X11 or Wayland). Text lands in the focused field. No Voca account. VocaGateway is optional and is not on-device. New installs default to hold Right Alt push-to-talk. In-app update checker. Searchable language list. Delete unused models. Installer needs distro python3-gi and no longer pip-builds PyGObject. IBus and X11 layout restore fixes. AppImage ships GI typelibs for non-Debian hosts. Test Dictation no longer says "no speech" when no model is downloaded. Site dropped the stale 100% offline claim. Product shots live at https://vocalinux.com/screenshots/ (page is labeled v0.15 UI: tray, dictation, logs, and every Settings page, light and dark). Do not claim those frames are from 0.16.
 
@@ -24,7 +24,7 @@ Subject: Linux app tip: Vocalinux v0.16.0
 
 Joey,
 
-Vocalinux is an AGPL-3.0 dictation app for the Linux desktop. You hold a key, talk, and the text lands in whatever field is focused: browser, editor, terminal.
+I'm Jatin, creator and maintainer of Vocalinux. It is an AGPL-3.0 dictation app for the Linux desktop. You hold a key, talk, and the text lands in whatever field is focused: browser, editor, terminal.
 
 v0.16.0 shipped 23 Aug. New installs default to hold Right Alt for push-to-talk. The useful part after the 0.14 beta is reliability: IBus restore, X11 keyboard layout coming back after dictation, and the installer no longer tries to compile PyGObject from pip.
 
@@ -34,9 +34,6 @@ https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -49,7 +46,7 @@ Subject: Vocalinux v0.16.0, on-device dictation for Linux
 
 Liam,
 
-I maintain Vocalinux, a small AGPL-3.0 app that does speech-to-text on the Linux desktop and types into the focused field.
+I'm Jatin, creator and maintainer of Vocalinux, a small AGPL-3.0 app that does speech-to-text on the Linux desktop and types into the focused field.
 
 v0.16.0 shipped 23 Aug. After the 0.14 beta, this cut is mostly install and injection: IBus engine restore, X11 layout coming back after dictation, AppImage typelibs on non-Debian hosts, and the installer no longer pip-builds PyGObject. New installs default to hold-Right-Alt push-to-talk.
 
@@ -59,9 +56,6 @@ https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
-Jatin Malik
-vocahq@gmail.com
-
 ---
 
 ### LWN.net
@@ -70,18 +64,14 @@ To: lwn@lwn.net
 
 Subject: tip: Vocalinux 0.16.0 (on-device STT for Linux)
 
-Vocalinux 0.16.0 is out (2026-08-23). AGPL-3.0. Local speech-to-text on X11/Wayland; injects into the focused field. Optional self-hosted gateway is a separate path.
+Jatin here, creator and maintainer of Vocalinux. 0.16.0 is out (2026-08-23). AGPL-3.0. Local speech-to-text on X11/Wayland; injects into the focused field. Optional self-hosted gateway is a separate path.
 
 0.16 is a stable minor on 0.15. Changes that matter for testers: default hold-Right-Alt PTT on new installs; in-app update checker; searchable language list; delete unused models; installer requires distro python3-gi (no pip sdist of PyGObject); IBus restore and X11 layout restore after scoped injection; AppImage GI typelibs for non-Debian hosts.
 
 https://vocalinux.com
 https://vocalinux.com/screenshots/
-https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 https://github.com/VocaHQ/vocalinux/compare/v0.15.0...v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -91,7 +81,7 @@ Channel: https://9to5linux.com/contact-us (form only)
 
 Subject: Vocalinux v0.16.0 released
 
-Vocalinux 0.16.0 is a stable Linux dictation app release (23 Aug). AGPL-3.0. On-device speech-to-text, X11 or Wayland, text goes into the focused field.
+I'm Jatin, creator and maintainer of Vocalinux. 0.16.0 is a stable Linux dictation app release (23 Aug). AGPL-3.0. On-device speech-to-text, X11 or Wayland, text goes into the focused field.
 
 New installs default to hold Right Alt push-to-talk. The 0.16 cut also fixes IBus restore, X11 layout after dictation, and AppImage startup on non-Debian hosts. Installer needs distro python3-gi.
 
@@ -103,9 +93,6 @@ Install: curl -fsSL https://raw.githubusercontent.com/VocaHQ/vocalinux/main/inst
 
 AppImage and AUR (yay -S vocalinux) are on the release page.
 
-Jatin Malik
-vocahq@gmail.com
-
 ---
 
 ### DebugPoint
@@ -116,7 +103,7 @@ Subject: Open-source app: Vocalinux v0.16.0
 
 Hi,
 
-Vocalinux is an AGPL-3.0 speech-to-text app for Linux. It sits in the tray, you talk, and the text lands where the cursor already is.
+I'm Jatin, creator and maintainer of Vocalinux. It is an AGPL-3.0 speech-to-text app for Linux. It sits in the tray, you talk, and the text lands where the cursor already is.
 
 v0.16.0 shipped 23 Aug. After the 0.14 beta, the work is install and desktop reliability: IBus, X11 layouts, AppImage on Fedora-class hosts, and the installer using distro python3-gi instead of building PyGObject from pip. New installs default to hold Right Alt.
 
@@ -128,9 +115,6 @@ https://github.com/VocaHQ/vocalinux
 
 Happy to feature this if it fits.
 
-Jatin Malik
-vocahq@gmail.com
-
 ---
 
 ### OSNews
@@ -141,16 +125,13 @@ Subject: software news: Vocalinux 0.16.0
 
 Hi,
 
-Vocalinux 0.16.0 is out. It is an AGPL-3.0 dictation app for Linux desktops. Speech-to-text runs on the computer. Text is injected into the focused field on X11 or Wayland.
+I'm Jatin, creator and maintainer of Vocalinux. 0.16.0 is out. It is an AGPL-3.0 dictation app for Linux desktops. Speech-to-text runs on the computer. Text is injected into the focused field on X11 or Wayland.
 
 The 0.16 cut is the first stable release that I would point a reviewer at after the 0.14 beta. Hold-Right-Alt push-to-talk is the new-install default. Injection and installer bugs from that beta window are the main fixes.
 
 https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -163,7 +144,7 @@ Hi,
 
 This is a free review request for a hobby / non-profit Linux app. No attachments.
 
-Vocalinux is AGPL-3.0 speech-to-text for the Linux desktop. You hold a key, talk, and text goes into the focused field. The model runs on the machine. A gateway is optional and is not the default path.
+I'm Jatin, creator and maintainer of Vocalinux. It is AGPL-3.0 speech-to-text for the Linux desktop. You hold a key, talk, and text goes into the focused field. The model runs on the machine. A gateway is optional and is not the default path.
 
 v0.16.0 (23 Aug) is the build I would have you try. New installs use hold Right Alt. The 0.14 beta was rough on some Fedora and Ubuntu launches; 0.15 and 0.16 are the install and injection cleanup.
 
@@ -177,9 +158,6 @@ curl -fsSL https://raw.githubusercontent.com/VocaHQ/vocalinux/main/install.sh -o
 
 Needs distro python3-gi. AppImage is also on the release page.
 
-Jatin Malik
-vocahq@gmail.com
-
 ---
 
 ### Linux Matters
@@ -190,7 +168,7 @@ Subject: Vocalinux v0.16.0, on-device dictation (adjacent to the Voxtype chat)
 
 Hi,
 
-You talked about talking to a computer / Voxtype in episode 88. Vocalinux is in that pile: AGPL-3.0, Linux desktop, speech-to-text on the machine, text into the focused field.
+I'm Jatin, creator and maintainer of Vocalinux. You talked about talking to a computer / Voxtype in episode 88. Vocalinux is in that pile: AGPL-3.0, Linux desktop, speech-to-text on the machine, text into the focused field.
 
 v0.16.0 shipped 23 Aug. Hold Right Alt is the new-install default. The last two point releases were mostly IBus, X11 layout, and installer work so it actually starts on more distros.
 
@@ -199,9 +177,6 @@ https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 If it is useful for a show note, I can record a 30-second demo.
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -213,16 +188,13 @@ Subject: FOSS app: Vocalinux v0.16.0
 
 Hi,
 
-Vocalinux is an AGPL-3.0 dictation app for Linux. Tray app, push-to-talk, text into the focused field. On-device by default.
+I'm Jatin, creator and maintainer of Vocalinux. Tray app, push-to-talk, text into the focused field. On-device by default.
 
 v0.16.0 (23 Aug): hold Right Alt on new installs, in-app update checker, searchable languages, unused-model cleanup, and a pile of IBus / X11 / AppImage fixes after the 0.14 beta.
 
 https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -234,16 +206,13 @@ Subject: on-device Linux dictation: Vocalinux v0.16.0
 
 Hi,
 
-Vocalinux is a small AGPL-3.0 app for talking into any Linux text field without making a Voca account. The speech model stays on the computer. A self-hosted gateway exists if you want shared compute; that path is not on-device.
+I'm Jatin, creator and maintainer of Vocalinux, a small AGPL-3.0 app for talking into any Linux text field without making a Voca account. The speech model stays on the computer. A self-hosted gateway exists if you want shared compute; that path is not on-device.
 
 v0.16.0 shipped 23 Aug. After a messy 0.14 beta on some Fedora and Ubuntu boxes, 0.16 is the install-and-injection cleanup I would demo on the show. New installs use hold Right Alt.
 
 https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -257,7 +226,7 @@ Subject: Vocalinux v0.16.0, follow-up to Sourav's 0.14 beta piece
 
 Hi,
 
-Sourav Rudra wrote about Vocalinux 0.14 beta on 16 Jul:
+I'm Jatin, creator and maintainer of Vocalinux. Sourav Rudra wrote about the 0.14 beta on 16 Jul:
 
 https://itsfoss.com/news/vocalinux-beta-release/
 
@@ -271,9 +240,6 @@ https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
-Jatin Malik
-vocahq@gmail.com
-
 ---
 
 ### Linuxiac
@@ -284,7 +250,7 @@ Subject: Vocalinux v0.16.0, follow-up to your July piece
 
 Hi,
 
-Thanks for the July write-up:
+I'm Jatin, creator and maintainer of Vocalinux. Thanks for the July write-up:
 
 https://linuxiac.com/vocalinux-is-an-open-source-voice-dictation-app-built-for-linux/
 
@@ -294,9 +260,6 @@ UI shots (labeled v0.15) are here if you want to refresh the article. No paid-po
 
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -308,7 +271,7 @@ Subject: Vocalinux 0.16.0 (follow-up to the 0.14 beta item)
 
 Michael,
 
-You ran Vocalinux 0.14 beta in July:
+I'm Jatin, creator and maintainer of Vocalinux. You ran the 0.14 beta in July:
 
 https://www.phoronix.com/news/Vocalinux-0.14-Beta
 
@@ -317,9 +280,6 @@ https://www.phoronix.com/news/Vocalinux-0.14-Beta
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 https://github.com/VocaHQ/vocalinux/compare/v0.15.0...v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -332,7 +292,7 @@ Subject: Proposal: Vocalinux, on-device dictation on the Linux desktop
 
 Joe,
 
-Proposal for a short tools feature, not a finished article.
+I'm Jatin, creator and maintainer of Vocalinux. Proposal for a short tools feature, not a finished article.
 
 Vocalinux is an AGPL-3.0 desktop app that does speech-to-text on the Linux machine and types into the focused field. No Voca account. A self-hosted gateway is optional and should not be described as on-device.
 
@@ -344,9 +304,6 @@ https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
-Jatin Malik
-vocahq@gmail.com
-
 ---
 
 ### FOSS Post
@@ -357,14 +314,11 @@ Subject: Vocalinux v0.16.0, follow-up
 
 Hi,
 
-I sent a tip in July about Vocalinux, the AGPL dictation app for Linux. v0.16.0 shipped 23 Aug. Same story: on-device speech-to-text, text into the focused field, no account. This tag is the one I would have a reader install. Hold Right Alt on new installs; installer and injection fixes after the 0.14 beta.
+I'm Jatin, creator and maintainer of Vocalinux. I sent a tip in July about the AGPL dictation app for Linux. v0.16.0 shipped 23 Aug. Same story: on-device speech-to-text, text into the focused field, no account. This tag is the one I would have a reader install. Hold Right Alt on new installs; installer and injection fixes after the 0.14 beta.
 
 https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -376,14 +330,11 @@ Subject: Vocalinux v0.16.0, follow-up
 
 Hi,
 
-I emailed in July about Vocalinux. v0.16.0 is out. On-device Linux dictation, AGPL-3.0, tray app, text into the focused field. The 0.14 beta was the public introduction; 0.16 is the install-and-injection cleanup I would actually demo on the show. New installs use hold Right Alt.
+I'm Jatin, creator and maintainer of Vocalinux. I emailed in July. v0.16.0 is out. On-device Linux dictation, AGPL-3.0, tray app, text into the focused field. The 0.14 beta was the public introduction; 0.16 is the install-and-injection cleanup I would actually demo on the show. New installs use hold Right Alt.
 
 https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
 
 ---
 
@@ -396,11 +347,8 @@ Subject: Vocalinux v0.16.0, new entry follow-up
 
 Steve,
 
-Follow-up to the July note and the New Entry form. Vocalinux 0.16.0 is the current stable tag. AGPL-3.0 on-device dictation for Linux. Hold Right Alt on new installs. I would list this version, not 0.14.
+I'm Jatin, creator and maintainer of Vocalinux. Follow-up to the July note and the New Entry form. 0.16.0 is the current stable tag. AGPL-3.0 on-device dictation for Linux. Hold Right Alt on new installs. I would list this version, not 0.14.
 
 https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-
-Jatin Malik
-vocahq@gmail.com
