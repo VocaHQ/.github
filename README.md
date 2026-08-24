@@ -9,9 +9,7 @@ This repository contains shared organization material:
 - [`docs/app-design-standard.md`](docs/app-design-standard.md) is the proposed
   companion standard for native Voca apps.
 - [`press/README.md`](press/README.md) is VocaPress research and tip-email
-  drafts. Draft only. Do not send from these files.
-- [`press/win-mac-linux-outlets.md`](press/win-mac-linux-outlets.md) is the
-  verified Linux, Windows, and macOS contact list (24 Aug 2026).
+  drafts, with one list per platform. Draft only. Do not send from these files.
 - [`profile/README.md`](profile/README.md) renders on the VocaHQ organization
   page.
 - [`brand/vocahq/`](brand/vocahq/) holds family / VocaHQ marks.
