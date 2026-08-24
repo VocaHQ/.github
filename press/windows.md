@@ -4,7 +4,7 @@
 **Method:** official About / Contact / Tips pages. Directory emails that are not on-site are **UNVERIFIED**.
 **Researched:** 24 Aug 2026 (PT).
 
-Product: VocaWin. Beta. Latest tag is v0.1.0-beta.1 (374472b). No GitHub Release page yet, so do not invent installer URLs. Unsigned NSIS/MSI. SmartScreen / unknown-publisher is expected. Not a Store app. AGPL-3.0-or-later. vocawin.com. github.com/VocaHQ/vocawin.
+Product: VocaWin. Beta. Latest tag is v0.1.0-beta.1 (374472b). GitHub Release is live (prerelease): https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1 with NSIS, MSI, notes, and a Ready shot. Unsigned. SmartScreen / unknown-publisher is expected. Not a Store app. AGPL-3.0-or-later. vocawin.com. github.com/VocaHQ/vocawin.
 
 ## How to use this list
 
@@ -43,7 +43,7 @@ Personalized tip, not a press-release blast. One platform per email. Lead with o
 
 ## Pitch notes
 
-Be honest that this is Beta, not a Store app. Latest tag is v0.1.0-beta.1. There is no Release page yet, so point at the repo or vocawin.com, not invented asset URLs. Unsigned builds and SmartScreen are expected.
+Be honest that this is Beta, not a Store app. Latest tag is v0.1.0-beta.1. Cite the Release page: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1 (NSIS, MSI, Ready shot). Unsigned builds and SmartScreen are expected.
 - Neowin: use the contact form, type News Tips. tips@neowin.net is UNVERIFIED (old post only).
 - Windows Central: no public editorial tips inbox. Skip.
 - How-To Geek: no guest posts. Stretch unless someone wants an explainer.
