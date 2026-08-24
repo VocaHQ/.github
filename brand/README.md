@@ -220,7 +220,7 @@ not invent shipping). Always defer to `PRODUCT.md` if it moves:
 | --- | --- | --- |
 | VocaLinux | Available now | Current release **v0.15.0**; Linux X11/Wayland; AGPL-3.0 |
 | VocaMac | Beta | **macOS 14+** Apple Silicon; AGPL-3.0 |
-| VocaWin | Beta | Unsigned NSIS/MSI. Latest tag **v0.1.0-beta.1**. No GitHub Release page yet. SmartScreen expected. **AGPL-3.0-or-later** in repo |
+| VocaWin | Beta | Unsigned NSIS/MSI on [GitHub Releases](https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1) (**v0.1.0-beta.1**, prerelease). SmartScreen expected. **AGPL-3.0-or-later** in repo |
 | VocaPhone | Android beta / iOS source build | **Android 13+** public beta; **iOS 17+** build from source; gateway optional; AGPL-3.0 |
 | VocaGateway | Early | Optional self-hosted compute; **never on-device**; infrastructure, not a client; AGPL-3.0 |
 
@@ -255,7 +255,7 @@ on-device.** VocaGateway is optional self-hosted compute and is never on-device.
 
 ### 5.4 Shipping honesty
 
-- Never imply VocaWin is signed or a Store app. Tester builds are unsigned. SmartScreen is expected. Latest tag is `v0.1.0-beta.1`. There is no GitHub Release page yet.
+- Never imply VocaWin is signed or a Store app. Tester builds are unsigned. SmartScreen is expected. Latest Release is [v0.1.0-beta.1](https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1) (prerelease).
 - Do not fabricate screenshots or release assets for unshipped surfaces.
 - Name licenses per project; **VocaWin is AGPL-3.0-or-later**, not flattened to
   AGPL-3.0.
