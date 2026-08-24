@@ -2,7 +2,7 @@
 
 VocaPress owns these. Draft only. Do not send unless Jatin says send. From vocahq@gmail.com as Jatin. Introduce as Jatin, creator and maintainer. Do not add a name or email closer; the VocaHQ Gmail signature already has the mark and hello@vocahq.com.
 
-Facts used (vocamac.com, 24 Aug 2026): VocaMac is Beta v0.9.0. macOS 14+ Apple Silicon only. No supported Intel build. AGPL-3.0. Menu bar app. Hold Right Option to record, or toggle / double-tap. Transcript inserts at the cursor through macOS accessibility APIs. Secure fields and some apps can refuse insertion. WhisperKit / Core ML plus Parakeet, Apple Speech (macOS 26+), and sherpa-onnx models (Moonshine, SenseVoice, GigaAM, Canary) are in 0.9.0. Models download and cache locally. After a model is on disk, transcription can run without sending audio to a cloud. No Voca account. No Voca-hosted speech endpoint. Network is used for app/model downloads and optional update checks. Homebrew: brew tap vocahq/vocamac && brew trust vocahq/vocamac && brew install --cask vocamac. DMG: VocaMac-0.9.0-arm64.dmg, Developer ID signed and notarized. Permissions: Microphone, Accessibility, Input Monitoring. Custom vocabulary exists on the Whisper path. Screenshots: https://vocamac.com/screenshots. Do not claim feature parity. Do not use empty "honest/genuine/real" modifiers (TidBITS).
+Facts used (vocamac.com, product.toml, README, v0.9.0 notes, VocaMac agent 24 Aug 2026): VocaMac is Beta v0.9.0. Not Stable. macOS 14+ Apple Silicon only. No Intel build. AGPL-3.0. Menu bar, no Dock icon. Default hotkey hold Right Option, release to transcribe. Double-tap toggle is in the README. Transcript inserts at the cursor via accessibility. Secure fields and some apps can refuse insertion. Clipboard is saved and restored around injection; do not claim the clipboard is never used. Permissions: Microphone, Accessibility, Input Monitoring. Engines in 0.9.0 (site + product.toml): WhisperKit/Core ML, Parakeet, Apple Speech (macOS 26+), sherpa-onnx (Moonshine, SenseVoice, GigaAM, Canary). First WhisperKit download from Hugging Face. After a model is local, transcription can run without sending audio to a cloud. No Voca account. No Voca-hosted cloud. No iCloud dictation claim. PRODUCT.md VocaMac row still only says WhisperKit / Core ML; for tips cite the site/release catalog, not that short row as the full list. Homebrew cask description "powered by WhisperKit" is stale; do not use it as the engine list. 17 pin-able languages in Settings. Do not say 99+. Custom vocabulary and translate-to-English are WhisperKit-only. Do not say vocabulary works on Parakeet, Apple Speech, or sherpa. 0.9.0 release notes also shipped text snippets and a dictation-tone picker (ten pairs + Off; Voca default for new installs). Those are not on the /features page; cite the release if you mention them. Headless file CLI exists; not the reviewer everyday path; it does not auto-download models. Recording overlay exists. Homebrew from the site: brew tap vocahq/vocamac && brew trust vocahq/vocamac && brew install --cask vocamac (cask is 0.9.0, macos :sonoma). DMG: VocaMac-0.9.0-arm64.dmg (~99 MB), Developer ID signed and notarized, https://github.com/VocaHQ/vocamac/releases/tag/v0.9.0. Gateway is optional self-hosted compute and is not on-device. No feature parity. Screenshots: https://vocamac.com/screenshots. Discord: https://discord.gg/t6muquAJbm. Do not use empty "honest/genuine/real" modifiers (TidBITS).
 
 Jatin uses the family every day. Vocalinux is available now. VocaWin is an unsigned Windows beta. VocaPhone is a phone beta. VocaGateway is early and optional.
 
@@ -28,7 +28,7 @@ The problem I had: I type all day and I did not want my speech going to a vendor
 
 I use it every day on this Mac, and I use the Linux, Windows, and phone siblings too. Linux is further along. VocaMac is Beta.
 
-v0.9.0 (Apple Silicon, macOS 14+): hold Right Option, or toggle. WhisperKit / Core ML by default. 0.9.0 also ships Parakeet, Apple Speech on macOS 26+, and a few CPU-only ONNX models. Homebrew cask or a signed, notarized DMG. AGPL-3.0. Free, no subscription.
+v0.9.0 (Apple Silicon, macOS 14+): hold Right Option, or toggle. WhisperKit / Core ML by default. 0.9.0 also ships Parakeet, Apple Speech on macOS 26+, and a few CPU-only ONNX models. Settings has 17 pin-able languages. Custom vocabulary is WhisperKit-only. The 0.9.0 notes also added text snippets and a tone picker. Homebrew cask or a signed, notarized DMG. AGPL-3.0. Free, no subscription. Needs Microphone, Accessibility, and Input Monitoring.
 
 What it is not: Intel. App Store. A ChatGPT wrapper. A guarantee that every secure field will accept insertion.
 
@@ -38,7 +38,7 @@ Requires: macOS 14+ Apple Silicon
 Price: free (AGPL-3.0)
 Status: Beta, shipping
 Site: https://vocamac.com
-Install: Homebrew cask vocamac, or the DMG on the site
+Install: brew tap vocahq/vocamac && brew install --cask vocamac, or https://github.com/VocaHQ/vocamac/releases/tag/v0.9.0
 Reviewer license: not needed, the app is free
 Screenshots: https://vocamac.com/screenshots
 Source: https://github.com/VocaHQ/vocamac
@@ -63,7 +63,7 @@ If you want to try it, the DMG and the Homebrew tap are on vocamac.com. Shots: h
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
-- Release: https://github.com/VocaHQ/vocamac/releases
+- Release: https://github.com/VocaHQ/vocamac/releases/tag/v0.9.0
 - Family: https://vocahq.com
 
 ---
