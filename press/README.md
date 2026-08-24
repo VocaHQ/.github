@@ -10,3 +10,4 @@ Public status comes from PRODUCT.md in VocaHQ/vocahq. Do not invent versions or 
 - [Windows](windows.md) (VocaWin)
 - [macOS](macos.md) (VocaMac)
 - [Homelab](homelab.md) (VocaGateway, parked)
+- [Linux tip drafts](linux-drafts.md) (Vocalinux v0.16.0). Draft only.
