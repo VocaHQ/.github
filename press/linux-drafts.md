@@ -34,7 +34,6 @@ https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
-UI shots: https://vocalinux.com/screenshots/
 
 Jatin Malik
 vocahq@gmail.com
@@ -127,7 +126,7 @@ https://vocalinux.com
 https://vocalinux.com/screenshots/
 https://github.com/VocaHQ/vocalinux
 
-Happy to feature this if it fits. UI shots: https://vocalinux.com/screenshots/
+Happy to feature this if it fits.
 
 Jatin Malik
 vocahq@gmail.com
