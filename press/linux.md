@@ -12,11 +12,11 @@ Personalized tip, not a press-release blast. One platform per email. Lead with o
 
 ## Already pitched (May-July 2026)
 
-Jatin overrode the first-touch rule on 24 Aug 2026. Re-pitch these six with Vocalinux v0.16.0, not the old 0.14.1-beta / "100% offline voice typing" note. Linuxiac already ran a piece on 18 Jul 2026; the follow-up should say so. Leave the Teledyne vendor thread and the smallhagrid user query off this list.
+Jatin overrode the first-touch rule on 24 Aug 2026. Re-pitch with Vocalinux v0.16.0, not the old 0.14.1-beta / "100% offline voice typing" note. Linuxiac, It's FOSS, and Phoronix already covered 0.14. Follow-ups should say so. It's FOSS hit launch bugs on Fedora and Ubuntu in that beta; lead with what is fixed in 0.16.0. Leave the Teledyne vendor thread and the smallhagrid user query off this list.
 
 | Outlet | Address used | Status |
 |---|---|---|
-| Phoronix | news@phoronix.com | Contacted. Still valid on [phoronix.com/contact](https://www.phoronix.com/contact). |
+| Phoronix | news@phoronix.com | Contacted. Published [Vocalinux 0.14 Beta](https://www.phoronix.com/news/Vocalinux-0.14-Beta). Still valid on [phoronix.com/contact](https://www.phoronix.com/contact). |
 | Linux Magazine | edit@linux-magazine.com | Contacted. Still valid. Also pr@linux-magazine.com for news ([Contact](https://www.linux-magazine.com/About-Us/Contact)). |
 | FOSS Post | contact@fosspost.org | Contacted. Still valid on [Write for Us](https://fosspost.org/write-for-us-tech-ai-linux-guest-post/). |
 | Late Night Linux | show@latenightlinux.com | Contacted. Still valid on [latenightlinux.com/contact](https://latenightlinux.com/contact/). |
@@ -28,7 +28,7 @@ Jatin overrode the first-touch rule on 24 Aug 2026. Re-pitch these six with Voca
 | Outlet | Focus | Why they fit | Verified contact (quote + page) | Already contacted? | Priority |
 |---|---|---|---|---|---|
 | **OMG! Ubuntu** | Linux / Ubuntu desktop apps | Joey Sneddon's tip box exists specifically for "a Linux app you'd love to see me cover." Regular app write-ups. | **Form:** [omgubuntu.co.uk/tip](https://www.omgubuntu.co.uk/tip) , "Is there a Linux app you'd love to see me cover? … share … using the embedded form below." Older contact page also lists **contact@omgubuntu.co.uk** ([2000/10/contact](https://www.omgubuntu.co.uk/2000/10/contact)); prefer the current `/tip` form. | no | **A** |
-| **It's FOSS** | Desktop Linux + FOSS news | News portal asks developers to tip new app releases; main site lists "an open source product that you think should reach more people." | **news@itsfoss.com** , About: "You can contact us by sending an email to news @ itsfoss.com" ([itsfoss.com/about-2](https://itsfoss.com/about-2/)). Same on [Support](https://itsfoss.com/support/). **Form:** [itsfoss.com/contact-us](https://itsfoss.com/contact-us/). News-tips page: [itsfoss.com/contact-us-2](https://itsfoss.com/contact-us-2/). | no | **A** |
+| **It's FOSS** | Desktop Linux + FOSS news | **Already ran Vocalinux 0.14 beta** (16 Jul 2026, Sourav Rudra). They could not get the beta to launch cleanly on Fedora or Ubuntu. | **news@itsfoss.com**. [About](https://itsfoss.com/about-2/): "news @ itsfoss.com". Prior piece: [Vocalinux Turns Your Speech Into Text Without Giving Away Voice Data](https://itsfoss.com/news/vocalinux-beta-release/). Acknowledge that article and lead with install/Wayland fixes in v0.16.0. | **yes , published** | **A** (already ran; follow-up only) |
 | **LWN.net** | Serious FOSS / Linux news | Weekly Edition + front page; they explicitly want user tips and cover desktop tools when they matter to the community. Not a lifestyle blog , keep the pitch terse and technical. | **lwn@lwn.net** (tips / story submissions). **pr@lwn.net** (press releases, plain text only). FAQ: "For story submissions, questions, typo reports, and general issues, send mail to lwn@lwn.net." ([lwn.net/op/FAQ.lwn](https://lwn.net/op/FAQ.lwn)). They do **not** take paid placement. | no | **A** |
 | **The Register (FOSS desk)** | Linux / FOSS / software | Liam Proven's FOSS mailbox regularly covers small projects. June 2026 piece *Three FOSS projects…* describes how a maintainer pitched Super Productivity: "terse text-only email with no formatting." | **liam.proven@theregister.com** (Linux and open source software reporter). Fallback **news@theregister.com**. Official staff list: [theregister.com/Profile/contact](https://www.theregister.com/Profile/contact/) , "Linux and open source software reporter \| Liam Proven (liam.proven@theregister.com)" and "If in doubt, use our general inbox: news@theregister.com." | no | **A** |
 | **9to5Linux** | Linux news, app + distro releases | Daily coverage of desktop environments and app releases (Calibre, Rhythmbox, Firefox, COSMIC). Realistic for a Linux dictation app. | **Form only:** [9to5linux.com/contact-us](https://9to5linux.com/contact-us) , "Let us know what questions and/or feedback you have for us in the contact form below." No public email on that page. | no | **A** |
@@ -42,27 +42,32 @@ Jatin overrode the first-touch rule on 24 Aug 2026. Re-pitch these six with Voca
 | **Late Night Linux** | Linux / FOSS podcast | Required. Hosts take listener/project mail. | **show@latenightlinux.com** , [Contact](https://latenightlinux.com/contact/): "If you want to get in touch with the hosts of the show you can Email: show@latenightlinux.com." Ad sales is joe@ (do not use for a tip). | **yes** | **B** (already contacted) |
 | **Linuxiac** | Linux + FOSS news/reviews | Required. **Already ran Vocalinux** (Jul 2026). Only re-approach for VocaMac/VocaWin or a major Vocalinux release. | **info@linuxiac.com** , [Contact](https://linuxiac.com/contact/): "you can contact us at info@linuxiac.com." They refuse guest/paid posts. Editor: bobby@linuxiac.com on [About](https://linuxiac.com/about-us/). | **yes , published** | **A** (already ran; follow-up only) |
 | **LinuxLinks** | FOSS software roundups | Required. Steve planned an entry. Catalog/roundup site , good for a "best dictation" listing, not a news splash. | **sde@linuxlinks.com** (Steve Emms; already used). FAQ: "Contact Steve Emms … Remove NOSPAM from the email address" ([FAQ](https://www.linuxlinks.com/faq/)). Sponsorship is support@ , do not use for a tip. | **yes** | **B** (already contacted) |
+|| **OSNews** | OS + desktop software news | Accepts software reviews and news tips. | **osnews-crew@osnews.com**. [Contact](https://www.osnews.com/contact/): "osnews-crew at osnews dot com". Sponsorship is david@; do not use that for a tip. | no | **B** |
+|| **Dedoimedo** | Linux reviews | Accepts free review requests from hobby/non-profit projects. | **webmaster@dedoimedo.com**. [Contact](https://www.dedoimedo.com/contact_me.html): "webmaster twisteda dedoimedo TOD com" (replace twisteda with @, TOD with .). Plain text, no attachments, no marketing mail. | no | **B** |
+|| **Linux Matters** | Linux podcast | Active 2026 show (Alan Pope, Mark Johnson, Martin Wimpress). Ep 88 discussed talking to a computer / Voxtype. | **show@linuxmatters.sh**. [Contact](https://linuxmatters.sh/contact/): "email show@linuxmatters.sh". Also a feedback form on that page. | no | **B** |
 | **DistroWatch** | Distros, not desktop apps | Required check. They take *distribution* announcements and Headlines, not indie desktop apps. Weak fit unless a distro ships Vocalinux. | **distro@distrowatch.com** (general). Headlines: **jsmith@distrowatch.com**, subject must include "Headlines" + original-source URL. [Contact](https://distrowatch.com/dwres.php?resource=contact): "send announcements, inquiries, contributions and suggestions to distro@distrowatch.com." [Contributing](https://distrowatch.com/dwres.php?resource=contributing). | no | **C** |
 | **Opensource.com** | , | **DEAD.** Red Hat ended daily publication April 2023. | Do not pitch. [About](https://opensource.com/about): "As of April 2023, Opensource.com's daily publication is no longer supported by Red Hat." | , | skip |
 
 ## Send order
 
 1. OMG! Ubuntu (form)
-2. It's FOSS (news@ + form)
-3. The Register, Liam Proven
-4. LWN, lwn@ (terse, technical)
-5. 9to5Linux (form)
-6. DebugPoint
-7. Linux Uprising
-8. LINUX Unplugged (form)
+2. The Register, Liam Proven
+3. LWN, lwn@ (terse, technical)
+4. 9to5Linux (form)
+5. DebugPoint
+6. OSNews
+7. Dedoimedo
+8. Linux Matters (show@)
+9. Linux Uprising
+10. LINUX Unplugged (form)
 
-Then the six already-contacted inboxes with the v0.16.0 story. Linuxiac first among those, and mention their July piece.
+Then follow-ups to outlets that already covered 0.14: It's FOSS, Linuxiac, Phoronix. Acknowledge the earlier pieces. It's FOSS should hear what is fixed since the Fedora/Ubuntu launch bugs.
 
 ## Pitch notes
 
 - The Register FOSS: plain text, no hyperbole, no HTML.
 - LWN: no paid placement. Tips to lwn@. Plain-text PR to pr@ if you must.
 - Linux Magazine: subject `Proposal: …`. 1-2 paragraph outline.
-- Linuxiac: do not offer to pay. They already covered us.
+- Linuxiac and It's FOSS: do not offer to pay. They already covered 0.14. Mention the earlier piece.
 - DistroWatch: catalogs, not a news splash. Weak unless a distro ships Vocalinux.
 - Opensource.com is dead (Red Hat ended daily publication April 2023).
