@@ -30,9 +30,9 @@ v0.16.0 shipped 23 Aug. New installs default to hold Right Alt for push-to-talk.
 
 Speech runs on the machine. A self-hosted gateway is optional and is a different path.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 
 ---
@@ -52,9 +52,9 @@ v0.16.0 shipped 23 Aug. After the 0.14 beta, this cut is mostly install and inje
 
 The reader hook is ordinary. You are already in an editor, a browser, or a terminal. You talk. The model and the audio stay on that machine unless you point it at a gateway you run.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -68,10 +68,10 @@ Jatin here, creator and maintainer of Vocalinux. 0.16.0 is out (2026-08-23). AGP
 
 0.16 is a stable minor on 0.15. Changes that matter for testers: default hold-Right-Alt PTT on new installs; in-app update checker; searchable language list; delete unused models; installer requires distro python3-gi (no pip sdist of PyGObject); IBus restore and X11 layout restore after scoped injection; AppImage GI typelibs for non-Debian hosts.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-https://github.com/VocaHQ/vocalinux/compare/v0.15.0...v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Diff vs 0.15.0: https://github.com/VocaHQ/vocalinux/compare/v0.15.0...v0.16.0
 
 ---
 
@@ -85,9 +85,9 @@ I'm Jatin, creator and maintainer of Vocalinux. 0.16.0 is a stable Linux dictati
 
 New installs default to hold Right Alt push-to-talk. The 0.16 cut also fixes IBus restore, X11 layout after dictation, and AppImage startup on non-Debian hosts. Installer needs distro python3-gi.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 Install: curl -fsSL https://raw.githubusercontent.com/VocaHQ/vocalinux/main/install.sh -o /tmp/vl.sh && bash /tmp/vl.sh
 
@@ -109,9 +109,9 @@ v0.16.0 shipped 23 Aug. After the 0.14 beta, the work is install and desktop rel
 
 Audio and the speech model stay on the machine unless someone sets up a gateway on purpose.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Code: https://github.com/VocaHQ/vocalinux
 
 Happy to feature this if it fits.
 
@@ -129,9 +129,9 @@ I'm Jatin, creator and maintainer of Vocalinux. 0.16.0 is out. It is an AGPL-3.0
 
 The 0.16 cut is the first stable release that I would point a reviewer at after the 0.14 beta. Hold-Right-Alt push-to-talk is the new-install default. Injection and installer bugs from that beta window are the main fixes.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -148,9 +148,9 @@ I'm Jatin, creator and maintainer of Vocalinux. It is AGPL-3.0 speech-to-text fo
 
 v0.16.0 (23 Aug) is the build I would have you try. New installs use hold Right Alt. The 0.14 beta was rough on some Fedora and Ubuntu launches; 0.15 and 0.16 are the install and injection cleanup.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 Plain-text install:
 
@@ -172,9 +172,9 @@ I'm Jatin, creator and maintainer of Vocalinux. You talked about talking to a co
 
 v0.16.0 shipped 23 Aug. Hold Right Alt is the new-install default. The last two point releases were mostly IBus, X11 layout, and installer work so it actually starts on more distros.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 If it is useful for a show note, I can record a 30-second demo.
 
@@ -192,9 +192,9 @@ I'm Jatin, creator and maintainer of Vocalinux. Tray app, push-to-talk, text int
 
 v0.16.0 (23 Aug): hold Right Alt on new installs, in-app update checker, searchable languages, unused-model cleanup, and a pile of IBus / X11 / AppImage fixes after the 0.14 beta.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -210,9 +210,9 @@ I'm Jatin, creator and maintainer of Vocalinux, a small AGPL-3.0 app for talking
 
 v0.16.0 shipped 23 Aug. After a messy 0.14 beta on some Fedora and Ubuntu boxes, 0.16 is the install-and-injection cleanup I would demo on the show. New installs use hold Right Alt.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -236,9 +236,9 @@ What changed that is relevant to that review: the installer requires distro pyth
 
 I am not asking you to pretend the beta was fine. I am asking you to try 0.16.0.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -258,8 +258,8 @@ Vocalinux 0.16.0 shipped 23 Aug. Same product: on-device dictation on Linux, AGP
 
 UI shots (labeled v0.15) are here if you want to refresh the article. No paid-post ask.
 
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -277,9 +277,9 @@ https://www.phoronix.com/news/Vocalinux-0.14-Beta
 
 0.16.0 is out (2026-08-23). Stable minor on 0.15. AGPL-3.0. Same on-device STT story. Changes that are news-shaped: default hold-Right-Alt PTT, in-app GitHub update checker, installer no longer builds PyGObject from sdist, IBus/X11 injection restore, AppImage GI typelibs, whisper.cpp CUDA device 0 and skip software Vulkan devices.
 
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
-https://github.com/VocaHQ/vocalinux/compare/v0.15.0...v0.16.0
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Diff vs 0.15.0: https://github.com/VocaHQ/vocalinux/compare/v0.15.0...v0.16.0
 
 ---
 
@@ -298,11 +298,11 @@ Vocalinux is an AGPL-3.0 desktop app that does speech-to-text on the Linux machi
 
 v0.16.0 (23 Aug) is a usable review point after the 0.14 beta. I would walk through install (install.sh, AppImage, AUR), hold-Right-Alt push-to-talk, model download, and dictation into a browser and a terminal. The interesting failures to mention are IBus scoped injection and X11 layout restore, both of which 0.16 fixes.
 
-I can supply a machine and a 1-2 paragraph outline if this slot is useful. UI shots: https://vocalinux.com/screenshots/
+I can supply a machine and a 1-2 paragraph outline if this slot is useful.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -316,9 +316,9 @@ Hi,
 
 I'm Jatin, creator and maintainer of Vocalinux. I sent a tip in July about the AGPL dictation app for Linux. v0.16.0 shipped 23 Aug. Same story: on-device speech-to-text, text into the focused field, no account. This tag is the one I would have a reader install. Hold Right Alt on new installs; installer and injection fixes after the 0.14 beta.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -332,9 +332,9 @@ Hi,
 
 I'm Jatin, creator and maintainer of Vocalinux. I emailed in July. v0.16.0 is out. On-device Linux dictation, AGPL-3.0, tray app, text into the focused field. The 0.14 beta was the public introduction; 0.16 is the install-and-injection cleanup I would actually demo on the show. New installs use hold Right Alt.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
 
 ---
 
@@ -349,6 +349,6 @@ Steve,
 
 I'm Jatin, creator and maintainer of Vocalinux. Follow-up to the July note and the New Entry form. 0.16.0 is the current stable tag. AGPL-3.0 on-device dictation for Linux. Hold Right Alt on new installs. I would list this version, not 0.14.
 
-https://vocalinux.com
-https://vocalinux.com/screenshots/
-https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
+- Site: https://vocalinux.com
+- Screenshots (v0.15 UI): https://vocalinux.com/screenshots/
+- Release: https://github.com/VocaHQ/vocalinux/releases/tag/v0.16.0
