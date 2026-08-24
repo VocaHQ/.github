@@ -8,16 +8,15 @@ Every tip must say the code is open source (AGPL-3.0) and that people already fi
 
 Jatin uses the family every day. Vocalinux is available now. VocaWin is an unsigned Windows beta. VocaPhone is a phone beta. VocaGateway is early and optional.
 
+Gmail drafts were tightened by VocaHQ on 24 Aug 2026. These files match those Gmail bodies. Do not send unless Jatin says send.
+
 ---
 
 ## How these differ
 
-TidBITS follows Adam's Jul 2026 pitch guide (PITCH subject, problem, competition, scannable facts). MacStories is a test request, no paid review. Six Colors apps@ is short: what it does, which devices. The rest stay personal and short.
-
----
+TidBITS follows Adam's Jul 2026 pitch guide. MacStories is a test request. Six Colors apps@ is short. The rest stay personal and short.
 
 ### TidBITS
-
 To: ace@tidbits.com
 
 Subject: PITCH: VocaMac - Mac app for on-device dictation
@@ -28,9 +27,9 @@ I'm Jatin, creator and maintainer of VocaMac. I read your July note on pitching 
 
 The problem I had: I type all day and I did not want my speech going to a vendor that trains on it. Apple's built-in dictation is there, and MacWhisper is the obvious indie neighbor. I still built VocaMac because I wanted a menu-bar tool that stays on the Mac, inserts at the cursor in the app I already have open, and lets me pick the local model. No Voca account. No Voca speech server. After the model is downloaded, the audio stays on the machine.
 
-I use it every day on this Mac, and I use the Linux, Windows, and phone siblings too. Linux is further along. VocaMac is Beta. The code is open source. People already file bugs, request features, and send PRs.
+I use it every day on this Mac, plus the Linux, Windows, and phone siblings. Linux is further along.
 
-v0.9.0 (Apple Silicon, macOS 14+): hold Right Option, or toggle. WhisperKit / Core ML by default. 0.9.0 also ships Parakeet, Apple Speech on macOS 26+, and a few CPU-only ONNX models. Settings has 17 pin-able languages. Custom vocabulary is WhisperKit-only. The 0.9.0 notes also added text snippets and a tone picker. Homebrew cask or a signed, notarized DMG. AGPL-3.0. Free, no subscription. Needs Microphone, Accessibility, and Input Monitoring.
+v0.9.0 is Beta. Hold Right Option, or toggle. WhisperKit / Core ML by default, plus Parakeet, Apple Speech on macOS 26+, and a few CPU-only ONNX models. 17 pin-able languages. Custom vocabulary is WhisperKit-only. Text snippets and a tone picker. Needs Microphone, Accessibility, and Input Monitoring. The code is open source, and people already file bugs, request features, and send PRs.
 
 What it is not: Intel. App Store. A ChatGPT wrapper. A guarantee that every secure field will accept insertion.
 
@@ -48,7 +47,6 @@ Source: https://github.com/VocaHQ/vocamac
 ---
 
 ### MacStories
-
 To: viticci@macstories.net, voorhees@macstories.net
 
 Subject: VocaMac v0.9.0, on-device dictation (no paid-review ask)
@@ -57,11 +55,9 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaMac. You only write about apps you have used. I am not offering money.
 
-VocaMac is a menu-bar dictation app for Apple Silicon. Hold Right Option, talk, text lands at the cursor. Models run on the Mac (WhisperKit / Core ML, plus a few others in 0.9.0). No Voca account. I use it every day.
+VocaMac is a menu-bar dictation app, Beta v0.9.0, for Apple Silicon, macOS 14+. Hold Right Option, talk, text lands at the cursor. Models run on the Mac (WhisperKit / Core ML, plus a few others in 0.9.0). No Voca account. I use it every day.
 
-Beta. macOS 14+. Homebrew or a signed, notarized DMG. Open source, AGPL-3.0. People already open issues and PRs. Secure fields can still refuse insertion.
-
-If you want to try it, the DMG and the Homebrew tap are on vocamac.com. Shots: https://vocamac.com/screenshots
+Homebrew or a signed, notarized DMG. Open source, AGPL-3.0. People already open issues and PRs. Secure fields can still refuse insertion.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -71,9 +67,8 @@ If you want to try it, the DMG and the Homebrew tap are on vocamac.com. Shots: h
 ---
 
 ### Six Colors
-
-To: apps@sixcolors.com
 Fallback: jsnell@sixcolors.com
+To: apps@sixcolors.com
 
 Subject: VocaMac, on-device dictation for Apple Silicon
 
@@ -81,11 +76,9 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaMac. App pitch for the report.
 
-What it does: menu-bar voice typing. Hold Right Option, speak, the Mac transcribes, the words go to the cursor. After a local model is downloaded, audio stays on the Mac. No Voca account.
+It sits in the menu bar. Hold Right Option, speak, the Mac transcribes, the words go to the cursor. After a local model is downloaded, audio stays on the Mac. No Voca account.
 
-Devices: Apple Silicon Macs, macOS 14+. Beta v0.9.0. Not Intel. Homebrew or signed DMG.
-
-I use it every day. Open source, AGPL-3.0. People already file bugs and send PRs. https://vocamac.com
+Beta v0.9.0 for Apple Silicon Macs on macOS 14+. Not Intel. Homebrew or signed DMG. I use it every day. Open source, AGPL-3.0. People already file bugs and send PRs.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -94,9 +87,8 @@ I use it every day. Open source, AGPL-3.0. People already file bugs and send PRs
 ---
 
 ### 9to5Mac
-
-To: tips@9to5mac.com
 Also: https://9to5mac.com/contact/
+To: tips@9to5mac.com
 
 Subject: Indie app: VocaMac v0.9.0
 
@@ -104,9 +96,9 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaMac. Indie App Spotlight / news tip.
 
-VocaMac v0.9.0 is a menu-bar dictation app for Apple Silicon. Hold Right Option, talk, text at the cursor. On-device models (WhisperKit / Core ML). No Voca account. AGPL-3.0. Open source. I use it every day. The community already files bugs, asks for features, and sends PRs.
+VocaMac v0.9.0 is a Beta menu-bar dictation app for Apple Silicon, macOS 14+. Hold Right Option, talk, text at the cursor. On-device models (WhisperKit / Core ML). No Voca account. I use it every day. Open source, AGPL-3.0. The community already files bugs, asks for features, and sends PRs.
 
-Beta. macOS 14+. Homebrew or notarized DMG. You already cover MacWhisper; this is the same neighborhood with a Voca family on Linux, Windows, and phone.
+Homebrew or notarized DMG. You already cover MacWhisper; this is the same neighborhood with a Voca family on Linux, Windows, and phone.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -115,9 +107,8 @@ Beta. macOS 14+. Homebrew or notarized DMG. You already cover MacWhisper; this i
 ---
 
 ### Cult of Mac
-
-To: reviews@cultofmac.com
 Also: news@cultofmac.com if you would rather file it as a tip
+To: reviews@cultofmac.com
 
 Subject: Review request: VocaMac v0.9.0
 
@@ -125,9 +116,9 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaMac. Product review request.
 
-Menu-bar dictation on Apple Silicon. Hold Right Option, talk, words at the cursor. The model runs on the Mac. No Voca account. Free, AGPL-3.0. Beta v0.9.0. Signed DMG or Homebrew. Open source. People already file bugs and send PRs.
+Menu-bar dictation, Beta v0.9.0, for Apple Silicon, macOS 14+. Hold Right Option, talk, words at the cursor. The model runs on the Mac. No Voca account. Open source, AGPL-3.0. Testers already file bugs and send PRs. Signed DMG or Homebrew.
 
-I use it every day. I can send the DMG. Screenshots are already public.
+I use it every day. I can send the DMG.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -136,7 +127,6 @@ I use it every day. I can send the DMG. Screenshots are already public.
 ---
 
 ### Macworld
-
 To: rloyola@macworld.com
 
 Subject: Product for review: VocaMac v0.9.0
@@ -145,9 +135,9 @@ Roman,
 
 I'm Jatin, creator and maintainer of VocaMac. Review request, not a guest post.
 
-VocaMac is a free AGPL-3.0 menu-bar app for Apple Silicon (macOS 14+). Hold Right Option, talk, text inserts at the cursor. Speech-to-text runs on the Mac after you download a model. No Voca account. Beta v0.9.0. Homebrew or a Developer ID signed, notarized DMG.
+VocaMac is a menu-bar app, Beta v0.9.0, for Apple Silicon, macOS 14+. Hold Right Option, talk, text inserts at the cursor. Speech-to-text runs on the Mac after you download a model. No Voca account. Homebrew or a Developer ID signed, notarized DMG.
 
-I use it every day. Open source. Testers already open issues and PRs. I can send a build. Secure fields may refuse insertion; that is a platform limit, not a hidden one.
+I use it every day. Open source, AGPL-3.0. Testers already open issues and PRs. I can send a build. Secure fields may refuse insertion; that is a platform limit, not a hidden one.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -156,7 +146,6 @@ I use it every day. Open source. Testers already open issues and PRs. I can send
 ---
 
 ### OSXDaily
-
 To: contact@osxdaily.com
 
 Subject: Open-source Mac utility: VocaMac v0.9.0
@@ -167,7 +156,7 @@ I'm Jatin, creator and maintainer of VocaMac. You cover Homebrew and small Mac t
 
 brew tap vocahq/vocamac && brew trust vocahq/vocamac && brew install --cask vocamac
 
-Menu bar. Hold Right Option. Text at the cursor. Models stay on the Mac. No Voca account. AGPL-3.0. Apple Silicon, macOS 14+. Beta v0.9.0. I use it every day. The source is open. People already file bugs and send PRs.
+Menu bar, hold Right Option, text at the cursor. Models stay on the Mac. No Voca account. Beta v0.9.0, Apple Silicon, macOS 14+. I use it every day. Open source, AGPL-3.0. People already file bugs and send PRs.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -176,7 +165,6 @@ Menu bar. Hold Right Option. Text at the cursor. Models stay on the Mac. No Voca
 ---
 
 ### MacSparky
-
 To: desk@macsparky.com
 
 Subject: VocaMac, menu-bar dictation I actually use
@@ -187,7 +175,7 @@ I'm Jatin, creator and maintainer of VocaMac. Personal note, not a sponsor thing
 
 I built a menu-bar dictation app because I was tired of sending speech somewhere else. Hold Right Option, talk, the Mac types at the cursor. Local models. No Voca account. I use it every day.
 
-Beta, Apple Silicon, macOS 14+, open source AGPL-3.0. People already send bug reports, feature requests, and PRs. Homebrew or a signed DMG. vocamac.com
+Beta v0.9.0, Apple Silicon, macOS 14+. Open source, AGPL-3.0. People already send bug reports, feature requests, and PRs. Homebrew or a signed DMG.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -196,9 +184,8 @@ Beta, Apple Silicon, macOS 14+, open source AGPL-3.0. People already send bug re
 ---
 
 ### AppleInsider
-
-To: news@appleinsider.com
 Also: https://appleinsider.com/contact
+To: news@appleinsider.com
 
 Subject: Tip: VocaMac v0.9.0, on-device Mac dictation
 
@@ -206,7 +193,7 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaMac. News tip.
 
-v0.9.0 is a Beta menu-bar app for Apple Silicon. On-device speech-to-text. Hold Right Option, text at the cursor. No Voca account. Free AGPL-3.0. Signed, notarized DMG or Homebrew. I use it every day. Open source. Bugs, feature asks, and PRs already show up on GitHub.
+v0.9.0 is a Beta menu-bar app for Apple Silicon, macOS 14+. On-device speech-to-text. Hold Right Option, text at the cursor. No Voca account. Signed, notarized DMG or Homebrew. I use it every day. Open source, AGPL-3.0. Bugs, feature asks, and PRs already show up on GitHub.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -215,9 +202,8 @@ v0.9.0 is a Beta menu-bar app for Apple Silicon. On-device speech-to-text. Hold 
 ---
 
 ### MacRumors
-
-To: tips@macrumors.com
 Also: https://www.macrumors.com/share.php
+To: tips@macrumors.com
 
 Subject: Product info: VocaMac v0.9.0
 
@@ -225,7 +211,7 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaMac. Product info for coverage, not an ad.
 
-VocaMac v0.9.0: menu-bar dictation, Apple Silicon, macOS 14+, on-device models, no Voca account. Hold Right Option, talk, text at the cursor. AGPL-3.0. Beta. Homebrew or notarized DMG. I use it every day. The code is open source. People already file bugs and send PRs.
+VocaMac v0.9.0 is a Beta menu-bar app for Apple Silicon, macOS 14+. Hold Right Option, talk, text at the cursor. On-device models. No Voca account. Homebrew or notarized DMG. I use it every day. Open source, AGPL-3.0. People already file bugs and send PRs.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots
@@ -234,7 +220,6 @@ VocaMac v0.9.0: menu-bar dictation, Apple Silicon, macOS 14+, on-device models, 
 ---
 
 ### The Sweet Setup
-
 To: desk@blancmedia.org
 
 Subject: VocaMac, on-device Mac dictation
@@ -243,7 +228,7 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaMac. I know you pick "best of" apps on your own schedule. Putting this on the pile.
 
-Menu-bar dictation for Apple Silicon. Local models. Text at the cursor. No account. Free, open source, AGPL-3.0. I use it every day. People already file bugs, request features, and send PRs. vocamac.com
+Menu-bar dictation, Beta v0.9.0, for Apple Silicon, macOS 14+. Hold Right Option, talk, text at the cursor. Local models. No Voca account. I use it every day. Open source, AGPL-3.0. People already file bugs, request features, and send PRs.
 
 - Site: https://vocamac.com
 - Screenshots: https://vocamac.com/screenshots

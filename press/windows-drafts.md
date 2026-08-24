@@ -8,18 +8,17 @@ Every tip must say the code is open source (AGPL-3.0-or-later) and that people a
 
 Jatin uses the family every day. Linux is available now. VocaMac is beta. VocaPhone is a phone beta. VocaGateway is early and optional (not a VocaWin path).
 
+Gmail drafts were tightened by VocaHQ on 24 Aug 2026. These files match those Gmail bodies. Do not send unless Jatin says send.
+
 ---
 
 ## How these differ
 
 Each note is a letter for that desk. Status is Beta and unsigned in every one. The ask changes.
 
----
-
 ### BetaNews
-
-To: info@betanews.com
 Also: contact form on https://betanews.com/contact/ (subject: Submitting news)
+To: info@betanews.com
 
 Subject: VocaWin v0.1.0-beta.1, on-device dictation for Windows
 
@@ -27,11 +26,11 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaWin. Product launch, still Beta.
 
-VocaWin is an AGPL-3.0-or-later tray app for Windows 10 (1809+) and Windows 11. Hold Right Alt, talk, and the text is meant to land where the caret already is. The installer does not ship a model. After you download one, speech-to-text runs on that PC. No Voca account. Nothing goes to a vendor cloud that trains on the recording. VocaWin does not have a gateway mode today. The code is open source. People already file bugs, ask for features, and send PRs.
+VocaWin is a tray app for Windows 10 (1809+) and Windows 11. Hold Right Alt, talk, and the text is meant to land where the caret already is. The installer does not ship a model. After you download one, speech-to-text runs on that PC. No Voca account, nothing goes to a vendor cloud that trains on the recording, and there is no gateway mode on Windows. The code is open source, AGPL-3.0-or-later, and people already file bugs, ask for features, and send PRs.
 
-I use this every day on Windows, and I use the Linux, Mac, and phone clients too. Linux is the mature release. This Windows build is the rough one I still run.
+I use this every day. Linux is the mature release. This Windows build is the rough one I still run.
 
-Honest limits: the Release is unsigned. SmartScreen will likely say the publisher is unknown. More info, then Run anyway if you trust the file. Not a Store app. No auto-update. Elevated windows may block SendInput.
+Unsigned. SmartScreen will likely say the publisher is unknown. Not a Store app. No auto-update. Elevated windows may block SendInput.
 
 - Site: https://vocawin.com
 - Release: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1
@@ -40,20 +39,22 @@ Honest limits: the Release is unsigned. SmartScreen will likely say the publishe
 ---
 
 ### Neowin
-
 Channel: https://www.neowin.net/contact/ (type: News Tips). Do not use tips@neowin.net.
 
 Subject: News tip: VocaWin v0.1.0-beta.1
+
+FORM (paste this): https://www.neowin.net/contact/
+Use type: News Tips. Do not use tips@neowin.net.
 
 Hi,
 
 I'm Jatin, creator and maintainer of VocaWin. Unsigned Windows beta of an on-device dictation app.
 
-Tray icon. Hold Right Alt (or double-tap toggle). Talk. Text is supposed to appear in the focused field: browser, editor, chat, terminal, wherever Windows will take keystrokes. The Whisper model lives in a local folder. After that download, dictation can work without the internet. No Voca account. No hosted speech service. Open source. The repo already has bug reports, feature requests, and PRs.
+Tray icon. Hold Right Alt (or double-tap toggle). Talk. Text is supposed to appear in the focused field: browser, editor, chat, terminal, wherever Windows will take keystrokes. The Whisper model lives in a local folder. After that download, dictation can work without the internet. No Voca account, no hosted speech service. The repo is open source and already has bug reports, feature requests, and PRs.
 
 I use it every day. Same family on Linux (available now), Mac (beta), and phone (beta).
 
-This is not a Store listing and not a signed publisher. GitHub Release v0.1.0-beta.1 has NSIS and MSI. SmartScreen is expected.
+This is not a Store listing. GitHub Release v0.1.0-beta.1 has NSIS and MSI. SmartScreen is expected.
 
 - Site: https://vocawin.com
 - Release: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1
@@ -62,7 +63,6 @@ This is not a Store listing and not a signed publisher. GitHub Release v0.1.0-be
 ---
 
 ### Ghacks
-
 To: arno@ghacks.net
 
 Subject: VocaWin, on-device Windows dictation (unsigned beta)
@@ -71,13 +71,11 @@ Arno,
 
 I'm Jatin, creator and maintainer of VocaWin. Privacy-shaped Windows app, still Beta.
 
-Most Windows dictation wants an account or a cloud. This one does not. Hold Right Alt, talk, the model runs on that PC after you download it. AGPL-3.0-or-later. No telemetry story to sell you, because there is no Voca cloud to send the audio to. I do not expose a gateway on Windows today.
-
-The code is open source. People who try it already file bugs and send PRs.
+Most Windows dictation wants an account or a cloud. This one does not. Hold Right Alt, talk, the model runs on that PC after you download it. No telemetry story to sell you, because there is no Voca cloud to send the audio to, and I do not expose a gateway on Windows today. The code is open source, AGPL-3.0-or-later, and people who try it already file bugs and send PRs.
 
 I use this every day. I also keep Linux, Mac, and phone builds around.
 
-Unsigned NSIS/MSI on GitHub. SmartScreen will complain. Elevated admin windows may refuse the keystrokes. That is all real.
+Unsigned NSIS/MSI on GitHub. SmartScreen will complain. Elevated admin windows may refuse the keystrokes.
 
 - Site: https://vocawin.com
 - Release: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1
@@ -86,7 +84,6 @@ Unsigned NSIS/MSI on GitHub. SmartScreen will complain. Elevated admin windows m
 ---
 
 ### Windows Latest
-
 To: contact@windowslatest.com
 
 Subject: News tip: VocaWin v0.1.0-beta.1
@@ -95,11 +92,11 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaWin. Windows news tip.
 
-v0.1.0-beta.1 is an unsigned tray app: hold Right Alt, talk, text is meant to land at the caret. Whisper model on the PC. No Microsoft Store listing. No Voca account. After the model file is on disk, dictation does not need a vendor speech API.
+v0.1.0-beta.1 is an unsigned tray app: hold Right Alt, talk, text is meant to land at the caret. Whisper model on the PC. No Voca account. After the model file is on disk, dictation does not need a vendor speech API.
 
-I use it every day. Linux is further along. This is the Windows cut. Open source. I already get issues, feature asks, and PRs.
+I use it every day. Linux is further along. This is the Windows cut. Open source; I already get issues, feature asks, and PRs.
 
-SmartScreen / unknown publisher is expected. Elevated windows may block injection. Language coverage follows the Whisper model you pick. Default first-run is tiny.en.
+SmartScreen / unknown publisher is expected. No Microsoft Store listing. Elevated windows may block injection. Language coverage follows the Whisper model you pick. Default first-run is tiny.en.
 
 - Site: https://vocawin.com
 - Release: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1
@@ -108,18 +105,19 @@ SmartScreen / unknown publisher is expected. Elevated windows may block injectio
 ---
 
 ### Thurrott
-
 Channel: https://www.thurrott.com/contact-paul (form). Do not invent a To: if you use the form.
 
 Subject: VocaWin v0.1.0-beta.1, private dictation on Windows
+
+FORM (paste this): https://www.thurrott.com/contact-paul
 
 Paul,
 
 I'm Jatin, creator and maintainer of VocaWin. Short note, not a customer-service thing.
 
-I wanted Windows to get the same deal as my Linux and Mac apps: hold a key, talk, text at the caret, model on this PC, no Voca account. v0.1.0-beta.1 is that, and it is still Beta. Unsigned. SmartScreen will warn. I use it every day anyway.
+I wanted Windows to get the same deal as my Linux and Mac apps: hold a key, talk, text at the caret, model on this PC, no Voca account. v0.1.0-beta.1 is that, still Beta. I use it every day anyway.
 
-Open source, AGPL-3.0-or-later. People already file bugs and send PRs. NSIS or MSI on GitHub. Ready shot is on the Release. No Store. No auto-update. No gateway mode on Windows.
+Open source, AGPL-3.0-or-later, and people already file bugs and send PRs. NSIS or MSI on GitHub. Ready shot is on the Release. Unsigned. SmartScreen will warn. No Store. No auto-update. No gateway mode on Windows.
 
 - Site: https://vocawin.com
 - Release: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1
@@ -128,7 +126,6 @@ Open source, AGPL-3.0-or-later. People already file bugs and send PRs. NSIS or M
 ---
 
 ### MajorGeeks
-
 To: mgnews@majorgeeks.com
 
 Subject: File submission: VocaWin v0.1.0-beta.1 (AGPL, unsigned beta)
@@ -137,11 +134,11 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaWin. Content / file submission, not a marketing blast.
 
-Free AGPL-3.0-or-later Windows dictation. Tray app. Hold Right Alt, talk, text is meant to appear at the caret. Whisper model stays on the PC after download. No account. The code is open source. Testers already open issues and PRs.
+Free Windows dictation. Tray app. Hold Right Alt, talk, text is meant to appear at the caret. Whisper model stays on the PC after download. No account. The code is open source, AGPL-3.0-or-later, and testers already open issues and PRs.
 
-Please test it in a VM if that is still your process. It is unsigned Beta. SmartScreen will likely flag unknown publisher. NSIS current-user setup.exe and MSI are on the Release. Windows 10 1809+ or Windows 11. Elevated windows may refuse SendInput.
+Please test it in a VM if that is still your process. Unsigned Beta. SmartScreen will likely flag unknown publisher. NSIS current-user setup.exe and MSI are on the Release. Windows 10 1809+ or Windows 11. Elevated windows may refuse SendInput.
 
-I use this every day. vocahq.com is the rest of the family.
+I use this every day.
 
 - Site: https://vocawin.com
 - Release: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1
@@ -150,7 +147,6 @@ I use this every day. vocahq.com is the rest of the family.
 ---
 
 ### The Windows Club
-
 To: thewindowsclub@hotmail.com
 
 Subject: Freeware tip: VocaWin v0.1.0-beta.1
@@ -159,7 +155,7 @@ Hi,
 
 I'm Jatin, creator and maintainer of VocaWin. Not asking for a paid review.
 
-VocaWin is a free Windows tray app. Hold Right Alt, talk, the transcript is meant to land in the focused field. Speech-to-text runs on that PC after you download a Whisper model. AGPL-3.0-or-later. Open source. No Voca account. People already file bugs, request features, and send PRs.
+VocaWin is a free Windows tray app. Hold Right Alt, talk, the transcript is meant to land in the focused field. Speech-to-text runs on that PC after you download a Whisper model. No Voca account. AGPL-3.0-or-later, and people already file bugs, request features, and send PRs.
 
 I use it every day. This tag is v0.1.0-beta.1. Unsigned. SmartScreen is expected. Not in the Microsoft Store.
 
@@ -170,16 +166,19 @@ I use it every day. This tag is v0.1.0-beta.1. Unsigned. SmartScreen is expected
 ---
 
 ### Deskmodder
-
 Channel: https://www.deskmodder.de/public/con_form/index.php (Tipp-Box). Optional: dm_admin@deskmodder.de
+To: dm_admin@deskmodder.de
 
 Subject: Tipp: VocaWin v0.1.0-beta.1
+
+FORM (paste this): https://www.deskmodder.de/public/con_form/index.php
+Tipp-Box on that form.
 
 Hi,
 
 I'm Jatin, creator and maintainer of VocaWin. Software tip.
 
-Windows 10/11 tray app. Hold Right Alt, talk, text should appear at the caret. Whisper model on the PC. No Voca account. AGPL-3.0-or-later. English UI. Open source. Bugs, feature requests, and PRs already land on GitHub.
+Windows 10/11 tray app. Hold Right Alt, talk, text should appear at the caret. Whisper model on the PC. No Voca account. English UI. AGPL-3.0-or-later, and bugs, feature requests, and PRs already land on GitHub.
 
 Unsigned Beta. SmartScreen will warn. GitHub Release has NSIS and MSI. I use it every day.
 
@@ -190,9 +189,8 @@ Unsigned Beta. SmartScreen will warn. GitHub Release has NSIS and MSI. I use it 
 ---
 
 ### BornCity
-
-To: gborn@borncity.de
 Also: info@borncity.com for the German newsroom
+To: gborn@borncity.de
 
 Subject: VocaWin v0.1.0-beta.1, on-device Windows dictation
 
@@ -200,9 +198,9 @@ Gunter,
 
 I'm Jatin, creator and maintainer of VocaWin.
 
-Unsigned Windows beta: tray, hold Right Alt, local Whisper model, text at the caret. No Voca account. No vendor speech cloud. AGPL-3.0-or-later. Open source. People already file bugs and send PRs. I use it every day.
+Unsigned Windows beta: tray, hold Right Alt, local Whisper model, text at the caret. No Voca account, no vendor speech cloud. Open source, AGPL-3.0-or-later, and people already file bugs and send PRs. I use it every day.
 
-Limits I will not hide: SmartScreen, no signed publisher, no Store, no auto-update, elevated windows may block injection.
+Limits I will not hide: SmartScreen, no Store, no auto-update, elevated windows may block injection.
 
 - Site: https://vocawin.com
 - Release: https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1

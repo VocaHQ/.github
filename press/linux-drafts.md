@@ -12,6 +12,8 @@ Every tip must say the code is open source (AGPL-3.0) and that people already fi
 
 Do not invent versions, benchmarks, or installer success rates.
 
+Gmail drafts were tightened by VocaHQ on 24 Aug 2026. These files match those Gmail bodies. Do not send unless Jatin says send.
+
 ---
 
 ## How these differ
@@ -23,22 +25,24 @@ Each note is a separate letter for that desk. The opening, the ask, and any earl
 ## First-touch
 
 ### OMG! Ubuntu
-
 Channel: https://www.omgubuntu.co.uk/tip (prefer the form). Optional: contact@omgubuntu.co.uk
+To: contact@omgubuntu.co.uk
 
 Subject: Linux app tip: Vocalinux v0.16.0
+
+FORM (paste this): https://www.omgubuntu.co.uk/tip
 
 Joey,
 
 I'm Jatin, creator and maintainer of Vocalinux. You asked for a Linux app you might cover, so here is mine.
 
-Vocalinux v0.16.0 is AGPL-3.0. It sits in the tray. Hold Right Alt (toggle is there if you prefer it), talk, and the words show up in whatever field has focus. I do this all day: mail, a browser box, a terminal. Speech runs on that computer. No Voca account, no telemetry, and nothing goes to a company that trains on the recording. If someone wants a gateway, they host it. Usually on their own network.
+Tray app. Hold Right Alt (toggle if you prefer), talk, text lands in the focused field. I do this all day: mail, a browser, a terminal. Speech stays on that computer. No Voca account, no telemetry, nothing to a company that trains on the recording. If someone wants VocaGateway, they host it.
 
-The code is open source. People already file bugs, ask for features, and send PRs. I am not sitting on this alone.
+The code is open, AGPL-3.0. People already file bugs, ask for features, and send PRs.
 
-I also run the Mac, Windows, and phone clients every day. Linux is the one that is actually out. The others are still beta (Windows is unsigned). Optional shared compute is VocaGateway, which you host.
+Linux is the one that is actually out. Mac, Windows, and phone are still beta (Windows is unsigned).
 
-0.16 shipped 23 Aug. New installs use hold Right Alt. After the 0.14 beta I spent the time on IBus restore, getting the X11 layout back after dictation, and stopping the installer from compiling PyGObject via pip. Default engine is whisper.cpp on Vulkan. Whisper is there if you already live in CUDA. VOSK if the box is small.
+0.16 shipped 23 Aug. After 0.14: IBus restore, X11 layout after dictation, installer no longer compiling PyGObject via pip. Default engine is whisper.cpp on Vulkan. Whisper if you already live in CUDA. VOSK if the box is small.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -48,23 +52,22 @@ I also run the Mac, Windows, and phone clients every day. Linux is the one that 
 ---
 
 ### The Register (Liam Proven)
-
-To: liam.proven@theregister.com
 Fallback: news@theregister.com
+To: liam.proven@theregister.com
 
 Subject: Vocalinux v0.16.0, on-device dictation for Linux
 
 Liam,
 
-I'm Jatin, creator and maintainer of Vocalinux. Small AGPL-3.0 app. Speech-to-text on the Linux desktop, into the field that already has the cursor.
+I'm Jatin, creator and maintainer of Vocalinux. Small AGPL-3.0 app.
 
-You are already in some window. Hold Right Alt. Talk. The tray says it is listening. The model and the audio stay on that machine. I do not have a Voca account to give you, because there is not one. I also do not ship telemetry. A company does not get the recording to train on. A gateway is optional, and if you use one it is yours: a LAN box or a host you run.
+You are already in some window. Hold Right Alt. Talk. The tray says it is listening. Model and audio stay on that machine. I do not have a Voca account to give you, because there is not one. No telemetry. A company does not get the recording to train on. A gateway is optional: a LAN box or a host you run.
 
-Source is public, AGPL-3.0. The repo takes issues and PRs from people who actually run it.
+The source is public. The repo takes issues and PRs from people who actually run it.
 
-I use this every day on Linux, and on the Mac, Windows, and phone builds as well. Only Linux is a current release. The rest are betas. VocaWin is unsigned. VocaGateway is early and self-hosted.
+I use this every day, including the Mac, Windows, and phone builds. Only Linux is a current release. VocaWin is unsigned. VocaGateway is early.
 
-v0.16.0 shipped 23 Aug. Most of the work after 0.14 is install and injection: IBus coming back, X11 layout coming back, AppImage typelibs on non-Debian hosts, and the installer using distro python3-gi instead of a pip build of PyGObject. New installs default to hold Right Alt. whisper.cpp, Whisper, or VOSK.
+v0.16.0 shipped 23 Aug. After 0.14: IBus restore, X11 layout restore, AppImage typelibs on non-Debian hosts, distro python3-gi instead of a pip build of PyGObject. Engines are whisper.cpp, Whisper, or VOSK.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -74,14 +77,13 @@ v0.16.0 shipped 23 Aug. Most of the work after 0.14 is install and injection: IB
 ---
 
 ### LWN.net
-
 To: lwn@lwn.net
 
 Subject: tip: Vocalinux 0.16.0 (on-device STT for Linux)
 
-Jatin here, creator and maintainer of Vocalinux. 0.16.0 is out (2026-08-23). AGPL-3.0. Tray app. Hold-Right-Alt PTT (toggle exists). Injects into the focused field on X11/Wayland via IBus, clipboard fallback otherwise. Engines: whisper.cpp (default, Vulkan), Whisper, VOSK, or a Remote API you host. No account, no telemetry. Audio stays on the operator's hardware; a gateway is still operator-hosted. Open source (AGPL-3.0). External bugs, feature requests, and PRs are already coming in.
+Jatin here, creator and maintainer of Vocalinux. 0.16.0 is out (2026-08-23). AGPL-3.0. Tray app. Hold-Right-Alt PTT (toggle exists). Injects into the focused field on X11/Wayland via IBus, clipboard fallback otherwise. Engines: whisper.cpp (default, Vulkan), Whisper, VOSK, or a Remote API you host. No account, no telemetry. Audio stays on the operator's hardware; a gateway is still operator-hosted. The source is open. External bugs, feature requests, and PRs are already coming in.
 
-I run it daily on Linux and on the other Voca clients (those are betas). Linux is the current release.
+I run it daily on Linux and on the other Voca clients (those are betas).
 
 0.16 is a stable minor on 0.15. Tester-facing: default hold-Right-Alt PTT on new installs; in-app update checker; searchable languages; delete unused models; installer requires distro python3-gi (no pip sdist of PyGObject); IBus restore and X11 layout restore after scoped injection; AppImage GI typelibs for non-Debian hosts.
 
@@ -94,18 +96,19 @@ I run it daily on Linux and on the other Voca clients (those are betas). Linux i
 ---
 
 ### 9to5Linux
-
 Channel: https://9to5linux.com/contact-us (form only)
 
 Subject: Vocalinux v0.16.0 released
 
-I'm Jatin, creator and maintainer of Vocalinux. v0.16.0 is out (23 Aug). Stable Linux dictation release. AGPL-3.0. X11 or Wayland. Hold Right Alt, talk, text goes into the focused field. Tray app. No telemetry, no Voca account. Audio does not go to a vendor. A gateway is optional and you host it. Open source. People already open issues and PRs.
+FORM (paste this): https://9to5linux.com/contact-us
+
+I'm Jatin, creator and maintainer of Vocalinux. v0.16.0 is out (23 Aug). AGPL-3.0. X11 or Wayland. Hold Right Alt, talk, text goes into the focused field. Tray app. No telemetry, no Voca account. Audio does not go to a vendor. A gateway is optional and you host it. The code is open. People already open issues and PRs.
 
 Engines: whisper.cpp, Whisper, VOSK, or a Remote API you point at.
 
-I use it every day. There are Mac, Windows, and phone clients too; those are betas. Linux is the current release.
+I use it every day. There are Mac, Windows, and phone clients too; those are betas.
 
-New installs default to hold Right Alt. 0.16 also fixes IBus restore, X11 layout after dictation, and AppImage startup on non-Debian hosts. Installer needs distro python3-gi.
+0.16 also fixes IBus restore, X11 layout after dictation, and AppImage startup on non-Debian hosts. Installer needs distro python3-gi.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -119,7 +122,6 @@ AppImage and AUR (yay -S vocalinux) are on the release page.
 ---
 
 ### DebugPoint
-
 To: contact@debugpoint.com
 
 Subject: Open-source app: Vocalinux v0.16.0
@@ -130,11 +132,11 @@ I'm Jatin, creator and maintainer of Vocalinux. You said you will look at open-s
 
 Vocalinux v0.16.0 is AGPL-3.0 speech-to-text for Linux. Tray icon. Hold Right Alt, talk, the text lands on the cursor. whisper.cpp, Whisper, or VOSK, or a server you run. The speech stays on your computer (or on that server). No Voca account. No telemetry. No vendor training on the audio.
 
-I use it every day. vocahq.com is the rest of the family if you care: Mac and Windows betas, a phone beta, an early self-hosted gateway. Linux is the one that is out.
+The code is public. People already file bugs and send PRs.
 
-The code is open source. People already file bugs and send PRs.
+I use it every day. Mac and Windows are betas, as is the phone client, plus an early self-hosted gateway. Linux is the one that is out.
 
-Shipped 23 Aug. After 0.14 I fixed install and desktop glue: IBus, X11 layouts, AppImage on Fedora-class hosts, distro python3-gi instead of pip-building PyGObject. New installs use hold Right Alt.
+Shipped 23 Aug. After 0.14 I fixed install and desktop glue: IBus, X11 layouts, AppImage on Fedora-class hosts, distro python3-gi instead of pip-building PyGObject.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -144,7 +146,6 @@ Shipped 23 Aug. After 0.14 I fixed install and desktop glue: IBus, X11 layouts, 
 ---
 
 ### OSNews
-
 To: osnews-crew@osnews.com
 
 Subject: software news: Vocalinux 0.16.0
@@ -157,7 +158,7 @@ No account. No telemetry. Audio stays on hardware you control. A gateway is stil
 
 I use the Linux build every day, and I use the Mac, Windows, and phone builds too. Only Linux is a current release.
 
-0.16 is the first tag I would hand a reviewer after the 0.14 beta. New installs use hold Right Alt. The beta-window bugs were injection and the installer.
+0.16 is the first tag I would hand a reviewer after the 0.14 beta. The beta-window bugs were injection and the installer. New installs use hold Right Alt.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -167,8 +168,8 @@ I use the Linux build every day, and I use the Mac, Windows, and phone builds to
 ---
 
 ### Dedoimedo
-
 To: webmaster@dedoimedo.com
+
 Subject: REVIEW REQUEST - FREE - Vocalinux
 
 Hi,
@@ -177,9 +178,9 @@ This is a free review request for a hobby / non-profit Linux app. No attachments
 
 I'm Jatin, creator and maintainer of Vocalinux. AGPL-3.0 speech-to-text on the Linux desktop. Hold Right Alt, talk, text goes into the focused field. Tray. No telemetry. Pick whisper.cpp, Whisper, or VOSK. The model runs on the machine. There is no Voca account and no vendor cloud. If you host a gateway, that is your box.
 
-I use this every day. Linux is the one I would have you review. The code is open source (AGPL). Testers already file bugs, request features, and open PRs. The Mac, Windows, and phone clients exist; they are betas.
+I use this every day. Linux is the one I would have you review. The code is open. Testers already file bugs, request features, and open PRs. The Mac, Windows, and phone clients exist; they are betas.
 
-v0.16.0 (23 Aug) is the build to try. New installs use hold Right Alt. 0.14 was rough on some Fedora and Ubuntu launches. 0.15 and 0.16 cleaned up install and injection.
+v0.16.0 (23 Aug) is the build to try. 0.14 was rough on some Fedora and Ubuntu launches. 0.15 and 0.16 cleaned up install and injection.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -195,7 +196,6 @@ Needs distro python3-gi. AppImage is also on the release page.
 ---
 
 ### Linux Matters
-
 To: show@linuxmatters.sh
 
 Subject: Vocalinux v0.16.0, on-device dictation (adjacent to the Voxtype chat)
@@ -210,7 +210,7 @@ The source is open. I get bug reports, feature requests, and PRs from people usi
 
 I use it every day, including on Mac, Windows, and phone. Linux is the mature release. The others are still beta.
 
-v0.16.0 shipped 23 Aug. Hold Right Alt is the new-install default. 0.15 and 0.16 were mostly IBus, X11 layout, and installer work so it starts on more distros.
+v0.16.0 shipped 23 Aug. 0.15 and 0.16 were mostly IBus, X11 layout, and installer work so it starts on more distros.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -222,7 +222,6 @@ If a show note would help, I can record a 30-second demo.
 ---
 
 ### Linux Uprising
-
 To: contact@linuxuprising.com
 
 Subject: FOSS app: Vocalinux v0.16.0
@@ -233,11 +232,11 @@ I'm Jatin, creator and maintainer of Vocalinux. Short app tip.
 
 v0.16.0, AGPL-3.0. Tray. Hold Right Alt, talk, text goes into the focused field. Speech stays on the machine. No account, no telemetry. The only other path is a gateway you host, not a company that trains on the audio.
 
-Open source. People already help: issues, feature requests, PRs.
+The code is open. People already help: issues, feature requests, PRs.
 
 I use it every day. whisper.cpp, Whisper, or VOSK. Linux is available now. I also keep the Mac, Windows, and phone clients around; those are betas.
 
-23 Aug. New installs use hold Right Alt. Also an update checker, searchable languages, unused-model cleanup, and the IBus / X11 / AppImage fixes from after 0.14.
+23 Aug. An update checker, searchable languages, unused-model cleanup, and the IBus / X11 / AppImage fixes from after 0.14.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -247,20 +246,21 @@ I use it every day. whisper.cpp, Whisper, or VOSK. Linux is available now. I als
 ---
 
 ### LINUX Unplugged
-
 Channel: https://linuxunplugged.com/contact
 
 Subject: on-device Linux dictation: Vocalinux v0.16.0
 
+FORM (paste this): https://linuxunplugged.com/contact
+
 Hi,
 
-I'm Jatin, creator and maintainer of Vocalinux. Small AGPL-3.0 tray app. You talk into a Linux text field. No Voca account. Hold Right Alt, talk, text lands in the focused app. whisper.cpp, Whisper, or VOSK. The model stays on the computer. Nothing is handed to a vendor. If you want shared compute, you run a gateway.
+I'm Jatin, creator and maintainer of Vocalinux. Small AGPL-3.0 tray app. Hold Right Alt, talk, text lands in the focused app. whisper.cpp, Whisper, or VOSK. The model stays on the computer. No Voca account. Nothing is handed to a vendor. If you want shared compute, you run a gateway.
 
 The code is public. The community around it already files bugs and sends PRs.
 
-I use this every day on Linux. I also use the Mac, Windows, and phone builds (those are betas; Windows is unsigned). Linux is the current release.
+I use this every day on Linux. I also use the Mac, Windows, and phone builds (those are betas; Windows is unsigned).
 
-v0.16.0 shipped 23 Aug. 0.14 was messy on some Fedora and Ubuntu boxes. 0.16 is the install-and-injection cut I would actually demo. New installs use hold Right Alt.
+v0.16.0 shipped 23 Aug. 0.14 was messy on some Fedora and Ubuntu boxes. 0.16 is the install-and-injection cut I would actually demo.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -272,7 +272,6 @@ v0.16.0 shipped 23 Aug. 0.14 was messy on some Fedora and Ubuntu boxes. 0.16 is 
 ## Follow-ups (already covered 0.14)
 
 ### It's FOSS
-
 To: news@itsfoss.com
 
 Subject: Vocalinux v0.16.0, follow-up to Sourav's 0.14 beta piece
@@ -283,15 +282,13 @@ I'm Jatin, creator and maintainer of Vocalinux. Sourav Rudra wrote about the 0.1
 
 https://itsfoss.com/news/vocalinux-beta-release/
 
-That piece is fair. The app failed to launch on Fedora and sat there unresponsive on Ubuntu after the troubleshooting steps. Those are the bugs I went after.
+That piece is fair. It failed to launch on Fedora and sat unresponsive on Ubuntu after the troubleshooting steps. Those are the bugs I went after.
 
-v0.16.0 shipped 23 Aug. The installer now requires distro python3-gi and no longer pip-builds PyGObject. The AppImage ships GI typelibs for non-Debian hosts. IBus and the X11 layout come back after injection. Test Dictation no longer says "no speech" when no model is downloaded. New installs default to hold Right Alt. License is AGPL-3.0. Sourav had GPL-3.0, which was true for 0.14.
+v0.16.0 shipped 23 Aug. Installer requires distro python3-gi (no pip-build of PyGObject). AppImage GI typelibs for non-Debian hosts. IBus and X11 layout come back after injection. Test Dictation no longer says "no speech" when no model is downloaded. New installs default to hold Right Alt. License is AGPL-3.0; Sourav had GPL-3.0, true for 0.14.
 
-I still use this every day. Hold Right Alt, talk, text goes into the focused field. Tray. No telemetry. No Voca account. Audio stays on a machine I control. A gateway is optional and is still mine.
+No telemetry, no Voca account, audio stays on a machine I control. A gateway is optional and still mine. The source is open. People already report bugs, ask for features, and send PRs.
 
-Source is open. People already report bugs, ask for features, and send PRs.
-
-Linux is the current release. I also run the Mac, Windows, and phone clients (betas). I am not asking you to pretend the beta was fine. I am asking you to try 0.16.0.
+Linux is the current release. Mac, Windows, and phone are betas. I am not asking you to pretend the beta was fine. Try 0.16.0.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -301,7 +298,6 @@ Linux is the current release. I also run the Mac, Windows, and phone clients (be
 ---
 
 ### Linuxiac
-
 To: info@linuxiac.com
 
 Subject: Vocalinux v0.16.0, follow-up to your July piece
@@ -312,13 +308,13 @@ I'm Jatin, creator and maintainer of Vocalinux. Thanks for the July write-up:
 
 https://linuxiac.com/vocalinux-is-an-open-source-voice-dictation-app-built-for-linux/
 
-0.16.0 shipped 23 Aug, so this is an update, not a first hello. Still Linux dictation. License is now AGPL-3.0 (it was GPL-3.0 when you wrote). Text still goes into the focused field. Tray, hold Right Alt or toggle, pick an engine. Speech runs on the machine. No Voca account, no telemetry, no vendor cloud. A gateway is a host you run.
+0.16.0 shipped 23 Aug, so this is an update, not a first hello. License is now AGPL-3.0 (it was GPL-3.0 when you wrote). Tray, hold Right Alt or toggle, pick an engine, text into the focused field. Speech runs on the machine. No Voca account, no telemetry, no vendor cloud. A gateway is a host you run.
 
-Still open source. The issue tracker and incoming PRs are how the last two cuts got better.
+People already file bugs, request features, and send PRs; that is how the last two cuts got better.
 
-I use this every day. Linux is the mature release. There are Mac, Windows, and phone clients now; those are betas.
+I use this every day. Linux is the mature release. Mac, Windows, and phone clients are betas.
 
-The new tag is install and desktop reliability after 0.14.x: IBus, X11 layouts, AppImage on non-Debian hosts, hold Right Alt on new installs, in-app update checker.
+The new tag is install and desktop reliability after 0.14.x: IBus, X11 layouts, AppImage on non-Debian hosts, in-app update checker.
 
 Shots are there if you want to refresh the article. I am not asking for a paid post.
 
@@ -329,7 +325,6 @@ Shots are there if you want to refresh the article. I am not asking for a paid p
 ---
 
 ### Phoronix
-
 To: news@phoronix.com
 
 Subject: Vocalinux 0.16.0 (follow-up to the 0.14 beta item)
@@ -340,7 +335,7 @@ I'm Jatin, creator and maintainer of Vocalinux. You ran the 0.14 beta in July:
 
 https://www.phoronix.com/news/Vocalinux-0.14-Beta
 
-0.16.0 is out (2026-08-23). Stable minor on 0.15. AGPL-3.0. Tray app, hold Right Alt, injects into the focused field. Engines: whisper.cpp (Vulkan default), Whisper, VOSK, or a Remote API you host. No account, no telemetry. Audio stays on the host or a gateway the operator runs. AGPL-3.0 source is public. Outside bugs and PRs are already landing.
+0.16.0 is out (2026-08-23). Stable minor on 0.15. Tray app, hold Right Alt, injects into the focused field. Engines: whisper.cpp (Vulkan default), Whisper, VOSK, or a Remote API you host. No account, no telemetry. Audio stays on the host or a gateway the operator runs. Source is public, AGPL-3.0. Outside bugs and PRs are already landing.
 
 I use this daily. Linux is the current release.
 
@@ -354,9 +349,8 @@ Versus the beta you ran: default hold-Right-Alt PTT on new installs, in-app GitH
 ---
 
 ### Linux Magazine
-
-To: edit@linux-magazine.com
 Also: pr@linux-magazine.com for a short news note
+To: edit@linux-magazine.com
 
 Subject: Proposal: Vocalinux, on-device dictation on the Linux desktop
 
@@ -364,13 +358,13 @@ Joe,
 
 I'm Jatin, creator and maintainer of Vocalinux. Proposal for a short tools feature. Not a finished article.
 
-Vocalinux v0.16.0 (23 Aug) is an AGPL-3.0 desktop app. Speech-to-text on the Linux machine. Text into the focused field. Hold Right Alt, talk, stay in the current window. Tray. No telemetry. No Voca account. Audio does not go to a company that trains on it. A self-hosted gateway is optional and is still a machine the reader runs.
+v0.16.0 (23 Aug) is an AGPL-3.0 desktop app. Hold Right Alt, talk, text into the focused field. Tray. No telemetry, no Voca account. Audio does not go to a company that trains on it. A self-hosted gateway is optional.
 
-The code is open source (AGPL-3.0). Readers who try it already file bugs, request features, and send PRs.
+The code is open. Readers who try it already file bugs, request features, and send PRs.
 
 I use this every day. Linux is the reviewable release. Mac, Windows, and phone exist as betas.
 
-Walk-through I would give a writer: install.sh / AppImage / AUR, hold Right Alt, download a model, pick an engine, dictate into a browser and a terminal. IBus scoped injection and X11 layout restore are the failures worth mentioning. 0.16 fixes both.
+Walk-through I would give a writer: install.sh / AppImage / AUR, download a model, pick an engine, dictate into a browser and a terminal. IBus scoped injection and X11 layout restore are the failures worth mentioning. 0.16 fixes both.
 
 I can send a 1-2 paragraph outline, and a machine, if the slot is real.
 
@@ -382,7 +376,6 @@ I can send a 1-2 paragraph outline, and a machine, if the slot is real.
 ---
 
 ### FOSS Post
-
 To: contact@fosspost.org
 
 Subject: Vocalinux v0.16.0, follow-up
@@ -391,9 +384,11 @@ Hi,
 
 I'm Jatin, creator and maintainer of Vocalinux. I sent a tip in July. v0.16.0 shipped 23 Aug. Still AGPL-3.0.
 
-Hold Right Alt, talk, text lands in the focused field. Tray. No account. No telemetry. Audio does not go to a vendor. A gateway is optional and yours. The code is open source. People already open issues and PRs. I use this every day, including on Mac, Windows, and phone (those clients are betas).
+Hold Right Alt, talk, text lands in the focused field. Tray. No account. No telemetry. Audio does not go to a vendor. A gateway is optional and yours. The code is open. People already open issues and PRs.
 
-This is the tag I would have a reader install. New installs use hold Right Alt. Installer and injection fixes after 0.14.
+I use this every day, including on Mac, Windows, and phone (those clients are betas).
+
+This is the tag I would have a reader install. Installer and injection fixes after 0.14.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -403,7 +398,6 @@ This is the tag I would have a reader install. New installs use hold Right Alt. 
 ---
 
 ### Late Night Linux
-
 To: show@latenightlinux.com
 
 Subject: Vocalinux v0.16.0, follow-up
@@ -414,11 +408,11 @@ I'm Jatin, creator and maintainer of Vocalinux. I emailed in July. v0.16.0 is ou
 
 AGPL-3.0 tray app. Hold Right Alt. Text into the focused field. Speech stays on the computer. No Voca account. No telemetry. No vendor. If you want a gateway, you host it.
 
-Open source. The community is already filing bugs and sending PRs.
+The source is open. The community is already filing bugs and sending PRs.
 
 I use this every day. Linux is the one I would demo. I also carry the Mac, Windows, and phone builds; those are betas.
 
-0.14 was the public introduction. 0.16 is the cleanup I would actually run on the show. New installs use hold Right Alt. whisper.cpp, Whisper, or VOSK.
+0.14 was the public introduction. 0.16 is the cleanup I would actually run on the show. whisper.cpp, Whisper, or VOSK.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
@@ -428,11 +422,12 @@ I use this every day. Linux is the one I would demo. I also carry the Mac, Windo
 ---
 
 ### LinuxLinks
-
-To: sde@linuxlinks.com
 Also: https://www.linuxlinks.com/suggest-open-source-program/
+To: sde@linuxlinks.com
 
 Subject: Vocalinux v0.16.0, new entry follow-up
+
+FORM (paste this): https://www.linuxlinks.com/suggest-open-source-program/
 
 Steve,
 
@@ -440,9 +435,9 @@ I'm Jatin, creator and maintainer of Vocalinux. Follow-up to the July note and t
 
 AGPL-3.0 on-device dictation for Linux. Tray. Hold Right Alt, talk into the focused field. No account, no telemetry. Audio stays on a machine you control. whisper.cpp, Whisper, or VOSK.
 
-AGPL and public. People already file bugs, request features, and send PRs.
+The code is public. People already file bugs, request features, and send PRs.
 
-I use this every day. vocahq.com has the rest of the family if you catalog siblings. Linux is the current release.
+I use this every day. The rest of the family is there if you catalog siblings. Linux is the current release.
 
 - Site: https://vocalinux.com
 - Screenshots: https://vocalinux.com/screenshots/
