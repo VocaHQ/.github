@@ -6,7 +6,7 @@ Tagline (260): Voca is a family of speech-to-text apps. Hold a hotkey, speak, an
 
 ## Maker comment
 
-Voca is the family. Linux is available now (v0.15.0). Mac is beta on macOS 14+ Apple Silicon. Windows is a developer alpha: unsigned NSIS and MSI on GitHub Releases, SmartScreen expected. Phone is an Android 13+ public beta; iOS 17+ is a source build. Gateway is early optional compute on a machine you run. It is never on-device.
+Voca is the family. Linux is available now (v0.15.0). Mac is beta on macOS 14+ Apple Silicon. Windows is beta: unsigned NSIS and MSI on GitHub Releases, SmartScreen expected. Phone is an Android 13+ public beta; iOS 17+ is a source build. Gateway is early optional compute on a machine you run. It is never on-device.
 
 We do not have a Voca cloud or a Voca account. A first model download uses the network. After that, audio stays on that device unless you point a client at VocaGateway on purpose.
 
@@ -18,4 +18,4 @@ Gallery: card-family-ph.png, then the per-product ph cards. No fake Win screensh
 
 ## First comment (short)
 
-Linux is the one you can install today. Mac is beta. Win is an unsigned tester build. Phone Android is a public beta. Gateway is a host, not a client.
+Linux is the one you can install today. Mac is beta. Win is an unsigned beta. Phone Android is a public beta. Gateway is a host, not a client.

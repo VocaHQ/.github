@@ -8,7 +8,7 @@
 
 3. VocaMac is beta on macOS 14+ Apple Silicon. Homebrew or a DMG. vocamac.com [card-mac-square.png]
 
-4. VocaWin is a developer alpha. Unsigned tester builds are on GitHub. SmartScreen / unknown publisher is expected. vocawin.com [card-win-square.png]
+4. VocaWin is beta. Unsigned tester builds are on GitHub. SmartScreen / unknown publisher is expected. vocawin.com [card-win-square.png]
 
 5. VocaPhone: Android 13+ public beta. iOS 17+ is a source build if you have a Mac and a signing team. vocaphone.vocahq.com [card-phone-square.png]
 
@@ -22,7 +22,7 @@
 
 - Linux is ready: VocaLinux v0.15.0. Hold a hotkey, speak, text at the cursor. vocalinux.com
 - Mac testers: VocaMac is beta on Apple Silicon, macOS 14+. vocamac.com
-- Windows testers: unsigned VocaWin alpha on GitHub Releases. SmartScreen will complain. That is expected.
+- Windows testers: unsigned VocaWin beta on GitHub Releases. SmartScreen will complain. That is expected.
 - Android 13+ can try VocaPhone. iOS is still a source build. vocaphone.vocahq.com
 - Need a host on the LAN? VocaGateway. Never call it on-device.
 - No Voca account. No hosted speech API. vocahq.com

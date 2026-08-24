@@ -21,7 +21,7 @@ QR codes (print-safe, quiet zone): [qr/](qr/). Each product page points at that 
 
 ## What is in each book
 
-Portrait: cover (one voice / every machine + ecosystem.map), manifesto, two paths, VocaLinux, VocaMac, VocaPhone, VocaWin (honest alpha, no invented screenshot), VocaGateway (1U host mark, never on-device), family directory, QR wall.
+Portrait: cover (one voice / every machine + ecosystem.map), manifesto, two paths, VocaLinux, VocaMac, VocaPhone, VocaWin (unsigned beta, no invented screenshot), VocaGateway (1U host mark, never on-device), family directory, QR wall.
 
 Landscape: split cover, Linux+Mac spread, Phone+Win spread, Gateway + two paths, manifesto + directory strip, QR wall.
 

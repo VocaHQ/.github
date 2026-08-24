@@ -14,7 +14,7 @@ Using the tools? Pick your platform below. Want to help build them? You are alre
 |----------|---------|------|------|--------|
 | Linux | **VocaLinux** | [VocaHQ/vocalinux](https://github.com/VocaHQ/vocalinux) | [vocalinux.com](https://vocalinux.com) | Available now |
 | macOS | **VocaMac** | [VocaHQ/vocamac](https://github.com/VocaHQ/vocamac) | [vocamac.com](https://vocamac.com) | Beta |
-| Windows | **VocaWin** | [VocaHQ/vocawin](https://github.com/VocaHQ/vocawin) | [vocawin.com](https://vocawin.com) | Developer alpha |
+| Windows | **VocaWin** | [VocaHQ/vocawin](https://github.com/VocaHQ/vocawin) | [vocawin.com](https://vocawin.com) | Beta |
 | iOS / Android | **VocaPhone** | [VocaHQ/vocaphone](https://github.com/VocaHQ/vocaphone) | [vocaphone.vocahq.com](https://vocaphone.vocahq.com) | Android beta / iOS TestFlight |
 | Gateway | **VocaGateway** | [VocaHQ/vocagateway](https://github.com/VocaHQ/vocagateway) | [vocagateway.vocahq.com](https://vocagateway.vocahq.com) | Early |
 
@@ -27,7 +27,7 @@ You do not need to know the whole family. Start with the platform you actually u
 - Join [Discord](https://discord.gg/t6muquAJbm) and say hello
 - File an issue when something breaks, or when a README skips a step you needed
 - Open a PR. Code, tests, packaging, and clearer docs all count
-- Try a beta, or the unsigned VocaWin alpha, and tell us what failed
+- Try a beta, including unsigned VocaWin, and tell us what failed
 
 Issues and PRs are welcome on every project. Maintained by [@jatinkrmalik](https://github.com/jatinkrmalik) and [@Mr-Sunglasses](https://github.com/Mr-Sunglasses).
 

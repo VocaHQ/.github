@@ -1,6 +1,6 @@
 # Reddit drafts
 
-Do not lead with AI-powered. Do not say 100% offline. Do not call Gateway on-device. Win is an unsigned alpha, not a Store app.
+Do not lead with AI-powered. Do not say 100% offline. Do not call Gateway on-device. Win is an unsigned beta, not a Store app.
 
 ## r/linux
 
@@ -29,7 +29,7 @@ The default path is still on-device on the client. Gateway is optional.
 
 Title: Voca: speech-to-text with no Voca account and no hosted speech API
 
-Body: Family of apps (Linux available now, Mac beta, Win unsigned alpha, Android beta). Default path: model on the device, audio stays there after the download. Optional self-hosted gateway if you want a box on your network.
+Body: Family of apps (Linux available now, Mac beta, Win unsigned beta, Android beta). Default path: model on the device, audio stays there after the download. Optional self-hosted gateway if you want a box on your network.
 
 https://vocahq.com
 https://github.com/VocaHQ
