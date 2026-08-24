@@ -11,4 +11,4 @@ VocaWin reuses the family microphone from `brand/vocahq/`. There is no unique Wi
 
 Previews at true size: `previews/`.
 
-Cite `brand/README.md` §7, §9, and §10. Public status is Beta per PRODUCT.md. Builds stay unsigned. Latest tag is v0.1.0-alpha.3.
+Cite `brand/README.md` §7, §9, and §10. Public status is Beta per PRODUCT.md. Builds stay unsigned. Latest tag is v0.1.0-beta.1. No GitHub Release page yet.
