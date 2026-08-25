@@ -4,7 +4,7 @@ Do not lead with AI-powered. Do not say 100% offline. Do not call Gateway on-dev
 
 ## r/linux
 
-Title: VocaLinux 0.15.0: on-device voice typing for X11 and Wayland
+Title: VocaLinux 0.16.0: on-device voice typing for X11 and Wayland
 
 Body: I built a Linux dictation app. Hold a hotkey, speak, text is meant to land at the cursor. After you download a speech-to-text model, audio stays on that machine.
 
@@ -21,7 +21,7 @@ Body: If you already run Voca on a client, you can point it at a host you operat
 
 macOS or Linux, or Docker Compose on Linux amd64/arm64. Authenticated WebUI and QR pairing.
 
-https://github.com/VocaHQ/vocagateway
+https://vocagateway.vocahq.com
 
 The default path is still on-device on the client. Gateway is optional.
 
@@ -38,7 +38,7 @@ https://github.com/VocaHQ
 
 Title: Voca family (AGPL): Linux, Mac, Windows, phone, optional gateway
 
-Body: Same idea on each platform. Linux is the shipped one (v0.15.0). Others are beta or early. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
+Body: Same idea on each platform. Linux is the shipped one (v0.16.0). Others are beta or early. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
 
 https://github.com/VocaHQ
 https://vocahq.com
@@ -53,8 +53,8 @@ https://vocamac.com
 
 ## r/androidapps
 
-Title: VocaPhone Android 13+ public beta (iOS is source-only)
+Title: VocaPhone Android 13+ public beta (iOS 17+ TestFlight)
 
-Body: Android beta is the public phone path. iOS 17+ is a source build, not TestFlight.
+Body: Android beta is the public phone path. iOS 17+ is a public TestFlight (1,000 seats) or a source build. Not on the App Store.
 
 https://vocaphone.vocahq.com
