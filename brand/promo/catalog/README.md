@@ -1,6 +1,6 @@
 # Voca family catalog
 
-Print-ready family catalogs. Two formats, same truth. Status follows PRODUCT.md (verified 2026-08-18). Do not invent shipping.
+Print-ready family catalogs. Two formats, same truth. Status follows PRODUCT.md (verified 2026-08-24). Do not invent shipping.
 
 ## Live files
 
@@ -27,6 +27,8 @@ Landscape: split cover, Linux+Mac spread, Phone+Win spread, Gateway + two paths,
 
 Contact on paper is vocahq.com and github.com/VocaHQ. No email.
 
-## Previous version
+## Previous versions
+
+The 2026-08-18 v0.15.0 books (Linux still labeled v0.15.0) live in [studies/2026-08-18-v015/](studies/2026-08-18-v015/). Do not use them as the live files.
 
 The 2026-08-18 v1 spec-sheet (cream field, teal left rail, no QR codes) lives in [studies/2026-08-18-v1/](studies/2026-08-18-v1/). Do not use it as the live file. The old single-file name `voca-family-catalog.pdf` is retired.

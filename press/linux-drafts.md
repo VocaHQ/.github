@@ -8,7 +8,7 @@ Daily use, from the sites, not invented: hold a key, talk, text appears in the a
 
 Product shots live at https://vocalinux.com/screenshots/ (page is labeled v0.15 UI). Do not claim those frames are from 0.16. Do not put a version on the screenshots bullet.
 
-Every tip must say the code is open source (AGPL-3.0) and that people already file bugs, feature requests, and PRs. Do not invent star counts or contributor numbers. Discord is https://discord.gg/t6muquAJbm if a desk needs a community URL.
+Every tip must say the code is open source (AGPL-3.0) and that people already file bugs, feature requests, and PRs. Do not invent star counts or contributor numbers. Discord is https://discord.gg/UMJduhcqn if a desk needs a community URL.
 
 Do not invent versions, benchmarks, or installer success rates.
 

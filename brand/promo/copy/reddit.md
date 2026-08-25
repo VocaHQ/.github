@@ -4,7 +4,7 @@ Do not lead with AI-powered. Do not say 100% offline. Do not call Gateway on-dev
 
 ## r/linux
 
-Title: VocaLinux 0.15.0: on-device voice typing for X11 and Wayland
+Title: VocaLinux 0.16.0: on-device voice typing for X11 and Wayland
 
 Body: I built a Linux dictation app. Hold a hotkey, speak, text is meant to land at the cursor. After you download a speech-to-text model, audio stays on that machine.
 
@@ -38,14 +38,14 @@ https://github.com/VocaHQ
 
 Title: Voca family (AGPL): Linux, Mac, Windows, phone, optional gateway
 
-Body: Same idea on each platform. Linux is the shipped one (v0.15.0). Others are beta or early. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
+Body: Same idea on each platform. Linux is the shipped one (v0.16.0). Others are beta or early. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
 
 https://github.com/VocaHQ
 https://vocahq.com
 
 ## r/MacOS
 
-Title: VocaMac (beta): on-device dictation for Apple Silicon, macOS 14+
+Title: VocaMac (beta v0.9.0): on-device dictation for Apple Silicon, macOS 14+
 
 Body: Menu-bar / hotkey dictation. WhisperKit / Core ML. Homebrew or DMG. Beta, not GA.
 

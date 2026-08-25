@@ -1,6 +1,6 @@
 # Voca family brand book
 
-- **Status:** proposed — awaiting Jatin approval
+- **Status:** adopted (Jatin approved 2026-08-24)
 - **Owner:** VocaDesign proposes; Jatin approves; product agents implement in
   their repos
 - **Public product truth:** [VocaHQ/vocahq `PRODUCT.md`](https://github.com/VocaHQ/vocahq/blob/main/PRODUCT.md)
@@ -65,8 +65,6 @@ copy of this book.
    - VocaPhone mark:
      `https://raw.githubusercontent.com/VocaHQ/.github/main/brand/vocaphone/vocaphone-mark.svg`
 
-   Until this PR merges, substitute the working branch name for `main` when you
-   need the proposed text. After merge, use `main`.
 
 5. Implementation detail (layout, components, platform chrome) stays in the
    web/app standards or the product repo. Brand identity stays here.
@@ -111,12 +109,12 @@ wordmark; **Voca-HQ**; **VocaServer**; **Local Flow** (except uninstall notes
 that must match existing package strings); treating **vocaphone-server** as a
 product name.
 
-### 3.2 Known conflicts and exceptions (do not “fix” in this PR)
+### 3.2 Known conflicts and exceptions
 
 | Fact | How this book treats it |
 | --- | --- |
 | Canonical public name is **VocaLinux** (`PRODUCT.md`) | Official name for new family copy and org surfaces |
-| vocalinux.com H1, Linux README, and vocalinux `web/PRODUCT.md` currently say **Vocalinux** | **Known site exception** to reconcile later. Flagged only — **do not rename vocalinux.com in this PR.** |
+| vocalinux.com H1, Linux README, and vocalinux `web/PRODUCT.md` currently say **Vocalinux** | **Known site exception** until Jatin says otherwise. Keep the Vocalinux spelling on vocalinux.com. |
 | Repo slug `vocalinux` | Fine in paths and package names. Not public casing. |
 | Lowercase **vocaphone** | Established editorial / logo treatment (site H1, `aria-label`). Preserve it. Not a rename. |
 | Lowercase **vocawin** in a hero | Editorial treatment only. Not a rename of **VocaWin**. |
@@ -218,16 +216,15 @@ not invent shipping). Always defer to `PRODUCT.md` if it moves:
 
 | Product | Status (public copy today) | Notes |
 | --- | --- | --- |
-| VocaLinux | Available now | Current release **v0.15.0**; Linux X11/Wayland; AGPL-3.0 |
+| VocaLinux | Available now | Current release **v0.16.0**; Linux X11/Wayland; AGPL-3.0 |
 | VocaMac | Beta | **macOS 14+** Apple Silicon; AGPL-3.0 |
 | VocaWin | Beta | Unsigned NSIS/MSI on [GitHub Releases](https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1) (**v0.1.0-beta.1**, prerelease). SmartScreen expected. **AGPL-3.0-or-later** in repo |
 | VocaPhone | Android beta / iOS source build | **Android 13+** public beta; **iOS 17+** build from source; gateway optional; AGPL-3.0 |
 | VocaGateway | Early | Optional self-hosted compute; **never on-device**; infrastructure, not a client; AGPL-3.0 |
 
-> **Footnote — VocaMac:** Public status is **Beta** per `PRODUCT.md`. If
-> vocamac.com (or similar) says “stable” or shows a version such as v0.7.2, still
-> **defer to `PRODUCT.md` (Beta)**. Do not invent shipping or status language
-> beyond what `PRODUCT.md` says.
+> **Footnote — VocaMac:** Public status is **Beta** per `PRODUCT.md`. Live tag is
+> **v0.9.0**. Still defer to `PRODUCT.md`. Leftover **v0.7.2** is not current.
+> Do not invent shipping or status language beyond what `PRODUCT.md` says.
 
 ### 5.2 Non-negotiable product principles
 
@@ -311,7 +308,7 @@ official palette.
 
 Some live sites currently diverge. Document as **drift to reconcile later** —
 do not treat these as approved family tokens, and do not silently “fix” the
-sites in this PR:
+live sites from this book:
 
 | Drift | Seen today | Family token |
 | --- | --- | --- |
@@ -346,7 +343,7 @@ practice. Do not call those unique product accents.
 
 vocalinux.com is a **known visual site exception**. It is **not** family
 paper/cream. Do not add a Linux accent to the approved family palette. Do not
-migrate vocalinux.com in this PR.
+migrate vocalinux.com until Jatin says otherwise.
 
 - Foundation: **iron-white / near-black** (explicitly not warm paper).
 - Accent: `#1a7f4e` (deep `#14663e`, dark `#50c878`).
@@ -434,14 +431,14 @@ It is **not** a letterform V.
 The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 **VocaPhone**, **VocaMac**, and **VocaWin**. Labels differ
 (`aria-label="Voca"` vs `aria-label="vocaphone"`). Document that shared mark;
-**do not draw new product marks** in this PR.
+**do not draw new product marks** without approved files under `brand/<product>/`.
 
 | Set | Status | Location / notes |
 | --- | --- | --- |
 | Family / VocaHQ | Present in this repo | [`brand/vocahq/`](vocahq/) (copied from `VocaHQ/vocahq` `web/assets/brand/`) |
 | VocaPhone | Approved in this repo | [`brand/vocaphone/`](vocaphone/) — keep as-is |
 | VocaMac / VocaWin | Same shared mic geometry; Win installer bitmaps in this repo | [`brand/vocawin/installer/`](vocawin/installer/). No unique Win accent. |
-| VocaLinux | **Separate** microphone assets in vocalinux `web/public/`; **MISSING** from `brand/` here | Documented exception; do not replace in this PR |
+| VocaLinux | **Separate** microphone assets in vocalinux `web/public/`; **MISSING** from `brand/` here | Documented exception; do not replace from this book |
 | VocaGateway | Approved host marks (family mic on 1U, stack, tower, or two-bay) | [`brand/vocagateway/`](vocagateway/) |
 
 ### 9.3 Approved treatments (shared mic)
@@ -518,7 +515,7 @@ The **same microphone geometry** is used today for **Voca**, **VocaHQ**,
 
 | Asset | Status | Location |
 | --- | --- | --- |
-| Family brand book | This document (proposed) | `brand/README.md` |
+| Family brand book | This document (adopted) | `brand/README.md` |
 | Asset library | How studies and approved files are filed | [`brand/LIBRARY.md`](LIBRARY.md) |
 | Promo shelf | Social cards, post drafts, family catalog PDF | [`brand/promo/`](promo/) |
 | Family / VocaHQ marks | Present (copied); shared mic geometry | `brand/vocahq/` · upstream `VocaHQ/vocahq/web/assets/brand/` |
