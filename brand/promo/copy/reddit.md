@@ -45,7 +45,7 @@ https://vocahq.com
 
 ## r/MacOS
 
-Title: VocaMac (beta): on-device dictation for Apple Silicon, macOS 14+
+Title: VocaMac (beta v0.9.0): on-device dictation for Apple Silicon, macOS 14+
 
 Body: Menu-bar / hotkey dictation. WhisperKit / Core ML. Homebrew or DMG. Beta, not GA.
 

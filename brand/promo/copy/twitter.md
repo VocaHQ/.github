@@ -6,7 +6,7 @@
 
 2. VocaLinux is available now. X11 or Wayland. Current release v0.16.0. vocalinux.com [card-linux-square.png]
 
-3. VocaMac is beta on macOS 14+ Apple Silicon. Homebrew or a DMG. vocamac.com [card-mac-square.png]
+3. VocaMac is beta v0.9.0 on macOS 14+ Apple Silicon. Homebrew or a DMG. vocamac.com [card-mac-square.png]
 
 4. VocaWin is beta. Unsigned tester builds are on GitHub. SmartScreen / unknown publisher is expected. vocawin.com [card-win-square.png]
 
@@ -21,7 +21,7 @@
 ## Single tweets
 
 - Linux is ready: VocaLinux v0.16.0. Hold a hotkey, speak, text at the cursor. vocalinux.com
-- Mac testers: VocaMac is beta on Apple Silicon, macOS 14+. vocamac.com
+- Mac testers: VocaMac is beta v0.9.0 on Apple Silicon, macOS 14+. vocamac.com
 - Windows testers: unsigned VocaWin beta on GitHub Releases. SmartScreen will complain. That is expected.
 - Android 13+ can try VocaPhone. iOS 17+ is on TestFlight, or build from source. vocaphone.vocahq.com
 - Need a host on the LAN? VocaGateway. Never call it on-device.
