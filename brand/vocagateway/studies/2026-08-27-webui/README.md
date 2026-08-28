@@ -1,0 +1,1 @@
+First official WebUI captures, 2026-08-27. Live local host, Overview Ready for dictation, Pair and test QR. Not mockups. Use-names at brand/vocagateway/vocagateway-webui-overview-ready.png and vocagateway-webui-pair-qr.png.

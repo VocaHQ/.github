@@ -16,3 +16,12 @@ Plate `#0F6B57`. Chassis and mark punch-through `#F2F6F2` / `#0F6B57`. No unique
 Cite `brand/README.md` §7.6, §9, and §10.
 
 Numbered review studies stay in `studies/`. Picks keep those files and also live under the use-names above.
+
+## WebUI captures
+
+Unedited screens from a running VocaGateway WebUI. Not CSS mockups. Use these on the landing and in docs.
+
+- `vocagateway-webui-overview-ready.png`: Overview at Ready for dictation.
+- `vocagateway-webui-pair-qr.png`: Pair and test with the phone QR.
+
+The review set is in `studies/2026-08-27-webui/`.
