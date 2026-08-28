@@ -24,4 +24,4 @@ Unedited screens from a running VocaGateway WebUI. Not CSS mockups. Use these on
 - `vocagateway-webui-overview-ready.png`: Overview at Ready for dictation.
 - `vocagateway-webui-pair-qr.png`: Pair and test with the phone QR.
 
-The review set is in `studies/2026-08-27-webui/`.
+Light header uses the family lockup `voca-logo.svg` (mint mic on teal, brand book 9.3). Recaptured 2026-08-28. The 2026-08-27 charcoal-header set is in `studies/2026-08-27-webui/`. The mint set is also in `studies/2026-08-28-webui/`.

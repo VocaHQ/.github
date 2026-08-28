@@ -1,0 +1,1 @@
+Recapture 2026-08-28. Live local host. Light header is voca-logo.svg (mint mic on teal) per brand book 9.3. Earlier charcoal-header captures stay in studies/2026-08-27-webui/. Use-names: vocagateway-webui-overview-ready.png and vocagateway-webui-pair-qr.png.
