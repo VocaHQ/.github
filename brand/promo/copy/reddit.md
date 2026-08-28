@@ -15,7 +15,7 @@ The public site still spells it Vocalinux. The family name is VocaLinux.
 
 ## r/selfhosted
 
-Title: VocaGateway: optional self-hosted speech-to-text (not a Voca cloud)
+Title: VocaGateway (beta): optional self-hosted speech-to-text (not a Voca cloud)
 
 Body: If you already run Voca on a client, you can point it at a host you operate. Audio leaves the client for that machine. That is the whole point, and it is not on-device.
 
@@ -38,7 +38,7 @@ https://github.com/VocaHQ
 
 Title: Voca family (AGPL): Linux, Mac, Windows, phone, optional gateway
 
-Body: Same idea on each platform. Linux is the shipped one (v0.16.0). Others are beta or early. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
+Body: Same idea on each platform. Linux is the shipped one (v0.16.0). Others are beta. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
 
 https://github.com/VocaHQ
 https://vocahq.com

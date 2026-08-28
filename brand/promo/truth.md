@@ -1,6 +1,6 @@
 # Promo shipping truth
 
-Canonical source: VocaHQ/vocahq PRODUCT.md (verified 2026-08-24).
+Canonical source: VocaHQ/vocahq PRODUCT.md (verified 2026-08-27).
 
 | Product | Public status | Site | Must not claim |
 | --- | --- | --- | --- |
@@ -8,6 +8,6 @@ Canonical source: VocaHQ/vocahq PRODUCT.md (verified 2026-08-24).
 | VocaMac | Beta, v0.9.0, macOS 14+ Apple Silicon | vocamac.com | Stable / Intel; leftover v0.7.2 |
 | VocaWin | Beta, unsigned prerelease v0.1.0-beta.1 (https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1) | vocawin.com | Signed Store build; fake screenshots; 100% offline |
 | VocaPhone | Android 13+ public beta; iOS 17+ public TestFlight (1,000 seats) or source | vocaphone.vocahq.com | App Store listing; unlimited TestFlight seats |
-| VocaGateway | Early, optional host | vocagateway.vocahq.com | On-device; Voca cloud |
+| VocaGateway | Beta, optional host, tagged try v0.1.0 | vocagateway.vocahq.com | On-device; Voca cloud |
 
 On-device after a model download. Gateway is never on-device. No Voca account. No AI-powered. No 100% offline.
