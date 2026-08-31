@@ -1,6 +1,6 @@
 # Voca family catalog
 
-Print-ready family catalogs. Two formats, same truth. Status follows PRODUCT.md (verified 2026-08-27). Do not invent shipping.
+Print-ready family catalogs. Two formats, same truth. Status follows PRODUCT.md (verified 2026-08-30). Do not invent shipping.
 
 ## Live files
 
