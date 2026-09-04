@@ -15,3 +15,7 @@ HQ uploads to the Discord Developer Portal. Design does not upload.
 ## Pending revise (2026-09-03)
 
 Discord size rejected the first Companion glyph (robot too small). New studies in `studies/2026-09-03-discord-revise/`. Live `vocabot-discord.*` stays study-03 until a revise pick.
+
+## Robot-face studies (2026-09-03)
+
+`studies/2026-09-03-discord-robot-face/` — robot face + centered mic-sign hat only (no dual mic). Live pick still on hold.

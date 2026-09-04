@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="VocaBot robot face C charcoal head mic hat">
+  <rect width="1024" height="1024" fill="#0F6B57"/>
+  <!-- C: charcoal robot + paper eyes + paper mic hat -->
+  <rect x="212" y="400" width="600" height="500" rx="96" ry="96" fill="#0B1A15"/>
+  <circle cx="392" cy="620" r="64" fill="#F2F6F2"/>
+  <circle cx="632" cy="620" r="64" fill="#F2F6F2"/>
+  <g transform="translate(512 400) scale(1.2) translate(-228.5 -382)">
+    <path d="M 164 127 A 65 65 0 0 1 294 127 L 294 224 A 65 65 0 0 1 164 224 Z" fill="#F2F6F2"/>
+    <path d="M 144.87 202.02 A 87 87 0 1 0 312.13 202.02" fill="none" stroke="#F2F6F2" stroke-width="26" stroke-linecap="round"/>
+    <path d="M 228.5 313 L 228.5 382" fill="none" stroke="#F2F6F2" stroke-width="26" stroke-linecap="round"/>
+    <path d="M 170 382 L 287 382" fill="none" stroke="#F2F6F2" stroke-width="26" stroke-linecap="round"/>
+  </g>
+</svg>
