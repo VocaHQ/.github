@@ -20,6 +20,7 @@ VocaDesign saves every generated UI/UX file here. Product agents take approved f
 - Jatin official account avatar: `brand/vocahq/jatin-official/`
 - Sergei official account avatar: `brand/vocahq/sergei-official/`
 - Kanishk official account avatar: `brand/vocahq/kanishk-official/`
+- VocaBot Discord avatar studies: `brand/vocahq/vocabot/studies/`
 - VocaPhone: `brand/vocaphone/`
 - VocaMac OG: `brand/vocamac/`
 - VocaGateway approved: `brand/vocagateway/`
