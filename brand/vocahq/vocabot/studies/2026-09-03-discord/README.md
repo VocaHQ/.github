@@ -6,4 +6,6 @@
 4. **study-04** — Torso lockup: charcoal shoulders + head on teal; official mic on the chest/face plate.
 5. **study-05** — Ring antenna: family teal + mic; ear brackets outside the mic plus top antenna (no corner badge).
 
-Masters are 512 PNG from SVG. Proofs at 128 and 32. Live pick not promoted yet.
+Masters are 512 PNG from SVG. Proofs at 128 and 32.
+
+**Live pick:** study-03 Companion glyph → `brand/vocahq/vocabot/vocabot-discord.*` (2026-09-03).
