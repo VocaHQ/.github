@@ -11,3 +11,7 @@ Composition: **Companion glyph** — family teal square, centered official mic, 
 Picked 2026-09-03 (study-03). Review set stays in `studies/2026-09-03-discord/`.
 
 HQ uploads to the Discord Developer Portal. Design does not upload.
+
+## Pending revise (2026-09-03)
+
+Discord size rejected the first Companion glyph (robot too small). New studies in `studies/2026-09-03-discord-revise/`. Live `vocabot-discord.*` stays study-03 until a revise pick.
