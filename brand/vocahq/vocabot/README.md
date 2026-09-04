@@ -6,16 +6,8 @@ Discord app icon / bot avatar for the VocaHQ Discord bot.
 
 `vocabot-discord.svg` / `vocabot-discord.png` (512) and `vocabot-discord-128.png`.
 
-Composition: **Companion glyph** — family teal square, centered official mic, small robot head in the lower-right clear space. Official mic paths from `brand/vocahq/voca-app-icon.svg`. Not a product app icon.
+Composition: **robot face + mic hat** — paper head, teal eyes, official Voca mic sign (capsule, cradle, stem, base, side brackets) flush on the head top. No second hero mic.
 
-Picked 2026-09-03 (study-03). Review set stays in `studies/2026-09-03-discord/`.
+Picked 2026-09-03 as Face B from `studies/2026-09-03-discord-robot-face/`. Earlier Companion glyph and dual-mic revises stay in studies.
 
 HQ uploads to the Discord Developer Portal. Design does not upload.
-
-## Pending revise (2026-09-03)
-
-Discord size rejected the first Companion glyph (robot too small). New studies in `studies/2026-09-03-discord-revise/`. Live `vocabot-discord.*` stays study-03 until a revise pick.
-
-## Robot-face studies (2026-09-03)
-
-`studies/2026-09-03-discord-robot-face/` — robot face + centered mic-sign hat only (no dual mic). Live pick still on hold.

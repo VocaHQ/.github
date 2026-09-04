@@ -7,3 +7,5 @@ Jatin: robot face + mic sign only. No second hero mic. Mic sign centered flush o
 - **face-c** — Charcoal head, paper eyes, mic hat like A
 
 Live `vocabot-discord.*` still on hold.
+
+**Live pick:** face-b → `brand/vocahq/vocabot/vocabot-discord.*` (2026-09-03).
