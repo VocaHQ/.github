@@ -1,0 +1,1 @@
+Catalog PDFs from before the 2026-09-07 promo accuracy pass. They still said Linux v0.16.1 and Win v0.1.0-beta.1 (NSIS/MSI). Live files follow PRODUCT.md verified 2026-09-05 (Linux Available now v0.16.2; Win Beta unsigned NSIS v0.1.1-beta).
