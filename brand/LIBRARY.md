@@ -17,6 +17,7 @@ VocaDesign saves every generated UI/UX file here. Product agents take approved f
 ## Current shelves
 
 - Family / VocaHQ: `brand/vocahq/`
+- VocaHQ illustrations: `brand/vocahq/illustrations/`
 - Jatin official account avatar: `brand/vocahq/jatin-official/`
 - Sergei official account avatar: `brand/vocahq/sergei-official/`
 - Kanishk official account avatar: `brand/vocahq/kanishk-official/`
