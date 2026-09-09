@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Laptop with centered Voca mark and teal lock on a paper MDM badge chip">
+  <!--
+    v9  lock BR on paper plate · teal lock body · mic centered
+    Shared chassis A. Paper plate 156×184 rx36 stroke 16. Lock 116×90 t16.
+  -->
+  <rect width="512" height="512" fill="#F4F1E8"/>
+  <path d="M 84 84 H 376 A 32 32 0 0 1 408 116 V 340 H 52 V 116 A 32 32 0 0 1 84 84 Z" fill="#14231C"/>
+  <path d="M 32 328 H 428 V 356 A 12 12 0 0 1 416 368 H 44 A 12 12 0 0 1 32 356 Z" fill="#14231C"/>
+  <rect x="74" y="106" width="312" height="212" rx="10" fill="#0F6B57"/>
+  <g transform="translate(104.325 87.425) scale(0.55)">
+    <path d="M 164 127 A 65 65 0 0 1 294 127 L 294 224 A 65 65 0 0 1 164 224 Z" fill="#F2F6F2"/>
+    <path d="M 144.87 202.02 A 87 87 0 1 0 312.13 202.02" fill="none" stroke="#F2F6F2" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 228.5 313 L 228.5 382" fill="none" stroke="#F2F6F2" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 170 382 L 287 382" fill="none" stroke="#F2F6F2" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 123.12 168.78 A 129.0 99.2 0 0 0 123.12 283.22" fill="none" stroke="#F2F6F2" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 333.88 168.78 A 129.0 99.2 0 0 1 333.88 283.22" fill="none" stroke="#F2F6F2" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <rect x="304" y="276" width="156" height="184" rx="36" fill="#F4F1E8"/>
+  <g>
+    <path fill="#0F6B57" fill-rule="evenodd" d="M 342,366 L 342,336 A 40 40 0 0 1 422,336 L 422,366 L 406,366 L 406,336 A 24 24 0 0 0 358,336 L 358,366 Z"/>
+    <rect x="324" y="350" width="116" height="90" rx="20" fill="#0F6B57"/>
+    <circle cx="382" cy="388" r="13" fill="#F2F6F2"/>
+  </g>
+  <rect x="304" y="276" width="156" height="184" rx="36" fill="none" stroke="#14231C" stroke-width="16"/>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="VocaMac managed: MDM PPPC profile card">
+  <defs>
+    <style>
+      .ink { fill: #14231C; }
+      .paper { fill: #F4F1E8; }
+      .surface { fill: #FFFDF7; }
+      .teal { fill: #0F6B57; }
+      .stroke { fill: none; stroke: #14231C; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-teal { fill: none; stroke: #0F6B57; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #14231C; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+      .muted { fill: #58625C; }
+    </style>
+  </defs>
+  <rect width="512" height="512" class="paper"/>
+  <!-- A: MDM privacy profile card -->
+  <rect x="96" y="64" width="320" height="400" rx="28" class="surface" stroke="#14231C" stroke-width="14"/>
+  <!-- header bar -->
+  <rect x="96" y="64" width="320" height="72" rx="28" class="teal"/>
+  <rect x="96" y="100" width="320" height="36" class="teal"/>
+  <text x="256" y="112" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="22" font-weight="700" fill="#F2F6F2" letter-spacing="1.5">PPPC</text>
+  <!-- row 1 Accessibility — checked -->
+  <rect x="132" y="180" width="248" height="56" rx="14" fill="#E5F2EB" stroke="#CFE9DC" stroke-width="3"/>
+  <circle cx="168" cy="208" r="16" class="teal"/>
+  <path d="M158 208 L165 215 L180 198" fill="none" stroke="#F2F6F2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="200" y="196" width="140" height="10" rx="5" class="teal" opacity="0.85"/>
+  <rect x="200" y="214" width="96" height="8" rx="4" fill="#0F6B57" opacity="0.35"/>
+  <!-- row 2 Input Monitoring — checked -->
+  <rect x="132" y="256" width="248" height="56" rx="14" fill="#E5F2EB" stroke="#CFE9DC" stroke-width="3"/>
+  <circle cx="168" cy="284" r="16" class="teal"/>
+  <path d="M158 284 L165 291 L180 274" fill="none" stroke="#F2F6F2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="200" y="272" width="140" height="10" rx="5" class="teal" opacity="0.85"/>
+  <rect x="200" y="290" width="110" height="8" rx="4" fill="#0F6B57" opacity="0.35"/>
+  <!-- row 3 Microphone — user click (open circle, not checked) -->
+  <rect x="132" y="332" width="248" height="72" rx="14" fill="#FFFDF7" stroke="#14231C" stroke-width="6"/>
+  <circle cx="168" cy="368" r="16" fill="none" stroke="#14231C" stroke-width="5"/>
+  <!-- mini mic -->
+  <g transform="translate(230 340) scale(0.22) translate(-164 -127)">
+    <path d="M 164 127 A 65 65 0 0 1 294 127 L 294 224 A 65 65 0 0 1 164 224 Z" fill="#14231C"/>
+    <path d="M 144.87 202.02 A 87 87 0 1 0 312.13 202.02" fill="none" stroke="#14231C" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 228.5 313 L 228.5 350" fill="none" stroke="#14231C" stroke-width="22" stroke-linecap="round"/>
+  </g>
+
+</svg>

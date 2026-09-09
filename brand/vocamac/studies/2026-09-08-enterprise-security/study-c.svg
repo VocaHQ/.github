@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="VocaMac managed: permission architecture">
+  <defs>
+    <style>
+      .ink { fill: #14231C; }
+      .paper { fill: #F4F1E8; }
+      .surface { fill: #FFFDF7; }
+      .teal { fill: #0F6B57; }
+      .stroke { fill: none; stroke: #14231C; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-teal { fill: none; stroke: #0F6B57; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #14231C; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+      .muted { fill: #58625C; }
+    </style>
+  </defs>
+  <rect width="512" height="512" class="paper"/>
+  <!-- C: permission architecture strip -->
+  <rect x="56" y="140" width="120" height="260" rx="22" fill="#E5F2EB" stroke="#0F6B57" stroke-width="10"/>
+  <rect x="196" y="140" width="120" height="260" rx="22" fill="#E5F2EB" stroke="#0F6B57" stroke-width="10"/>
+  <rect x="336" y="140" width="120" height="260" rx="22" class="surface" stroke="#14231C" stroke-width="10"/>
+  <!-- checks on first two -->
+  <circle cx="116" cy="220" r="28" class="teal"/>
+  <path d="M100 220 L112 232 L136 200" fill="none" stroke="#F2F6F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="220" r="28" class="teal"/>
+  <path d="M240 220 L252 232 L276 200" fill="none" stroke="#F2F6F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- mic column open -->
+  <circle cx="396" cy="220" r="28" fill="none" stroke="#14231C" stroke-width="8"/>
+  <g transform="translate(396 320) scale(0.28) translate(-228.5 -255)">
+    <path d="M 164 127 A 65 65 0 0 1 294 127 L 294 224 A 65 65 0 0 1 164 224 Z" fill="#14231C"/>
+    <path d="M 144.87 202.02 A 87 87 0 1 0 312.13 202.02" fill="none" stroke="#14231C" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 228.5 313 L 228.5 360" fill="none" stroke="#14231C" stroke-width="22" stroke-linecap="round"/>
+  </g>
+  <!-- labels as bars (no text — geometry) -->
+  <rect x="76" y="300" width="80" height="12" rx="6" class="teal" opacity="0.7"/>
+  <rect x="216" y="300" width="80" height="12" rx="6" class="teal" opacity="0.7"/>
+  <rect x="356" y="360" width="80" height="12" rx="6" class="ink" opacity="0.45"/>
+  <!-- MDM arrow from top -->
+  <rect x="196" y="48" width="120" height="56" rx="14" class="teal"/>
+  <path d="M256 104 L256 132" class="stroke-teal"/>
+  <path d="M240 124 L256 140 L272 124" fill="none" stroke="#0F6B57" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

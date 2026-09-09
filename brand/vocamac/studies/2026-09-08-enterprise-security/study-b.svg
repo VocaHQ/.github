@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="VocaMac managed: Mac with profile badge">
+  <defs>
+    <style>
+      .ink { fill: #14231C; }
+      .paper { fill: #F4F1E8; }
+      .surface { fill: #FFFDF7; }
+      .teal { fill: #0F6B57; }
+      .stroke { fill: none; stroke: #14231C; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-teal { fill: none; stroke: #0F6B57; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #14231C; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+      .muted { fill: #58625C; }
+    </style>
+  </defs>
+  <rect width="512" height="512" class="paper"/>
+  <!-- B: Mac with MDM profile badge -->
+  <!-- laptop -->
+  <rect x="86" y="120" width="340" height="240" rx="22" class="surface" stroke="#14231C" stroke-width="14"/>
+  <rect x="118" y="152" width="276" height="176" rx="10" class="teal"/>
+  <!-- family mic on screen -->
+  <g transform="translate(256 240) scale(0.38) translate(-228.5 -255)">
+
+    <path d="M 164 127 A 65 65 0 0 1 294 127 L 294 224 A 65 65 0 0 1 164 224 Z" fill="#F2F6F2"/>
+    <path d="M 144.87 202.02 A 87 87 0 1 0 312.13 202.02" fill="none" stroke="#F2F6F2" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 228.5 313 L 228.5 382" fill="none" stroke="#F2F6F2" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 170 382 L 287 382" fill="none" stroke="#F2F6F2" stroke-width="22" stroke-linecap="round"/>
+
+  </g>
+  <!-- hinge / base -->
+  <rect x="140" y="360" width="232" height="18" rx="4" class="ink"/>
+  <rect x="100" y="378" width="312" height="22" rx="8" class="ink"/>
+  <!-- profile badge BR -->
+  <rect x="300" y="300" width="140" height="120" rx="20" class="surface" stroke="#14231C" stroke-width="10"/>
+  <rect x="300" y="300" width="140" height="36" rx="20" class="teal"/>
+  <rect x="300" y="318" width="140" height="18" class="teal"/>
+  <circle cx="340" cy="372" r="12" class="teal"/>
+  <path d="M333 372 L338 377 L350 363" fill="none" stroke="#F2F6F2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="400" cy="372" r="12" class="teal"/>
+  <path d="M393 372 L398 377 L410 363" fill="none" stroke="#F2F6F2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="370" cy="400" r="11" fill="none" stroke="#14231C" stroke-width="4"/>
+
+</svg>
