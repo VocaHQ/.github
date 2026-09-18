@@ -4,7 +4,7 @@
 **Method:** official About / Contact / Tips pages. Directory emails that are not on-site are **UNVERIFIED**.
 **Researched:** 24 Aug 2026 (PT).
 
-Product: Vocalinux. Available now. Current release v0.16.0 (GitHub published 2026-08-23). AGPL-3.0. vocalinux.com. github.com/VocaHQ/vocalinux.
+Product: Vocalinux. Available now. Current release v0.16.1 (GitHub published 2026-08-30). AGPL-3.0. vocalinux.com. github.com/VocaHQ/vocalinux.
 
 ## How to use this list
 
@@ -12,7 +12,7 @@ Personalized tip, not a press-release blast. One platform per email. Lead with o
 
 ## Already pitched (May-July 2026)
 
-Jatin overrode the first-touch rule on 24 Aug 2026. Re-pitch with Vocalinux v0.16.0, not the old 0.14.1-beta / "100% offline voice typing" note. Linuxiac, It's FOSS, and Phoronix already covered 0.14. Follow-ups should say so. It's FOSS hit launch bugs on Fedora and Ubuntu in that beta; lead with what is fixed in 0.16.0. Leave the Teledyne vendor thread and the smallhagrid user query off this list.
+Jatin overrode the first-touch rule on 24 Aug 2026. Re-pitch with Vocalinux v0.16.1, not the old 0.14.1-beta / "100% offline voice typing" note. Linuxiac, It's FOSS, and Phoronix already covered 0.14. Follow-ups should say so. It's FOSS hit launch bugs on Fedora and Ubuntu in that beta; lead with what is fixed in 0.16.1. Leave the Teledyne vendor thread and the smallhagrid user query off this list.
 
 | Outlet | Address used | Status |
 |---|---|---|
@@ -28,7 +28,7 @@ Jatin overrode the first-touch rule on 24 Aug 2026. Re-pitch with Vocalinux v0.1
 | Outlet | Focus | Why they fit | Verified contact (quote + page) | Already contacted? | Priority |
 |---|---|---|---|---|---|
 | **OMG! Ubuntu** | Linux / Ubuntu desktop apps | Joey Sneddon's tip box exists specifically for "a Linux app you'd love to see me cover." Regular app write-ups. | **Form:** [omgubuntu.co.uk/tip](https://www.omgubuntu.co.uk/tip) , "Is there a Linux app you'd love to see me cover? … share … using the embedded form below." Older contact page also lists **contact@omgubuntu.co.uk** ([2000/10/contact](https://www.omgubuntu.co.uk/2000/10/contact)); prefer the current `/tip` form. | no | **A** |
-| **It's FOSS** | Desktop Linux + FOSS news | **Already ran Vocalinux 0.14 beta** (16 Jul 2026, Sourav Rudra). They could not get the beta to launch cleanly on Fedora or Ubuntu. | **news@itsfoss.com**. [About](https://itsfoss.com/about-2/): "news @ itsfoss.com". Prior piece: [Vocalinux Turns Your Speech Into Text Without Giving Away Voice Data](https://itsfoss.com/news/vocalinux-beta-release/). Acknowledge that article and lead with install/Wayland fixes in v0.16.0. | **yes , published** | **A** (already ran; follow-up only) |
+| **It's FOSS** | Desktop Linux + FOSS news | **Already ran Vocalinux 0.14 beta** (16 Jul 2026, Sourav Rudra). They could not get the beta to launch cleanly on Fedora or Ubuntu. | **news@itsfoss.com**. [About](https://itsfoss.com/about-2/): "news @ itsfoss.com". Prior piece: [Vocalinux Turns Your Speech Into Text Without Giving Away Voice Data](https://itsfoss.com/news/vocalinux-beta-release/). Acknowledge that article and lead with install/Wayland fixes in v0.16.1. | **yes , published** | **A** (already ran; follow-up only) |
 | **LWN.net** | Serious FOSS / Linux news | Weekly Edition + front page; they explicitly want user tips and cover desktop tools when they matter to the community. Not a lifestyle blog , keep the pitch terse and technical. | **lwn@lwn.net** (tips / story submissions). **pr@lwn.net** (press releases, plain text only). FAQ: "For story submissions, questions, typo reports, and general issues, send mail to lwn@lwn.net." ([lwn.net/op/FAQ.lwn](https://lwn.net/op/FAQ.lwn)). They do **not** take paid placement. | no | **A** |
 | **The Register (FOSS desk)** | Linux / FOSS / software | Liam Proven's FOSS mailbox regularly covers small projects. June 2026 piece *Three FOSS projects…* describes how a maintainer pitched Super Productivity: "terse text-only email with no formatting." | **liam.proven@theregister.com** (Linux and open source software reporter). Fallback **news@theregister.com**. Official staff list: [theregister.com/Profile/contact](https://www.theregister.com/Profile/contact/) , "Linux and open source software reporter \| Liam Proven (liam.proven@theregister.com)" and "If in doubt, use our general inbox: news@theregister.com." | no | **A** |
 | **9to5Linux** | Linux news, app + distro releases | Daily coverage of desktop environments and app releases (Calibre, Rhythmbox, Firefox, COSMIC). Realistic for a Linux dictation app. | **Form only:** [9to5linux.com/contact-us](https://9to5linux.com/contact-us) , "Let us know what questions and/or feedback you have for us in the contact form below." No public email on that page. | no | **A** |
