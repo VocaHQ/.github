@@ -68,7 +68,7 @@ jobs:
               '',
               '<img src="https://raw.githubusercontent.com/VocaHQ/.github/main/brand/vocahq/voca-logo-512.png" width="22" height="22" align="absmiddle"> **Meanwhile, connect with us:**',
               '',
-              '[![Discord](https://img.shields.io/badge/discord-talk-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/t6muquAJbm) [![X](https://img.shields.io/badge/x-@vocahq-111111?style=flat-square&logo=x&logoColor=white)](https://x.com/vocahq) [![Reddit](https://img.shields.io/badge/reddit-r%2FVocaHQ-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/VocaHQ/) [![YouTube](https://img.shields.io/badge/youtube-@VocaHQ-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@VocaHQ)',
+              '[![Discord](https://img.shields.io/badge/discord-talk-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/t6muquAJbm) [![Substack](https://img.shields.io/badge/substack-VocaHQ-FF6719?style=flat-square&logo=substack&logoColor=white)](https://vocahq.substack.com/) [![YouTube](https://img.shields.io/badge/youtube-@VocaHQ-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@VocaHQ) [![Reddit](https://img.shields.io/badge/reddit-r%2FVocaHQ-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/VocaHQ/) [![X](https://img.shields.io/badge/x-@vocahq-111111?style=flat-square&logo=x&logoColor=white)](https://x.com/vocahq)',
             ].join('\n');
             await github.rest.issues.createComment({
               owner: context.repo.owner,
