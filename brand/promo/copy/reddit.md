@@ -47,7 +47,7 @@ https://vocahq.com
 
 Title: VocaMac 1.0: on-device dictation for Apple Silicon, macOS 14+
 
-Body: Menu-bar / hotkey dictation. WhisperKit / Core ML. Homebrew or DMG. Beta, not GA.
+Body: Menu-bar / hotkey dictation. WhisperKit / Core ML. Homebrew or DMG. First stable release.
 
 https://vocamac.com
 
