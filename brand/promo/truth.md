@@ -5,7 +5,7 @@ Canonical source: VocaHQ/vocahq PRODUCT.md (verified 2026-09-05).
 | Product | Public status | Site | Must not claim |
 | --- | --- | --- | --- |
 | VocaLinux | Available now, v0.16.2 | vocalinux.com | 100% offline; Vocalinux as the family name |
-| VocaMac | Beta, v0.10.0, macOS 14+ Apple Silicon | vocamac.com | Stable / Intel; leftover v0.7.2 |
+| VocaMac | Available now, v1.0.0, macOS 14+ Apple Silicon | vocamac.com | Beta (0.x is superseded); Intel |
 | VocaWin | Beta, unsigned NSIS v0.1.1-beta (https://github.com/VocaHQ/vocawin/releases/tag/v0.1.1-beta) | vocawin.com | Signed Store build; fake screenshots; 100% offline |
 | VocaPhone | Android 13+ public beta; iOS 17+ public TestFlight (1,000 seats) or source | vocaphone.vocahq.com | App Store listing; unlimited TestFlight seats |
 | VocaGateway | Beta, optional host, tagged try v0.1.0 | vocagateway.vocahq.com | On-device; Voca cloud |

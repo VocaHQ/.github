@@ -18,7 +18,7 @@ Using the tools? Pick your platform below. Want to help build them? You are alre
 | Platform | Project | Repo | Site | Status |
 |----------|---------|------|------|--------|
 | Linux | **VocaLinux** | [VocaHQ/vocalinux](https://github.com/VocaHQ/vocalinux) | [vocalinux.com](https://vocalinux.com) | Available now |
-| macOS | **VocaMac** | [VocaHQ/vocamac](https://github.com/VocaHQ/vocamac) | [vocamac.com](https://vocamac.com) | Beta |
+| macOS | **VocaMac** | [VocaHQ/vocamac](https://github.com/VocaHQ/vocamac) | [vocamac.com](https://vocamac.com) | Available now |
 | Windows | **VocaWin** | [VocaHQ/vocawin](https://github.com/VocaHQ/vocawin) | [vocawin.com](https://vocawin.com) | Beta |
 | iOS / Android | **VocaPhone** | [VocaHQ/vocaphone](https://github.com/VocaHQ/vocaphone) | [vocaphone.vocahq.com](https://vocaphone.vocahq.com) | Android beta / iOS TestFlight |
 | Gateway | **VocaGateway** | [VocaHQ/vocagateway](https://github.com/VocaHQ/vocagateway) | [vocagateway.vocahq.com](https://vocagateway.vocahq.com) | Beta |
