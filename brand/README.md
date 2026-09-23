@@ -217,13 +217,13 @@ not invent shipping). Always defer to `PRODUCT.md` if it moves:
 | Product | Status (public copy today) | Notes |
 | --- | --- | --- |
 | VocaLinux | Available now | Current release **v0.16.0**; Linux X11/Wayland; AGPL-3.0 |
-| VocaMac | Beta | **macOS 14+** Apple Silicon; AGPL-3.0 |
+| VocaMac | Available now | Current release **v1.0.0**; **macOS 14+** Apple Silicon; AGPL-3.0 |
 | VocaWin | Beta | Unsigned NSIS/MSI on [GitHub Releases](https://github.com/VocaHQ/vocawin/releases/tag/v0.1.0-beta.1) (**v0.1.0-beta.1**, prerelease). SmartScreen expected. **AGPL-3.0-or-later** in repo |
 | VocaPhone | Android beta / iOS TestFlight | **Android 13+** public beta; **iOS 17+** public TestFlight (1,000 seats) or source; gateway optional; AGPL-3.0 |
 | VocaGateway | Early | Optional self-hosted compute; **never on-device**; infrastructure, not a client; AGPL-3.0 |
 
-> **Footnote — VocaMac:** Public status is Beta per PRODUCT.md. Live tag is v0.9.0
-> (confirmed on VocaHQ/vocamac releases). Leftover v0.7.2 is not current. Still
+> **Footnote — VocaMac:** Public status is Available now per PRODUCT.md. Live tag is v1.0.0,
+> the first stable release (confirmed on VocaHQ/vocamac releases). Earlier 0.x tags were Beta. Still
 > defer to PRODUCT.md. Do not invent shipping language beyond PRODUCT.md.
 
 ### 5.2 Non-negotiable product principles
@@ -566,7 +566,7 @@ Use this on design and copy PRs (in addition to the web/app validation lists):
 - [ ] Cites this brand book section when changing identity, voice, color, or mark (§1.3 / §1.4).
 - [ ] Does not copy the brand book into the product repo; links instead (§1.4).
 - [ ] Canonical names used; **Vocalinux** on vocalinux.com is a known **site exception** (§3.2); preserve vocaphone / vocawin editorial; no VocaServer / vocaphone-server-as-product.
-- [ ] Status labels match `PRODUCT.md` / §5.1 only; VocaMac public copy is **Beta**; defer to PRODUCT.md if a site says otherwise.
+- [ ] Status labels match `PRODUCT.md` / §5.1 only; VocaMac public copy is **Available now** (v1.0.0); defer to PRODUCT.md if a site says otherwise.
 - [ ] On-device vs VocaGateway language is not collapsed; Gateway is infrastructure, never on-device (§5.3).
 - [ ] “Stays on your device” is scoped to on-device transcription after the model is present; no “100% offline” overclaim (§4.3).
 - [ ] Says “speech-to-text model” and “free and open source”; names the actual license (VocaWin = AGPL-3.0-or-later) (§4.3).

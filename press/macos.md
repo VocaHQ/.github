@@ -4,7 +4,7 @@
 **Method:** official About / Contact / Tips pages. Directory emails that are not on-site are **UNVERIFIED**.
 **Researched:** 24 Aug 2026 (PT).
 
-Product: VocaMac. Beta. macOS 14+ Apple Silicon. WhisperKit / Core ML. Homebrew or DMG. AGPL-3.0. vocamac.com. github.com/VocaHQ/vocamac.
+Product: VocaMac. Available now, v1.0.0. macOS 14+ Apple Silicon. WhisperKit / Core ML. Homebrew or DMG. AGPL-3.0. vocamac.com. github.com/VocaHQ/vocamac.
 
 ## How to use this list
 

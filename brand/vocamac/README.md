@@ -2,7 +2,7 @@
 
 | File | Use |
 | --- | --- |
-| `vocamac-og.png` / `.svg` | Open Graph / social for vocamac.com (v0.9.0 beta) |
+| `vocamac-og.png` / `.svg` | Open Graph / social for vocamac.com (v1.0.0, same as `web/static/og-image.*` in VocaHQ/vocamac) |
 | `vocamac-enterprise-security.svg` | Managed Macs `/enterprise/` glyph. Prefer SVG on the page. |
 | `vocamac-enterprise-security.png` | Raster 512. Also `-256` / `-128`. |
 
