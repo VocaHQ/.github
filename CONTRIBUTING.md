@@ -1,6 +1,6 @@
 # Contributing to Voca
 
-Thank you for helping improve Voca. Each repository's README and `AGENTS.md` describe its product, toolchain, and contribution checks; follow those instructions when they differ from this organization-wide guide.
+Thank you for helping improve Voca. Start with the repository's README. If it has an `AGENTS.md`, follow any applicable instructions there. Repository-specific guidance takes precedence over this organization-wide guide.
 
 ## Before opening a pull request
 
@@ -10,7 +10,7 @@ Thank you for helping improve Voca. Each repository's README and `AGENTS.md` des
 4. Do not include credentials, recordings, transcripts, personal data, signing files, or private infrastructure details in code, logs, screenshots, issues, or pull requests.
 5. Respect the license in the repository you are changing. Do not assume that a license in one Voca repository applies to another.
 
-For a vulnerability, use the private reporting instructions in [SECURITY.md](SECURITY.md). Do not open a public issue or pull request that reveals an exploitable weakness before maintainers have had time to respond.
+For a vulnerability, use the private reporting instructions in [SECURITY.md](https://github.com/VocaHQ/.github/blob/main/SECURITY.md). Do not open a public issue or pull request that reveals an exploitable weakness before maintainers have had time to respond.
 
 ## Reviews
 
