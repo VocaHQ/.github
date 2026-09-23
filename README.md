@@ -20,3 +20,7 @@ This repository contains shared organization material:
 - [`.github/workflows/issue-welcome.yml`](.github/workflows/issue-welcome.yml)
   is the reusable comment posted on new product-repo issues and pull requests.
   Callers live in each product repo as `.github/workflows/issue-welcome.yml`.
+
+## License
+
+Original material in this repository is licensed under the [GNU Affero General Public License version 3](LICENSE). Third-party material retains its own license where noted.
