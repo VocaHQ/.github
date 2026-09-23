@@ -29,7 +29,7 @@ The default path is still on-device on the client. Gateway is optional.
 
 Title: Voca: speech-to-text with no Voca account and no hosted speech API
 
-Body: Family of apps (Linux available now, Mac beta, Win unsigned beta, Android beta). Default path: model on the device, audio stays there after the download. Optional self-hosted gateway if you want a box on your network.
+Body: Family of apps (Linux available now, Mac available now, Win unsigned beta, Android beta). Default path: model on the device, audio stays there after the download. Optional self-hosted gateway if you want a box on your network.
 
 https://vocahq.com
 https://github.com/VocaHQ
@@ -38,7 +38,7 @@ https://github.com/VocaHQ
 
 Title: Voca family (AGPL): Linux, Mac, Windows, phone, optional gateway
 
-Body: Same idea on each platform. Linux is the shipped one (v0.16.2). Others are beta. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
+Body: Same idea on each platform. Linux (v0.16.2) and Mac (v1.0.0) are available now. Win, Phone, and Gateway stay beta. Licenses are AGPL-3.0, except VocaWin which is AGPL-3.0-or-later.
 
 https://github.com/VocaHQ
 https://vocahq.com
